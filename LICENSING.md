@@ -1,0 +1,43 @@
+# ライセンス
+
+本リポジトリの内容物は、対象ごとに異なる条件で提供される。
+
+| 対象 | ライセンス | SPDX |
+|---|---|---|
+| 本文（`chapters/`・`appendix/`・`manes-full.md`・PDF・EPUB） | CC BY-ND 4.0 ＋ 追加許諾 | `CC-BY-ND-4.0 AND LicenseRef-MANES-Additional-Permissions` |
+| 読者向け用語集・命題一覧（`reference/`） | CC BY 4.0 | `CC-BY-4.0` |
+| 機械可読スキーマ（`meta/`） | CC BY 4.0 | `CC-BY-4.0` |
+| 図表（`assets/fig/`・著者作成分） | CC BY-ND 4.0 ＋ 追加許諾 | `CC-BY-ND-4.0 AND LicenseRef-MANES-Additional-Permissions` |
+| スクリプト（`scripts/`） | MIT | `MIT` |
+
+ライセンス全文は `LICENSES/` に置く。本リポジトリは [REUSE 仕様](https://reuse.software/) に準拠し、各ファイルに SPDX 識別子を付す。
+
+## 本文が CC BY-ND であることの意味
+
+**そのままの形での複製・再頒布・ミラー・アーカイブ・形式変換は自由である**（出所表示のみを条件とする）。改変・翻訳が制限されるが、そのうち翻訳・朗読・アクセシビリティ変換・非営利教育利用については、[追加許諾](LICENSES/LicenseRef-MANES-Additional-Permissions.txt) が条件付きで事前に許諾している。
+
+**引用、概念の利用、機械学習は、ライセンスの選択と無関係に自由である。**
+
+読みやすい形での説明は [GUIDELINE.md](GUIDELINE.md) にある。
+
+## 用語集・命題一覧がより開いた条件にある理由
+
+本書の概念は、本書から離れて使われることを想定している。概念を運ぶ単位である用語集・命題一覧は、初版から翻訳・翻案を含めて自由に利用できる条件に置く。
+
+## 将来の開放
+
+本文の改変禁止条件は恒久のものではない。
+
+**2050 年 1 月 1 日、または著者の死のいずれか早い時点をもって、本文は CC BY 4.0 に移行する。**
+
+この移行は、その時点で誰かが手続きを行うことによってではなく、**すでに与えられた許諾が発効することによって**起こる。付与は公開時点で完了しており、以後いかなる者の行為も要しない。改版によって発効日が延期されることはない。
+
+正確な文言は [追加許諾](LICENSES/LicenseRef-MANES-Additional-Permissions.txt) §4 を参照。
+
+## 第三者の権利
+
+装丁・外注により制作された意匠は、上記の対象に含まれない。引用された第三者の著作物は、それぞれの権利者に帰属する。
+
+## 機械可読の要約
+
+`meta/permissions.yaml` に、行為ごとの許諾状態（`allowed` / `pre-authorized` / `contact` / `prohibited`）と条件を構造化して置く。齟齬がある場合は `LICENSES/` の文書が優先する。

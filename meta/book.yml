@@ -1,0 +1,61 @@
+# 『THE MANES』書誌メタデータ——単一源
+#
+# 規律：書名・著者名・版・DOI・ISBN 等は、このファイルにのみ記述する。
+# CITATION.cff / JSON-LD / README 書誌部 / 各配布先の紹介文はすべてここから生成する。
+# 全出力先で 1 バイトの差異も生じさせない（要件定義 §4.3）。
+# 空文字列は未確定。確定したら埋める。
+
+title:
+  ja: "THE MANES"
+  en: "THE MANES"
+subtitle:
+  ja: ""            # 未定
+  en: ""
+
+author:
+  name_ja: "小野広記"
+  name_en: "Hiroki Ono"          # 名-姓で固定（2026-07-31 決定。全出力先で不変）
+  given_name: "Hiroki"
+  family_name: "Ono"
+  orcid: "0009-0007-2170-1470"
+  email: "hiroki_ono@primitiveaxfuture.com"
+
+publisher:
+  name: "Primitive AX Future Initiative"
+  url: "https://primitiveaxfuture.com"
+  github: "https://github.com/primitiveaxfuture"
+  country: "JP"
+
+# 版の規律：内容改訂＝版＝メジャー番号（第N版 ↔ vN.x）。誤植修正等は第三位。
+version: "0.1.0"                 # 先行公開（別添二点＋README）。本文公開で 1.0.0
+edition_ja: ""                   # 1.0.0 で「第1版」
+
+dates:
+  first_published: ""            # 先行公開日
+  updated: ""
+copyright_year: "2026"
+
+canonical_url: "https://manes.primitiveaxfuture.com/"
+repository: "https://github.com/primitiveaxfuture/the-manes"
+
+identifiers:
+  doi: ""                        # Zenodo が Release ごとに発行
+  isbn_print: ""                 # A-3（出版者記号）交付後に採番
+  isbn_epub: ""                  # 紙とは別番号
+  # Web 版に ISBN は付与しない（DOI のみ。要件定義 §7.1）
+
+language: "ja"
+
+license:
+  # 層別（指針 §4）。SPDX 式は REUSE 準拠。
+  text: "CC-BY-ND-4.0"
+  text_spdx: "CC-BY-ND-4.0 AND LicenseRef-MANES-Additional-Permissions"
+  reference: "CC-BY-4.0"         # 読者向け用語集・命題一覧
+  meta: "CC-BY-4.0"              # 機械可読スキーマ
+  scripts: "MIT"
+  guideline_url: "https://manes.primitiveaxfuture.com/GUIDELINE.html"
+  future_release:
+    effective_date: "2050-01-01" # 絶対日付。改版で延長しない
+    also_triggered_by: "author-death"
+    resulting_license: "CC-BY-4.0"
+    granted: true                # 付与済み・発効待ち（予告ではない）

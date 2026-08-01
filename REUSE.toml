@@ -1,0 +1,26 @@
+version = 1
+SPDX-PackageName = "THE MANES"
+SPDX-PackageSupplier = "Hiroki Ono <hiroki_ono@primitiveaxfuture.com>"
+SPDX-PackageDownloadLocation = "https://manes.primitiveaxfuture.com/"
+
+# 本文——改変禁止＋追加許諾
+[[annotations]]
+path = ["chapters/**", "appendix/**", "manes-full.md", "assets/fig/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Hiroki Ono"
+SPDX-License-Identifier = "CC-BY-ND-4.0 AND LicenseRef-MANES-Additional-Permissions"
+
+# 読者向け別添と機械可読スキーマ——概念の伝播を優先し、改変禁止条件を課さない
+[[annotations]]
+path = ["reference/**", "meta/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Hiroki Ono"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# 付属文書——作品そのものではなく、その周辺の装置。翻訳可能であることを優先する
+# （利用条件を説明する文書が改変禁止では、他言語での説明に許諾が要ることになる）
+[[annotations]]
+path = ["README.md", "LICENSING.md", "GUIDELINE.md", "llms.txt", "robots.txt", "sitemap.xml", "CITATION.cff", "integrity/**", "REUSE.toml"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Hiroki Ono"
+SPDX-License-Identifier = "CC-BY-4.0"

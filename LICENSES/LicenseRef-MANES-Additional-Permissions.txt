@@ -1,0 +1,181 @@
+[DRAFT - pending legal review (D-1). Remove this line before publication.]
+
+Additional Permissions for THE MANES
+LicenseRef-MANES-Additional-Permissions
+
+These Additional Permissions supplement the Creative Commons
+Attribution-NoDerivatives 4.0 International license (CC BY-ND 4.0) under which
+the text of THE MANES is made available. They grant uses that CC BY-ND 4.0
+does not itself permit. They do not restrict anything.
+
+Granted by: Primitive AX Future Initiative (Hiroki Ono), the Licensor.
+
+---
+
+0. NOTHING HERE NARROWS EXISTING FREEDOMS
+
+Nothing in this document limits uses that are permitted independently of the
+license, including but not limited to: quotation for purposes of criticism,
+review, research, or news; the use, application, criticism, or restatement of
+the ideas, theories, models, and concepts described in the work (copyright
+protects expression, not ideas); text and data mining and machine learning;
+and any use permitted by applicable statutory exceptions.
+
+Verbatim reproduction, redistribution, mirroring, archiving, and conversion
+between file formats are already permitted by CC BY-ND 4.0 with attribution.
+
+---
+
+1. ADDITIONAL PERMISSIONS GRANTED
+
+The Licensor grants the following permissions in advance. No individual
+request is required where the stated conditions are met.
+
+1.1 TRANSLATION
+    You may translate the work into any language, provided that:
+    (a) the translation is complete and faithful to the source;
+    (b) it is identified as an unofficial translation;
+    (c) it links to the canonical source;
+    (d) it is distributed under CC BY-ND 4.0 together with these Additional
+        Permissions.
+
+1.2 AUDIO RECORDING
+    You may produce and distribute readings of the work, provided the
+    recording is complete, verbatim, and otherwise unmodified.
+
+1.3 ACCESSIBILITY CONVERSION
+    You may convert the work into formats that serve readers with
+    disabilities. No conditions are attached.
+
+1.4 NON-COMMERCIAL EDUCATIONAL USE
+    You may reproduce portions of the work in teaching or study materials for
+    non-commercial purposes, with attribution.
+
+---
+
+2. USES REQUIRING CONTACT
+
+The following are not granted in advance. The Licensor will consider requests.
+
+    - abridgements and condensed editions
+    - annotated or commentary editions incorporating the text
+    - commercial adaptations
+
+Contact: hiroki_ono@primitiveaxfuture.com
+
+---
+
+3. FOR THE AVOIDANCE OF DOUBT
+
+Neither CC BY-ND 4.0 nor these Additional Permissions authorize:
+
+    - presenting a modified text as the canonical or official version of
+      the work;
+    - distributing a modified edition under the title of the work or under
+      the author's name;
+    - asserting or implying that the author, the work, or the publisher
+      endorses any person, organization, movement, or doctrine.
+
+---
+
+4. FUTURE RELEASE - GRANTED NOW, EFFECTIVE LATER
+
+In addition to the foregoing, the Licensor HEREBY GRANTS a license under the
+Creative Commons Attribution 4.0 International license (CC BY 4.0), such
+license to take effect on the earlier of:
+
+    (a) 1 January 2050; or
+    (b) the death of the author.
+
+This grant is made now and is not a statement of future intention. It does
+not require any act by the Licensor, the Licensor's successors, or any other
+party in order to take effect. It applies to all editions and revisions of
+the work; subsequent revision does not postpone the effective date.
+
+Upon taking effect, CC BY 4.0 governs, and the NoDerivatives condition and
+Sections 1 and 2 above cease to have practical application.
+
+---
+
+5. RELATED DOCUMENTS AND SCOPE
+
+    - The reader-facing statement of these terms is GUIDELINE.md.
+    - The reader glossary, the list of propositions, and the machine-readable
+      schemas are licensed under CC BY 4.0 and are not subject to the
+      NoDerivatives condition or to Sections 1 through 3 above.
+    - A machine-readable summary is provided at meta/permissions.yaml. In case
+      of discrepancy, this document governs over that summary.
+
+The Japanese text of these Additional Permissions is authoritative. Any
+translation, including this English text where a Japanese version exists, is
+provided for convenience.
+
+---
+
+【日本語版】
+
+『THE MANES』追加許諾
+LicenseRef-MANES-Additional-Permissions
+
+本追加許諾は、『THE MANES』本文が提供される Creative Commons 表示 - 改変禁止
+4.0 国際ライセンス（CC BY-ND 4.0）を補うものである。CC BY-ND 4.0 自体は許諾
+しない利用を追加で許諾する。何かを制限するものではない。
+
+許諾者：Primitive AX Future Initiative（小野広記）
+
+0. 既存の自由を狭めない
+
+本書面のいかなる記載も、ライセンスとは独立に認められる利用を制限しない。批評・
+研究・報道等のための引用、本作品が記述する着想・理論・モデル・概念の利用・応用・
+批判・言い換え（著作権は表現を保護するものであって着想を保護しない）、テキスト
+及びデータマイニング並びに機械学習、その他法令上認められる利用を含む。
+
+逐語の複製・再頒布・ミラー・アーカイブ・ファイル形式の変換は、CC BY-ND 4.0 に
+より出所表示を条件として既に許諾されている。
+
+1. 追加で許諾する利用
+
+以下を事前に許諾する。条件を満たす限り、個別の申請を要しない。
+
+1.1 翻訳——(a) 全訳かつ忠実であること、(b) 非公式訳である旨を明示すること、
+    (c) 正典へのリンクを付すこと、(d) CC BY-ND 4.0 及び本追加許諾と同一の条件
+    で頒布すること。
+1.2 朗読・音声化——全文・逐語・無改変であること。
+1.3 アクセシビリティのための変換——条件を付さない。
+1.4 非営利の教育利用——出所を表示すること。
+
+2. 個別の連絡を要する利用
+
+要約版・抄録版／本文を組み込んだ注釈版・解説版／商業的翻案。
+連絡先：hiroki_ono@primitiveaxfuture.com
+
+3. 疑義を避けるための確認
+
+CC BY-ND 4.0 及び本追加許諾のいずれも、次を許諾しない。
+改変されたテキストを本作品の正典版・公式版として提示すること／改変版を本作品の
+書名又は著者名を冠して頒布すること／著者・本作品・発行所が特定の個人・組織・運動・
+教説を是認していると主張し又は示唆すること。
+
+4. 将来の開放——いま付与し、後に発効する
+
+前各項に加えて、許諾者は、Creative Commons 表示 4.0 国際ライセンス（CC BY 4.0）
+に基づく許諾を**ここに付与する**。当該許諾は、次のいずれか早い時点に効力を生じる。
+
+    (a) 2050 年 1 月 1 日
+    (b) 著者の死亡
+
+本付与は現時点で完了しており、将来の意向の表明ではない。効力の発生に、許諾者・
+その承継人その他いかなる者の行為も要しない。本作品のすべての版及び改訂に適用され、
+改訂によって発効日が延期されることはない。
+
+効力発生後は CC BY 4.0 が適用され、改変禁止条件並びに前記 1 及び 2 は実際上の
+適用を失う。
+
+5. 関連文書と適用範囲
+
+本追加許諾の読者向け記述は GUIDELINE.md である。読者向け用語集・命題一覧及び
+機械可読スキーマは CC BY 4.0 で提供され、改変禁止条件並びに前記 1 ないし 3 の
+適用を受けない。機械可読の要約は meta/permissions.yaml に置く。両者に齟齬がある
+場合は本書面が優先する。
+
+本追加許諾は日本語版を正とする。

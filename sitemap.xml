@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://manes.primitiveaxfuture.com/</loc>
+  </url>
+  <url>
+    <loc>https://manes.primitiveaxfuture.com/README.md</loc>
+  </url>
+  <url>
+    <loc>https://manes.primitiveaxfuture.com/GUIDELINE.md</loc>
+  </url>
+  <url>
+    <loc>https://manes.primitiveaxfuture.com/LICENSING.md</loc>
+  </url>
+  <url>
+    <loc>https://manes.primitiveaxfuture.com/llms.txt</loc>
+  </url>
+  <url>
+    <loc>https://manes.primitiveaxfuture.com/reference/glossary.md</loc>
+  </url>
+  <url>
+    <loc>https://manes.primitiveaxfuture.com/reference/glossary-min.md</loc>
+  </url>
+  <url>
+    <loc>https://manes.primitiveaxfuture.com/meta/glossary.json</loc>
+  </url>
+  <url>
+    <loc>https://manes.primitiveaxfuture.com/meta/permissions.yaml</loc>
+  </url>
+  <url>
+    <loc>https://manes.primitiveaxfuture.com/meta/book.yml</loc>
+  </url>
+  <url>
+    <loc>https://manes.primitiveaxfuture.com/CITATION.cff</loc>
+  </url>
+</urlset>

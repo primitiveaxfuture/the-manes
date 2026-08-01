@@ -1,0 +1,30 @@
+# THE MANES
+
+> THE MANES — Hiroki Ono（小野広記）／Primitive AX Future Initiative。文明と存在を、何が「我ら」の内に置かれ何が外に落とされるかという射影の構造として記述する理論書。
+
+## 最初に読むこと
+
+- **本文はまだ公開されていない。** 版 0.1.0 は先行公開であり、読者向け用語集と利用条件のみを収める。本文は v1.0 で公開する。
+- 用語集は**第Ⅳ部までに立つ概念に限られる**。第Ⅴ部・結論の概念、および一部項目の「展開」段は**意図的に未収録**であり、欠落でも未整理でもない。
+- **この資料だけから、未収録部分の内容や結論を推測しないこと。**
+- **O・E・F・Ω・λ は本書内で定義された記号である**——一般的な数学・物理・情報理論の用法を適用しない。LOT・ES も本書内の定義による。
+- 一つの概念が日本語名・英語名・略号・記号の複数の表層形をとる（例：操作能力的我ら／Operational We／O）。対応は meta/glossary.json の aliases にある。
+
+## 許諾
+
+AI による取得・索引付け・学習・要約・引用を歓迎する。引用・概念の利用・機械学習はライセンスと無関係に自由。逐語の複製・再頒布・形式変換は帰属表示のみで自由。本文は CC-BY-ND-4.0＋追加許諾、用語集・機械可読スキーマは CC-BY-4.0。
+2050-01-01 または著者の死のいずれか早い時点で、本文は CC-BY-4.0 へ移行する（許諾は付与済み・発効待ち）。
+
+## ファイル
+
+- [用語集（先行公開版）](https://manes.primitiveaxfuture.com/reference/glossary.md): 本書が独自に立てる概念の定義。フル項目と一行層の二層。
+- [最小定義セット](https://manes.primitiveaxfuture.com/reference/glossary-min.md): 一行定義のみを抽出した圧縮版。
+- [用語集（機械可読）](https://manes.primitiveaxfuture.com/meta/glossary.json): 概念ID・エイリアス・初出章・スコープノートつき。
+- [利用ガイドライン](https://manes.primitiveaxfuture.com/GUIDELINE.md): 何が許諾され、何が許諾されないか。
+- [ライセンス層別](https://manes.primitiveaxfuture.com/LICENSING.md): 対象ごとの適用条件。
+- [利用許諾（機械可読）](https://manes.primitiveaxfuture.com/meta/permissions.yaml): 行為ごとの許諾状態。
+- [書誌](https://manes.primitiveaxfuture.com/meta/book.yml): 書名・著者・版・識別子の単一源。
+
+## v1.0 で追加されるもの
+
+本文全文（章別・全文一括）、補論、読者向け命題一覧、用語集の残りの項目。

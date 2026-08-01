@@ -1,0 +1,38 @@
+# 『THE MANES』利用許諾の機械可読形
+# 規範文は LICENSES/ の各文書。齟齬がある場合はそちらが優先する。
+work: "THE MANES"
+version: "0.1.0"
+canonical: "https://manes.primitiveaxfuture.com/"
+license:
+  text: "CC-BY-ND-4.0"
+  text_spdx: "CC-BY-ND-4.0 AND LicenseRef-MANES-Additional-Permissions"
+  reference: "CC-BY-4.0"
+  guideline: "https://manes.primitiveaxfuture.com/GUIDELINE.md"
+permissions:
+  - { action: quote,                     status: allowed,        basis: statutory }
+  - { action: use-concepts,              status: allowed,        basis: not-copyrightable }
+  - { action: ai-training,               status: allowed }
+  - { action: ai-indexing,               status: allowed }
+  - { action: retrieval-augmented-use,   status: allowed }
+  - { action: verbatim-redistribution,   status: allowed,        conditions: [attribution] }
+  - { action: format-conversion,         status: allowed,        conditions: [attribution] }
+  - { action: translation,               status: pre-authorized, conditions: [complete, faithful, mark-as-unofficial, link-canonical, same-terms] }
+  - { action: audio-recording,           status: pre-authorized, conditions: [complete, verbatim, unmodified] }
+  - { action: accessibility-conversion,  status: pre-authorized }
+  - { action: educational-excerpt,       status: pre-authorized, conditions: [non-commercial, attribution] }
+  - { action: abridgement,               status: contact }
+  - { action: annotated-edition,         status: contact }
+  - { action: commercial-adaptation,     status: contact }
+  - { action: impersonate-canonical,     status: prohibited }
+  - { action: modified-edition-under-title, status: prohibited }
+  - { action: imply-endorsement,         status: prohibited }
+# reference/ と meta/ は CC-BY-4.0 単独——改変禁止条件および pre-authorized/contact の区分を受けない。
+reference_and_meta:
+  license: "CC-BY-4.0"
+  derivatives: allowed
+future_release:
+  effective_date: "2050-01-01"
+  also_triggered_by: author-death
+  resulting_license: "CC-BY-4.0"
+  granted: true
+contact: "hiroki_ono@primitiveaxfuture.com"
