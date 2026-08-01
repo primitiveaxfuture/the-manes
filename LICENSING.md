@@ -10,7 +10,9 @@
 | 図表（`assets/fig/`・著者作成分） | CC BY-ND 4.0 ＋ 追加許諾 | `CC-BY-ND-4.0 AND LicenseRef-MANES-Additional-Permissions` |
 | スクリプト（`scripts/`） | MIT | `MIT` |
 
-ライセンス全文は `LICENSES/` に置く。本リポジトリは [REUSE 仕様](https://reuse.software/) に準拠し、各ファイルに SPDX 識別子を付す。
+ライセンス全文は `LICENSES/` に置く。本リポジトリは [REUSE 仕様](https://reuse.software/) に準拠し、パス単位で SPDX 識別子を宣言する（`REUSE.toml`）。
+
+**ルートの `LICENSE` は、この版で現に公開されている物のライセンスを置く。** 先行公開版（v0.1.0）で公開されているのは用語集・機械可読スキーマ・付属文書のみで、いずれも CC BY 4.0 である——本文は未公開であり、CC BY-ND はまだ適用対象を持たない。本文を公開する v1.0 で `LICENSE` は CC BY-ND 4.0 に切り替わる。それ以前に公開された物の条件が事後に狭まることはない。
 
 ## 本文が CC BY-ND であることの意味
 

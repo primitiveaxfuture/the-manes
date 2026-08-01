@@ -15,6 +15,6 @@ publisher:
 version: "0.1.0"
 url: "https://manes.primitiveaxfuture.com/"
 repository: "https://github.com/primitiveaxfuture/the-manes"
-license: "CC-BY-ND-4.0"
+license: "CC-BY-4.0"
 languages:
   - ja
