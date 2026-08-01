@@ -1,0 +1,39 @@
+{
+    "title":  "THE MANES",
+    "description":  "\u003cp\u003e文明と存在を、何が「我ら」の内に置かれ、何が外に落とされるかという射影の構造として記述する理論書『THE MANES』の\u003cstrong\u003e先行公開版\u003c/strong\u003e。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e本文は含まれていない。\u003c/strong\u003e本版に収めるのは読者向け用語集（フル項目 41・一行層 44）とその機械可読形、および利用条件を定める文書である。本文は v1.0 で公開する。用語集も第Ⅳ部までに立つ概念に限られ、第Ⅴ部・結論の概念、および一部項目の展開段は\u003cstrong\u003e意図的に\u003c/strong\u003e未収録である——欠落でも未整理でもない。\u003cstrong\u003e本版から未収録部分の内容や結論を推測しないこと。\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eO・E・F・Ω・λ は本書内で定義された記号であり、一般的な数学・物理・情報理論の用法を適用しない。\u003c/p\u003e\n\u003cp\u003eAI による取得・索引付け・学習・要約・引用を歓迎する。\u003c/p\u003e\n\u003cp\u003e正典：\u003ca href=\"https://manes.primitiveaxfuture.com/\"\u003emanes.primitiveaxfuture.com\u003c/a\u003e\u003c/p\u003e",
+    "upload_type":  "publication",
+    "publication_type":  "book",
+    "creators":  [
+                     {
+                         "name":  "Ono, Hiroki",
+                         "orcid":  "0009-0007-2170-1470",
+                         "affiliation":  "Primitive AX Future Initiative"
+                     }
+                 ],
+    "license":  "cc-by-4.0",
+    "version":  "0.1.0",
+    "language":  "jpn",
+    "access_right":  "open",
+    "keywords":  [
+                     "Civilization Boundary Theory",
+                     "文明境界理論",
+                     "MANES",
+                     "LEFFLA",
+                     "HIAM",
+                     "SFOK",
+                     "FOE model",
+                     "Heterostable Zone",
+                     "finite reference structure",
+                     "philosophy of information",
+                     "complex systems",
+                     "existential significance"
+                 ],
+    "related_identifiers":  [
+                                {
+                                    "identifier":  "https://manes.primitiveaxfuture.com/",
+                                    "relation":  "isIdenticalTo",
+                                    "scheme":  "url"
+                                }
+                            ],
+    "notes":  "先行公開版（v0.1.0）。本文は未公開であり、v1.0 で公開する。本版で公開されている資料は CC-BY-4.0 で提供される。本文には CC-BY-ND-4.0 と追加許諾が適用される（v1.0.0 で発効）。2050-01-01 または著者の死のいずれか早い時点をもって、本文は CC-BY-4.0 へ移行する（許諾は付与済み）。"
+}
