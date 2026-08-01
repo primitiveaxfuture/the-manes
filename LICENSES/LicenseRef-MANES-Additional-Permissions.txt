@@ -1,7 +1,10 @@
-[DRAFT - pending legal review (D-1). Remove this line before publication.]
-
 Additional Permissions for THE MANES
 LicenseRef-MANES-Additional-Permissions
+
+STATUS - These Additional Permissions take effect upon publication of the main
+text (v1.0). The materials published as of this version - the reader's glossary
+and the accompanying documents - are provided under CC BY 4.0 and are not
+subject to this document.
 
 These Additional Permissions supplement the Creative Commons
 Attribution-NoDerivatives 4.0 International license (CC BY-ND 4.0) under which
@@ -116,6 +119,10 @@ provided for convenience.
 
 『THE MANES』追加許諾
 LicenseRef-MANES-Additional-Permissions
+
+効力について——本追加許諾は、本文の公開（v1.0）をもって効力を生じる。本版の時点で
+公開されている資料——読者向け用語集および付属文書——は CC BY 4.0 で提供されており、
+本書面の適用を受けない。
 
 本追加許諾は、『THE MANES』本文が提供される Creative Commons 表示 - 改変禁止
 4.0 国際ライセンス（CC BY-ND 4.0）を補うものである。CC BY-ND 4.0 自体は許諾

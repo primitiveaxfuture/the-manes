@@ -2,35 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://manes.primitiveaxfuture.com/</loc>
+    <lastmod>2026-08-01</lastmod>
   </url>
   <url>
     <loc>https://manes.primitiveaxfuture.com/README.md</loc>
+    <lastmod>2026-08-01</lastmod>
   </url>
   <url>
     <loc>https://manes.primitiveaxfuture.com/GUIDELINE.md</loc>
+    <lastmod>2026-08-01</lastmod>
   </url>
   <url>
     <loc>https://manes.primitiveaxfuture.com/LICENSING.md</loc>
+    <lastmod>2026-08-01</lastmod>
   </url>
   <url>
     <loc>https://manes.primitiveaxfuture.com/llms.txt</loc>
+    <lastmod>2026-08-01</lastmod>
   </url>
   <url>
     <loc>https://manes.primitiveaxfuture.com/reference/glossary.md</loc>
+    <lastmod>2026-08-01</lastmod>
   </url>
   <url>
     <loc>https://manes.primitiveaxfuture.com/reference/glossary-min.md</loc>
+    <lastmod>2026-08-01</lastmod>
   </url>
   <url>
     <loc>https://manes.primitiveaxfuture.com/meta/glossary.json</loc>
+    <lastmod>2026-08-01</lastmod>
   </url>
   <url>
     <loc>https://manes.primitiveaxfuture.com/meta/permissions.yaml</loc>
+    <lastmod>2026-08-01</lastmod>
   </url>
   <url>
     <loc>https://manes.primitiveaxfuture.com/meta/book.yml</loc>
+    <lastmod>2026-08-01</lastmod>
   </url>
   <url>
     <loc>https://manes.primitiveaxfuture.com/CITATION.cff</loc>
+    <lastmod>2026-08-01</lastmod>
   </url>
 </urlset>

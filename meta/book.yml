@@ -31,8 +31,8 @@ version: "0.1.0"                 # 先行公開（別添二点＋README）。本
 edition_ja: ""                   # 1.0.0 で「第1版」
 
 dates:
-  first_published: ""            # 先行公開日
-  updated: ""
+  first_published: "2026-08-01"  # 先行公開日
+  updated: "2026-08-01"
 copyright_year: "2026"
 
 canonical_url: "https://manes.primitiveaxfuture.com/"
