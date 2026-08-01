@@ -39,7 +39,10 @@ canonical_url: "https://manes.primitiveaxfuture.com/"
 repository: "https://github.com/primitiveaxfuture/the-manes"
 
 identifiers:
-  doi: ""                        # Zenodo が Release ごとに発行
+  # concept DOI——版を跨いで常に最新版を指す。引用の宛先はこちらを用いる。
+  doi: "10.5281/zenodo.21735356"
+  # 版ごとの DOI は Zenodo が Release ごとに自動発行する（v0.1.0 = 10.5281/zenodo.21735357）
+  doi_version_v0_1_0: "10.5281/zenodo.21735357"
   isbn_print: ""                 # A-3（出版者記号）交付後に採番
   isbn_epub: ""                  # 紙とは別番号
   # Web 版に ISBN は付与しない（DOI のみ。要件定義 §7.1）

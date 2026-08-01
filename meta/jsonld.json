@@ -5,6 +5,8 @@
   "author": { "@type": "Person", "name": "Hiroki Ono", "alternateName": "小野広記", "identifier": "https://orcid.org/0009-0007-2170-1470" },
   "publisher": { "@type": "Organization", "name": "Primitive AX Future Initiative", "url": "https://primitiveaxfuture.com" },
   "inLanguage": "ja", "version": "0.1.0", "url": "https://manes.primitiveaxfuture.com/",
+  "identifier": "https://doi.org/10.5281/zenodo.21735356",
+  "sameAs": "https://doi.org/10.5281/zenodo.21735356",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "usageInfo": "https://manes.primitiveaxfuture.com/GUIDELINE.md",
   "datePublished": "2026-08-01", "dateModified": "2026-08-01"

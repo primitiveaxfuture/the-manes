@@ -20,6 +20,7 @@
 | 著者 | 小野広記（Hiroki Ono）／ORCID [0009-0007-2170-1470](https://orcid.org/0009-0007-2170-1470) |
 | 発行 | Primitive AX Future Initiative |
 | 版 | v0.1.0（先行公開——本文は未公開） |
+| DOI | [10.5281/zenodo.21735356](https://doi.org/10.5281/zenodo.21735356)（concept DOI — 版を跨いで常に最新版を指す） |
 | 正典 | https://manes.primitiveaxfuture.com/ |
 | 言語 | 日本語 |
 | ライセンス | 本文 CC BY-ND 4.0＋追加許諾／用語集・命題一覧・スキーマ CC BY 4.0（→ [LICENSING.md](LICENSING.md)） |
