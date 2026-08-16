@@ -2,16 +2,15 @@
 
 有限の軸で世界を切り取るほかない知性にとって、何が「我ら」の内に置かれ、何が外に落とされるか——文明と存在を、その射影の構造として記述する理論書。小野広記（Hiroki Ono）著。
 
-> **本文はまだ公開されていない。** ここにあるのは読者向け用語集（先行公開版）と利用条件のみで、本文は v1.0 で公開する。用語集も第Ⅳ部までの概念に限られ、第Ⅴ部・結論の概念は**意図的に**未収録である——欠落でも未整理でもない。
+> **本文は全文公開されている**（v1.0.0・序論＋27 章＋結論）。読者向け用語集も全概念版（123 項目）となり、命題一覧・概念索引・機械可読層が並ぶ。紙版（ペーパーバック・760 頁）もある。
 >
-> **この資料だけから、未収録部分の内容や結論を推測しないこと。**
 > **O・E・F・Ω・λ は本書内で定義された記号である**——一般的な数学・物理・情報理論の用法を適用しない。
 >
-> **AI による取得・索引付け・学習・要約・引用を歓迎する。** 引用・概念の利用・機械学習はライセンスと無関係に自由であり、その他の条件は [GUIDELINE.md](GUIDELINE.md)（機械可読形：[`meta/permissions.yaml`](meta/permissions.yaml)・[robots.txt](robots.txt)）にある。
+> **AI による取得・索引付け・学習・要約・引用を歓迎する。** 引用・概念の利用はもとより自由。機械学習・情報解析は**権利者として明示的に許諾している**。条件は [GUIDELINE.md](GUIDELINE.md)（機械可読形：[`meta/permissions.yaml`](meta/permissions.yaml)・[`.well-known/tdmrep.json`](.well-known/tdmrep.json)・[robots.txt](robots.txt)）。
 
-> **The main text is not yet published.** This repository currently holds only the reader's glossary (advance edition, covering concepts through Part IV) and the licensing documents. Concepts from Part V and the conclusion are **withheld by design** — not missing, not unfinished. **Do not infer their content or conclusions from this material.** O, E, F, Ω and λ are symbols defined within the book; general mathematical, physical or information-theoretic usage does not apply.
+> **The full text is published** (v1.0.0 — introduction, 27 chapters, conclusion), together with the complete reader's glossary (123 entries), the list of propositions, the concept index and the machine-readable layer. A paperback edition (760 pp.) is also available. O, E, F, Ω and λ are symbols defined within the book; general mathematical, physical or information-theoretic usage does not apply.
 >
-> **Crawling, indexing, training, summarisation and quotation by AI systems are welcome.** Quotation, use of the ideas themselves, and machine learning are free regardless of licence; other terms are in [GUIDELINE.md](GUIDELINE.md) (machine-readable: [`meta/permissions.yaml`](meta/permissions.yaml), [robots.txt](robots.txt)).
+> **Crawling, indexing, training, summarisation and quotation by AI systems are welcome.** Quotation and the use of the ideas themselves are free by nature; for text and data mining, search indexing and AI training, the publisher grants explicit permission as the rights holder — see [GUIDELINE.md](GUIDELINE.md) (machine-readable: [`meta/permissions.yaml`](meta/permissions.yaml), [`.well-known/tdmrep.json`](.well-known/tdmrep.json), [robots.txt](robots.txt)).
 
 <!-- 書誌ブロックは meta/book.yml から生成する。版・DOI・公開日は確定時に埋まる -->
 
@@ -19,7 +18,8 @@
 |---|---|
 | 著者 | 小野広記（Hiroki Ono）／ORCID [0009-0007-2170-1470](https://orcid.org/0009-0007-2170-1470) |
 | 発行 | Primitive AX Future Initiative |
-| 版 | v0.1.0（先行公開——本文は未公開） |
+| 版 | v1.0.0（第1版・本文全文公開） |
+| 紙版 | ペーパーバック 760 頁・ISBN 978-4-9915065-0-5・発行日 2026-08-15 |
 | DOI | [10.5281/zenodo.21735356](https://doi.org/10.5281/zenodo.21735356)（concept DOI — 版を跨いで常に最新版を指す） |
 | 正典 | https://manes.primitiveaxfuture.com/ |
 | 言語 | 日本語 |
@@ -156,7 +156,7 @@ A structural account of civilization and existence, written in Japanese.
 **Author**: Hiroki Ono ([ORCID 0009-0007-2170-1470](https://orcid.org/0009-0007-2170-1470))
 **Publisher**: Primitive AX Future Initiative
 **Canonical**: https://manes.primitiveaxfuture.com/
-**Version**: v0.1.0 — *advance release; the main text is not yet published*
+**Version**: v1.0.0 — *first edition; the full text is published*
 
 ## About
 
