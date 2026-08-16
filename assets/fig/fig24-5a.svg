@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 640" width="112mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>凍った地図——生きている地図と、同じ顔をしている</title>
+<desc>図24-4a「歩く者の地図」の、乖離側の対図。同じ地図が、更新を止めた姿で描かれている。淡い円は描かれたまま残るが、その円を見ていた手は、もう「我ら」の内にいない——接地条件の破れである。文明が到達した線はここで止まり、これ以上は伸びない（矢先を持たない）。地図は古い接続可能圏 Ω の断面で凍っており、地形はそのあとも動きつづけている。太く淡い線が、いまの稜線である——地図には載っていない。淡いのは、動いたぶんを掴む回路が、もう内側にないからである。現に在るが、手は届いていない。淡い細い線は、古い地図にしたがい、都度の足元点検を省いて進む歩みで、その先が B である。現在地 A は現に接地している——とはいえ、痩せ尾根の上である。凍っていることは、この地図の上ではどこにも現れない——生きている地図と、同じ顔をしている。紙の色も図24-4a とまったく同じにしてある。見分けがつかないことが、この図の主張だからである。A–A′ と B–B′ の断面は図24-5b が示す。</desc>
+<style>
+.mfig .paper {fill:#F2F0EA;stroke:var(--c-struct,#3D3A34);stroke-width:2.21}
+.mfig .inner {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:0.74;stroke-opacity:0.5}
+.mfig .contour{fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:1.11}
+.mfig .ridge {fill:none;stroke:var(--c-terrain,#6B675E);stroke-width:1.47}
+.mfig .seen  {fill:#1F1E1B;fill-opacity:0.03;stroke:#1F1E1B;stroke-width:1.23;stroke-opacity:0.32}
+.mfig .reached{fill:none;stroke:#1F1E1B;stroke-width:2.7;stroke-opacity:0.62;stroke-linecap:round;stroke-linejoin:round}
+.mfig .reached2{fill:none;stroke:#1F1E1B;stroke-width:0.98;stroke-opacity:0.34}
+.mfig .nowRidge{fill:none;stroke:#1F1E1B;stroke-width:3.93;stroke-opacity:0.30;stroke-linecap:round;stroke-linejoin:round}
+.mfig .report{fill:none;stroke:#1F1E1B;stroke-width:1.97;stroke-opacity:0.40}
+.mfig .mine  {fill:#1F1E1B;fill-opacity:0.06;stroke:#1F1E1B;stroke-width:1.23}
+.mfig .cut   {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.23}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+.mfig .note{fill:#4A4842}
+.mfig .halo{paint-order:stroke;stroke:#F2F0EA;stroke-width:3.48;stroke-linejoin:round}
+.mfig .haloW{paint-order:stroke;stroke:#ffffff;stroke-width:3.48;stroke-linejoin:round}
+</style>
+
+<rect class="paper" x="48" y="10" width="510" height="604"/>
+<rect class="inner" x="56" y="18" width="494" height="588"/>
+<defs><clipPath id="mc5"><rect x="57" y="19" width="492" height="586"/></clipPath></defs>
+<g clip-path="url(#mc5)">
+<g class="contour">
+<path d="M 173 571 C 260 501, 345 429, 413 353 C 473 287, 521 219, 551 147"/>
+<path d="M 185 584 C 272 514, 357 442, 425 366 C 485 300, 533 232, 560 160"/>
+<path d="M 196 596 C 283 526, 368 454, 436 378 C 496 312, 541 247, 568 174"/>
+<path d="M 123 514 C 210 444, 295 372, 363 296 C 423 230, 471 162, 501 90"/>
+<path d="M 111 500 C 198 430, 283 358, 351 282 C 411 216, 459 148, 489 76"/>
+<path d="M 100 488 C 187 418, 272 346, 340 270 C 400 204, 448 136, 478 64"/>
+</g>
+<path class="ridge" d="M 148 542 C 235 472, 320 400, 388 324 C 448 258, 496 190, 526 118"/>
+<g class="seen"><circle cx="214" cy="484" r="38"/><circle cx="262" cy="446" r="34"/><circle cx="306" cy="410" r="40"/><circle cx="352" cy="370" r="36"/><circle cx="396" cy="329" r="42"/><circle cx="438" cy="288" r="38"/><circle cx="478" cy="240" r="44"/><circle cx="524" cy="164" r="58"/></g>
+<path class="nowRidge" d="M 152 538 L 166 525 L 180 514 L 196 501 L 210 489 L 224 475 L 240 461 L 254 448 L 270 434 L 284 420 L 298 407 L 312 393 L 324 379 L 338 364 L 350 349 L 362 334 L 372 318 L 382 302 L 392 285 L 402 267 L 412 249 L 420 231 L 430 211 L 438 192 L 448 173 L 456 154 L 464 135 L 471 116 L 477 98 L 482 80"/>
+<path class="reached" d="M 150 540 L 162 529 L 169 524 L 183 510 L 192 505 L 207 491 L 220 479 L 231 474 L 246 459 L 258 449 L 272 441 L 285 426 L 299 416 L 314 404 L 326 392 L 339 385 L 353 369 L 365 360 L 380 345 L 392 332 L 404 324 L 416 307 L 429 296 L 442 282 L 453 267 L 465 256 L 477 240 L 487 224 L 497 208 L 505 192 L 512 176"/>
+<path class="reached2" d="M 150 540 L 162 529 L 169 524 L 183 510 L 192 505 L 207 491 L 220 479 L 231 474 L 246 459 L 258 449 L 272 441 L 285 426 L 299 416 L 314 404 L 326 392 L 339 385 L 353 369 L 365 360 L 380 345 L 392 332 L 404 324 L 416 307 L 429 296 L 442 282 L 453 267 L 465 256 L 477 240 L 487 224 L 497 208 L 505 192 L 512 176" transform="translate(1.8,1.2)"/>
+<path class="report" d="M 165 525 C 250 454, 330 397, 395 340 C 408 327, 422 308, 432 294"/>
+<circle cx="432" cy="292" r="4" fill="#1F1E1B" fill-opacity="0.32"/>
+<circle class="mine" cx="150" cy="540" r="58"/>
+<g class="contour"><path d="M 118 556 C 132 548, 148 546, 162 552"/><path d="M 126 572 C 140 564, 156 562, 170 568"/></g>
+<circle cx="150" cy="540" r="6.5" fill="#FFFFFF" stroke="#1F1E1B" stroke-width="2.21"/>
+<circle cx="150" cy="540" r="2.6" fill="#1F1E1B"/>
+<g class="cut"><path d="M 104 486 L 196 594"/><path d="M 381 244 L 483 340"/></g>
+</g>
+<g class="halo" font-size="17.2">
+<text x="88" y="480">A</text><text x="200" y="610">A′</text>
+<text x="362" y="238">B</text><text x="490" y="356">B′</text>
+<text x="164" y="512">現在地 A</text>
+<text x="70" y="70">円は、描かれたまま残る</text>
+<text x="70" y="94">——見ていた手は、もう内にいない</text>
+<text x="70" y="210">線は、ここで止まった</text>
+<text x="296" y="518">太く淡い線＝いまの稜線</text>
+<text x="296" y="542">（地図には、載っていない）</text>
+</g>
+<g class="haloW note" font-size="17.2">
+<text x="574" y="48">この地図は、古い Ω</text>
+<text x="574" y="72">の断面で凍っている</text>
+<text x="574" y="96">——動いたぶんを掴む</text>
+<text x="574" y="120">回路は、もう内にない</text>
+<text x="574" y="182">凍っていることは、</text>
+<text x="574" y="206">地図の上に現れない</text>
+</g>
+</svg>

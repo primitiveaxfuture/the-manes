@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 700" width="112mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>房と漏斗——接地の分布（健全な状態）</title>
+<desc>左は λ の梯子。文明の作動は F からの距離に応じて段をなす——λ₀（個の F-E 接地・所与で、係留を要さない）／λ₁（共同体の F 追体験）／λ₂（信頼 SFOK。媒介 FOE はここから）／λ₃（蓄積への信頼＝外部知識ストック）／λ₄（SFOK 参照系への信頼）／λ₅（参照系の蓄積化＝世代を越えて手渡される圧）。段の区切りは房の背景まで延び、粒の位置がどの深さの対象への接地かを読ませる。中央は房と漏斗。太い実線が漏斗＝文明の出力の構造（O）で、下端の淡い区間は管が続いていることを示す。粒の一つひとつが個の主体とその接地である。健全な状態では、漏斗の内は各深さまで粒で満たされている——どの段にも、その段の対象に直接触れる手がある。浅い領域ほど粒は密に重なり合い、重なった場所は濃くなる。粒の重なりが媒介接続だからである。深い段ほど重なりは減り、粒は孤立して接地する。漏斗の外にも粒が分布する——報酬関数では報われない接地であり、社会的 LEFFLA の担い手である。粒は簡略に円で描いてある。精密には、各粒は有限個の軸で世界を切り取る多面体である。</desc>
+<style>
+.mfig .funnel{fill:none;stroke:var(--c-op,#3D3A34);stroke-width:4.06;stroke-linecap:round}
+.mfig .funnelOpen{fill:none;stroke:var(--c-op,#3D3A34);stroke-width:4.06;stroke-opacity:0.35;stroke-linecap:round}
+.mfig .step {fill:none;stroke:var(--c-note,#6F6D66);stroke-width:1.16;stroke-dasharray:16.43 9.86}
+.mfig .ld   {fill:none;stroke:var(--c-note,#6F6D66);stroke-width:1.16;stroke-dasharray:16.43 9.86}
+.mfig .ax   {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.74}
+.mfig .grain{fill:url(#gr);stroke:#1F1E1B;stroke-width:0.87;fill-opacity:0.86}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+.mfig .halo{paint-order:stroke;stroke:#ffffff;stroke-width:4.11;stroke-linejoin:round}
+</style>
+<defs><radialGradient id="gr">
+<stop offset="0%" stop-color="#1F1E1B"/><stop offset="38%" stop-color="#54524C"/>
+<stop offset="78%" stop-color="#A8A69C"/><stop offset="100%" stop-color="#DCDAD2"/>
+</radialGradient></defs>
+
+<path class="ax" d="M 34 26 L 34 662"/><path d="M21.68,642.29 L34,666.93 L46.32,642.29 z" fill="#3D3A34" stroke="none"/>
+<text x="18" y="344" font-size="20.28" text-anchor="middle" class="halo" transform="rotate(-90 18 344)">深さ＝F からの距離</text>
+<path class="step" d="M 46 108 L 900 108"/><path class="step" d="M 46 192 L 900 192"/><path class="step" d="M 46 292 L 900 292"/><path class="step" d="M 46 402 L 900 402"/><path class="step" d="M 46 516 L 900 516"/><path class="step" d="M 46 630 L 900 630"/>
+<g class="halo"><text x="58" y="52" font-size="24.63" font-weight="700">λ₀ ラムダゼロ点</text><text x="58" y="78" font-size="20.28" fill="#55534E">個の F-E 接地</text>
+<text x="58" y="142" font-size="24.63" font-weight="700">λ₁ 共同体の F 追体験</text>
+<text x="58" y="232" font-size="24.63" font-weight="700">λ₂ 信頼（SFOK）</text><text x="58" y="258" font-size="20.28" fill="#55534E">係留FOE は、ここから</text>
+<text x="58" y="336" font-size="24.63" font-weight="700">λ₃ 蓄積への信頼</text><text x="58" y="362" font-size="20.28" fill="#55534E">外部知識ストック</text>
+<text x="58" y="446" font-size="24.63" font-weight="700">λ₄ SFOK参照系への信頼</text>
+<text x="58" y="560" font-size="24.63" font-weight="700">λ₅ 参照系の蓄積化（圧）</text><text x="58" y="586" font-size="20.28" fill="#55534E">世代を越えて手渡される</text></g>
+<g class="funnel">
+<path d="M 405 52 C 416 130, 442 205, 500 275 C 560 345, 592 390, 598 445 L 598 660"/>
+<path d="M 830 52 C 819 130, 793 205, 735 275 C 675 345, 643 390, 637 445 L 637 660"/>
+</g>
+<g class="funnelOpen"><path d="M 598 660 L 598 692"/><path d="M 637 660 L 637 692"/></g>
+<g class="grain">
+<circle cx="432" cy="70" r="20"/><circle cx="468" cy="70" r="20"/><circle cx="504" cy="70" r="20"/><circle cx="540" cy="70" r="20"/><circle cx="576" cy="70" r="20"/><circle cx="612" cy="70" r="20"/><circle cx="648" cy="70" r="20"/><circle cx="684" cy="70" r="20"/><circle cx="720" cy="70" r="20"/><circle cx="756" cy="70" r="20"/><circle cx="792" cy="70" r="20"/><circle cx="450" cy="98" r="20"/><circle cx="486" cy="98" r="20"/><circle cx="522" cy="98" r="20"/><circle cx="558" cy="98" r="20"/><circle cx="594" cy="98" r="20"/><circle cx="630" cy="98" r="20"/><circle cx="666" cy="98" r="20"/><circle cx="702" cy="98" r="20"/><circle cx="738" cy="98" r="20"/><circle cx="774" cy="98" r="20"/><circle cx="444" cy="126" r="20"/><circle cx="480" cy="126" r="20"/><circle cx="516" cy="126" r="20"/><circle cx="552" cy="126" r="20"/><circle cx="588" cy="126" r="20"/><circle cx="624" cy="126" r="20"/><circle cx="660" cy="126" r="20"/><circle cx="696" cy="126" r="20"/><circle cx="732" cy="126" r="20"/><circle cx="766" cy="126" r="20"/><circle cx="460" cy="154" r="20"/><circle cx="496" cy="154" r="20"/><circle cx="532" cy="154" r="20"/><circle cx="568" cy="154" r="20"/><circle cx="604" cy="154" r="20"/><circle cx="640" cy="154" r="20"/><circle cx="676" cy="154" r="20"/><circle cx="712" cy="154" r="20"/><circle cx="748" cy="154" r="20"/><circle cx="464" cy="182" r="20"/><circle cx="501" cy="182" r="20"/><circle cx="538" cy="182" r="20"/><circle cx="575" cy="182" r="20"/><circle cx="612" cy="182" r="20"/><circle cx="649" cy="182" r="20"/><circle cx="686" cy="182" r="20"/><circle cx="723" cy="182" r="20"/><circle cx="756" cy="182" r="20"/><circle cx="484" cy="212" r="20"/><circle cx="522" cy="212" r="20"/><circle cx="560" cy="212" r="20"/><circle cx="598" cy="212" r="20"/><circle cx="636" cy="212" r="20"/><circle cx="674" cy="212" r="20"/><circle cx="708" cy="212" r="20"/><circle cx="508" cy="242" r="20"/><circle cx="548" cy="242" r="20"/><circle cx="588" cy="242" r="20"/><circle cx="628" cy="242" r="20"/><circle cx="668" cy="242" r="20"/><circle cx="704" cy="242" r="20"/><circle cx="522" cy="272" r="20"/><circle cx="562" cy="272" r="20"/><circle cx="602" cy="272" r="20"/><circle cx="642" cy="272" r="20"/><circle cx="678" cy="272" r="20"/><circle cx="562" cy="310" r="20"/><circle cx="617" cy="310" r="20"/><circle cx="672" cy="310" r="20"/>
+<circle cx="588" cy="355" r="19"/><circle cx="647" cy="355" r="19"/><circle cx="617" cy="418" r="18"/><circle cx="617" cy="475" r="17"/><circle cx="617" cy="535" r="15"/><circle cx="617" cy="590" r="14"/>
+<circle cx="362" cy="78" r="15"/><circle cx="328" cy="120" r="14"/><circle cx="346" cy="162" r="14"/><circle cx="332" cy="202" r="15"/><circle cx="358" cy="240" r="14"/><circle cx="378" cy="280" r="14"/><circle cx="390" cy="240" r="13"/><circle cx="406" cy="320" r="14"/><circle cx="430" cy="282" r="13"/><circle cx="438" cy="360" r="14"/><circle cx="462" cy="322" r="13"/><circle cx="472" cy="398" r="13"/><circle cx="496" cy="362" r="13"/><circle cx="508" cy="434" r="13"/><circle cx="526" cy="400" r="12"/><circle cx="538" cy="470" r="12"/><circle cx="554" cy="438" r="12"/><circle cx="568" cy="506" r="12"/><circle cx="562" cy="560" r="12"/><circle cx="520" cy="530" r="12"/><circle cx="870" cy="88" r="15"/><circle cx="826" cy="124" r="14"/><circle cx="882" cy="166" r="14"/><circle cx="804" cy="196" r="15"/><circle cx="860" cy="238" r="14"/><circle cx="786" cy="270" r="14"/><circle cx="842" cy="306" r="14"/><circle cx="892" cy="332" r="13"/><circle cx="750" cy="336" r="14"/><circle cx="812" cy="368" r="13"/><circle cx="872" cy="392" r="13"/><circle cx="704" cy="406" r="13"/><circle cx="770" cy="422" r="13"/><circle cx="834" cy="442" r="13"/><circle cx="676" cy="464" r="12"/><circle cx="738" cy="486" r="13"/><circle cx="802" cy="502" r="12"/><circle cx="860" cy="488" r="12"/><circle cx="662" cy="528" r="12"/><circle cx="722" cy="548" r="13"/><circle cx="788" cy="562" r="12"/><circle cx="852" cy="546" r="12"/><circle cx="794" cy="222" r="13"/><circle cx="760" cy="290" r="13"/><circle cx="722" cy="348" r="13"/><circle cx="690" cy="380" r="12"/><circle cx="660" cy="485" r="12"/>
+</g>
+<g class="ld"><path d="M 356 596 L 320 640"/></g>
+<g class="halo">
+<text x="316" y="662" font-size="20.28" text-anchor="end">漏斗の外の粒——報われない接地</text>
+<text x="618" y="34" font-size="20.28" text-anchor="middle">漏斗（O）＝文明の出力の構造</text>
+</g>
+</svg>

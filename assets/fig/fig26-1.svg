@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="112mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>失敗の星座——対称的に反対の二極</title>
+<desc>星座の図。地が暗く、星と文字が明るい——夜空として読む版である。二つの明るい星が左右に離れて置かれ、そのあいだに一本の破線が張られている。破線は本書の声の線であり、二つの光点を一つの形として結んだのは表象する知性の側であることを示す——星座は世界の側に書き込まれてはいない。
+左の極は固相化した特殊主義。「我ら」を特定の範囲に閉じて境界を固め、共有された現実への関与そのものを断つ極で、接地条件の破れが極限まで進んだ姿にあたり、地から浮いたまま自走する乖離へ向かう。右の極は空洞な普遍。実存的な厚みを伴わずに「我ら」を世界大に唱え、被覆が名目だけ広がる極で、被覆条件の破れの極限にあたり、宣言と実態の隔たりが臨界に達して撃たれる頓死へ向かう。二つは同じ終わり方をする二つではなく、対称的に反対の二つである。左右の配置は第24章の四つの位置の図に手勝手を揃えてある——あちらも乖離が左、頓死が右。ただし幾何は共有しない。あちらは全景の山、こちらは天球の配置である。
+線の中央に、地と同じ色で抜かれた小さな円がある。これが MAN-I-ES で、二極のいずれにも滑落しない位置である。星ではない——失敗の星座を構成するのは二つの極であって、この位置は、その配置から輪郭を照らし出される側にある。位置が線の上に載っているのは、両者の張力の上に立つということであり、線に沿ってどちらへ流されているかが、そのまま測られる量になる。
+位置の下に、出て戻る一本の弧がある。これが λ₀ である。読みを訂正するのは読みの内側ではなく、戻ってくる航海のほうであり、この弧が絶えれば、同じ配置が道具から判決に変わる。分かれるのは段の深さではなく、下に帰りがあるかどうかである。
+散らばる小さな点は、この配置に流れ込む営みである。名は付いていない。それぞれが構造条件を運ぼうとして、一方の極へ力尽きつつある。いくつかの点から極へ向かって淡い軌跡が伸びているのは、力尽きていく途中を表す。名を書かないのは慎重さのためだけではない——星は入れ替わるからである。この配置に流れ込む営みは時代ごとに別の名で現れ、力尽き、別の営みがまた同じ軌道へ入る。強く現れているものが、本書の手が名において届いているものである。名を与えた二極と保つ位置だけが強く、営みの星々は弱い。
+二つの極は、そこへ向かうための目標ではない。いま、どちらへ流されているかを測るための光である。</desc>
+<style>
+.mfig .star  {fill:var(--c-ink,#FFFFFF);fill-opacity:0.62}
+.mfig .trail {fill:none;stroke:var(--c-ink,#FFFFFF);stroke-width:1.28;stroke-opacity:0.5}
+.mfig .pole  {fill:var(--c-ink,#FFFFFF);stroke:var(--c-ink,#FFFFFF);stroke-width:2.55;stroke-linecap:round}
+.mfig .draw  {fill:none;stroke:var(--c-note,#9C998F);stroke-width:1.13;stroke-dasharray:16.07 9.64}
+.mfig .hold  {fill:#1B1A18;stroke:var(--c-ink,#FFFFFF);stroke-width:2.55}
+.mfig .back  {fill:none;stroke:var(--c-ink,#FFFFFF);stroke-width:2.55;stroke-linecap:round}
+.mfig text{fill:var(--c-ink,#FFFFFF)}
+.mfig .sub {fill:#C7C4BA}
+.mfig .halo{paint-order:stroke;stroke:#1B1A18;stroke-width:4.02;stroke-linejoin:round}
+</style>
+
+<rect x="0" y="0" width="900" height="470" fill="#1B1A18"/>
+<g class="star"><circle cx="550.5" cy="73.4" r="2.9"/><circle cx="696.2" cy="359.9" r="3"/><circle cx="312.9" cy="49.5" r="5.1"/><circle cx="571.9" cy="339.1" r="2.6"/><circle cx="613.7" cy="305.9" r="3.7"/><circle cx="713.3" cy="327.2" r="5.2"/><circle cx="148.6" cy="337" r="2.4"/><circle cx="75.4" cy="325.7" r="5"/><circle cx="136.8" cy="97.7" r="3.8"/><circle cx="387.7" cy="73.1" r="3"/><circle cx="690.7" cy="59.7" r="2.7"/><circle cx="277.4" cy="319.3" r="3.4"/><circle cx="563.7" cy="261.2" r="2.4"/><circle cx="280.6" cy="47.5" r="3.4"/><circle cx="746.3" cy="70.4" r="2.8"/><circle cx="741.6" cy="100.2" r="5"/><circle cx="173.6" cy="109.1" r="5"/><circle cx="307.4" cy="308.7" r="2.5"/><circle cx="854.5" cy="46" r="2.7"/><circle cx="682" cy="429.8" r="2.5"/><circle cx="458.8" cy="45.9" r="5.1"/><circle cx="85.4" cy="88.9" r="3.3"/><circle cx="794.2" cy="57.4" r="4.9"/><circle cx="649.3" cy="118.2" r="3"/><circle cx="204.8" cy="304.5" r="5.4"/><circle cx="255" cy="345.9" r="3.6"/><circle cx="730.3" cy="370.4" r="4.7"/><circle cx="617.5" cy="55.1" r="3.2"/><circle cx="681.8" cy="102.4" r="5"/><circle cx="232.8" cy="93.6" r="4.2"/><circle cx="250.8" cy="66.7" r="4.5"/><circle cx="316.5" cy="94.3" r="5.5"/></g>
+<path class="trail" d="M 174.5 121.1 Q 163.1 141.2 177.6 159.3"/><path class="trail" d="M 141.4 107.5 Q 140.7 136.7 163.6 154.9"/><path class="trail" d="M 227.4 103.4 Q 202.3 122.2 200.1 153.4"/><path class="trail" d="M 92.4 96.4 Q 108.8 132.9 144.1 151.6"/><path class="trail" d="M 245.1 76.7 Q 214.7 103.4 206.9 143.1"/><path class="trail" d="M 738.8 111.9 Q 720.9 130.8 728.2 155.9"/><path class="trail" d="M 686.6 113.4 Q 684.1 140.3 705.5 156.7"/><path class="trail" d="M 656.3 125.3 Q 665.5 153.1 693.1 162.7"/><path class="trail" d="M 744.2 80 Q 724.4 109.5 730 144.6"/><path class="trail" d="M 692.8 69.2 Q 688.2 107.7 708.9 140.5"/>
+
+<path class="draw" d="M 180 190 L 720 190"/>
+<g class="pole"><circle cx="180" cy="190" r="7.5"/><path d="M 191 190 L 207 190"/><path d="M 180 201 L 180 217"/><path d="M 169 190 L 153 190"/><path d="M 180 179 L 180 163"/><path d="M 187.8 197.8 L 192 202"/><path d="M 172.2 197.8 L 168 202"/><path d="M 172.2 182.2 L 168 178"/><path d="M 187.8 182.2 L 192 178"/></g><g class="pole"><circle cx="720" cy="190" r="7.5"/><path d="M 731 190 L 747 190"/><path d="M 720 201 L 720 217"/><path d="M 709 190 L 693 190"/><path d="M 720 179 L 720 163"/><path d="M 727.8 197.8 L 732 202"/><path d="M 712.2 197.8 L 708 202"/><path d="M 712.2 182.2 L 708 178"/><path d="M 727.8 182.2 L 732 178"/></g>
+
+<circle class="hold" cx="450" cy="190" r="8"/>
+<circle cx="450" cy="190" r="2.6" fill="#FFFFFF"/>
+
+<path class="back" d="M 445 200 C 410 232, 416 286, 444 306
+ C 472 288, 481 234, 458 203"/><path d="M479.17,211.31 L455.13,199.13 L459.81,225.67 z" fill="#FFFFFF" stroke="none"/>
+
+<g class="halo">
+<text x="450" y="156" font-size="24.1" text-anchor="middle" font-weight="700">MAN-I-ES</text>
+
+<text x="180" y="242" font-size="24.1" text-anchor="middle" font-weight="700">固相化した特殊主義</text>
+<text x="180" y="266" font-size="19.84" text-anchor="middle" class="sub">関与を断って——乖離へ</text>
+
+<text x="720" y="242" font-size="24.1" text-anchor="middle" font-weight="700">空洞な普遍</text>
+<text x="720" y="266" font-size="19.84" text-anchor="middle" class="sub">関与しすぎて——頓死へ</text>
+
+<text x="450" y="338" font-size="19.84" text-anchor="middle" class="sub">出て、戻る——海が、歌を訂正する</text>
+
+<text x="52" y="404" font-size="19.84" class="sub">光点は選ばれ、線は引かれる</text>
+<text x="52" y="428" font-size="19.84" class="sub">——星座は、世界の側に書き込まれてはいない</text>
+</g>
+</svg>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 540" width="88mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>MANES座標系のオーバーレイ</title>
+<desc>図16-1 の地形のうち接続可能圏 Ω から内側を取り、そこに操作能力的我ら（O・実線）と実存的我ら（E・一点鎖線）を重ねる。重なりが「操作も引受も及ぶ」域、O の内で E の外が「それら」（操作は及ぶが引受の外）、E の内で O の外が「引受は及ぶが操作が未到達」、両方の外が放置された「それら」である。ここに Flux を重ねると八セルのスナップショット（図16-3）になる。塗りの濃さは、届いている錨の数を表す。</desc>
+<style>
+.mfig .st{fill:none;stroke-width:1.95;stroke-linejoin:round}
+.mfig .op{stroke:var(--c-op,#3D3A34)}
+.mfig .ex{stroke:var(--c-ex,#3D3A34);stroke-dasharray:18.41 6.14 3.07 6.14}
+.mfig .fx{stroke:var(--c-fx,#3D3A34)}
+.mfig .fa{fill:#3D3A34;fill-opacity:0.13;stroke:none}
+.mfig .tr{fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:0.97}
+.mfig .om{stroke-dasharray:3.07 5.52}
+.mfig .lb{fill:var(--c-ink,#1F1E1B);text-anchor:middle;font-weight:700;letter-spacing:.06em}
+.mfig .cg{fill:var(--c-ink,#111)}
+.mfig .ld{fill:none;stroke:var(--c-note,#6F6D66);stroke-width:0.87;stroke-dasharray:12.27 7.36}
+.mfig .tj{fill:none;stroke:#111;stroke-width:2.6;stroke-linecap:round}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+</style>
+<circle class="tr om" cx="270" cy="270" r="250"/>
+<g class="fa"><polygon points="285.0,62.0 362.6,87.2 410.5,153.2 410.5,234.8 362.6,300.8 285.0,326.0 207.4,300.8 159.5,234.8 159.5,153.2 207.4,87.2"/><polygon points="217.0,179.0 294.6,204.2 342.5,270.2 342.5,351.8 294.6,417.8 217.0,443.0 139.4,417.8 91.5,351.8 91.5,270.2 139.4,204.2"/></g>
+<polygon class="st op" points="285.0,62.0 362.6,87.2 410.5,153.2 410.5,234.8 362.6,300.8 285.0,326.0 207.4,300.8 159.5,234.8 159.5,153.2 207.4,87.2"/>
+<polygon class="st ex" points="217.0,179.0 294.6,204.2 342.5,270.2 342.5,351.8 294.6,417.8 217.0,443.0 139.4,417.8 91.5,351.8 91.5,270.2 139.4,204.2"/>
+<g class="lb" font-size="18.4">
+<text x="252" y="262">操作も引受も</text>
+<text x="306" y="150">それら</text>
+<text x="176" y="360">引受のみ</text>
+<text x="106" y="136">それら</text>
+</g>
+<g class="lb" font-size="15.15" font-weight="400" fill="#55534E">
+<text x="306" y="172">操作は及ぶが引受の外</text>
+<text x="106" y="158">放置・未分節</text>
+</g>
+</svg>

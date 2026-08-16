@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 640" width="98.6mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>R空間とT空間——現実の球と、思考の多面体</title>
+<desc>外周の細い実線の円が R空間（現実空間）——主体が作ったものではない地形の層である。その内に接する太い実線の三角形が T空間（思考空間）で、主体が有限個の射影軸で現実を切り取った結果できる多面体を、頂点の数が最小の場合に潰して描いてある。三つの頂点はそれぞれ一つの射影軸——その方向に勾配を定義できる価値軸——に対応する。塗りの濃さは、参照が届いているかを表す。三角形の内は届いており、三角形の外・円の内は届いていない。実際の T空間は頂点をもっと多く持つが、多面体である以上つねに円より小さく、外側が残ることは変わらない。</desc>
+<style>
+.mfig .terrain{fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:1.16}
+.mfig .struct {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:2.32;stroke-linejoin:round}
+.mfig .f1{fill:#3D3A34;fill-opacity:0.13;stroke:none}
+.mfig .f3{fill:#3D3A34;fill-opacity:0.25;stroke:none}
+.mfig .ld{fill:none;stroke:var(--c-note,#6F6D66);stroke-width:1.03;stroke-dasharray:14.6 8.76}
+.mfig .lb{fill:var(--c-ink,#1F1E1B);text-anchor:middle;font-weight:700}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+</style>
+<circle class="terrain" cx="360" cy="320" r="268"/>
+<polygon class="f1" points="360,52 127.9,454 592.1,454"/>
+<polygon class="struct" points="360,52 127.9,454 592.1,454"/>
+<g class="ld"><path d="M110,486 L127.9,460"/><path d="M610,486 L592.1,460"/></g>
+<g class="lb" font-size="21.9">
+<text x="360" y="34">射影軸①</text>
+<text x="86" y="506">射影軸②</text>
+<text x="634" y="506">射影軸③</text>
+<text x="360" y="330">T空間（思考空間）</text>
+<text x="360" y="618">R空間（現実空間）</text>
+</g>
+</svg>

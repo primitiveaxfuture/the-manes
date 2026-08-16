@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 580" width="78mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>本書の基底構造——R空間 ⊇ Ω ＝ LEFFLA ＋ LOT ＋ 未分化領域</title>
+<desc>入れ子の二重円。外側の細い実線の円が R空間——全方向に等方な参照枠である。その内側に、点線の円 Ω がある。Ω は接続可能圏、すなわち構造的・反応的・意味的に接続しうる範囲の全体で、R空間の真部分集合として描いてある。二つの円のあいだの環は Ω の外であり、そもそも接続できない領域——その系にとっては存在しない。
+Ω の内側は三つに分かれる。天から下へ一本の太い実線が入っていて、これが選別構造である。線の左が LEFFLA——参照されており、なお再編の余地を残している有効領域。線の右が LOT——Ω の内側にありながら、選別構造によって参照から外された領域。一本の線を挟んで向かい合っているのは、何かが LEFFLA に入るとき別の何かが LOT に入る、という対の関係を線が担っているからである。
+選別構造の線は、Ω の底までは届かない。線の下端より下は、どちらにも分節されていない未分化領域である。この領域には境界を引いていない——差異が入っていないことを、線を引かないことで示す。基底層に近づくほどこの領域は大きく、文明レイヤーへ上がるにつれて狭まり、LEFFLA と LOT の対が前面に出る。
+濃さは、選別構造の手がどこまで届いているかを表す。LEFFLA が最も濃く、LOT はそれより淡く、未分化領域は塗られていない。LOT が塗られているのは、選別構造が一度触れたうえで外した領域だからであり、未分化領域が白いのは、まだ触れられてもいないからである。
+この図が第一に示すのは、LOT が Ω の外側ではないことである。Ω の外は、そもそも接続できない。LOT は接続可能圏の内側にあり、信号としては届きうるし、物理的にも反応的にも近接しうる。にもかかわらず、選別構造の働きによって参照回路に入らない。うっかり見落としたのではなく、構造的に切り捨てられている。
+第1章の三領域は、この分節の上に次のように載る。高精度保存域と低精度保持域は、いずれも LEFFLA に対応する。脱落域は、LOT と未分化領域の両方にまたがる——能動的に切り捨てられた領域と、まだ選別の手が及んでいない領域とに分かれる。</desc>
+<style>
+.mfig .rsp  {fill:none;stroke:var(--c-terrain,#3D3A34);stroke-width:1.3;stroke-opacity:0.55}
+.mfig .om   {fill:none;stroke:var(--c-terrain,#3D3A34);stroke-width:1.3;stroke-opacity:0.55;stroke-dasharray:4.1 7.38}
+.mfig .sel  {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:2.61;stroke-linecap:round}
+.mfig .fill {stroke:none}
+.mfig .ld   {fill:none;stroke:var(--c-note,#6F6D66);stroke-width:1.16;stroke-dasharray:16.41 9.85}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+.mfig .sub {fill:#55534E}
+.mfig .halo{paint-order:stroke;stroke:#ffffff;stroke-width:4.1;stroke-linejoin:round}
+</style>
+<defs>
+<linearGradient id="gL" gradientUnits="userSpaceOnUse" x1="0" y1="304" x2="0" y2="400">
+<stop offset="0%" stop-color="#3D3A34" stop-opacity="0.24"/><stop offset="100%" stop-color="#3D3A34" stop-opacity="0"/></linearGradient>
+<linearGradient id="gT" gradientUnits="userSpaceOnUse" x1="0" y1="304" x2="0" y2="400">
+<stop offset="0%" stop-color="#3D3A34" stop-opacity="0.13"/><stop offset="100%" stop-color="#3D3A34" stop-opacity="0"/></linearGradient>
+</defs>
+
+<path class="fill" d="M 180 400 L 320 400 L 320 330 Q 336 236 315 132 A 168 168 0 0 0 180 400 Z" fill="url(#gL)"/>
+<path class="fill" d="M 320 400 L 450 400 A 168 168 0 0 0 315 132 Q 336 236 320 330 Z" fill="url(#gT)"/>
+
+<circle class="rsp" cx="320" cy="280" r="250"/>
+<circle class="om"  cx="315" cy="300" r="168"/>
+<path class="sel" d="M 315 132 Q 336 236 320 330"/>
+
+<g class="ld">
+<path d="M 96 66 L 132 108"/>
+<path d="M 556 522 L 468 424"/>
+</g>
+
+<g class="halo">
+<text x="24" y="52" font-size="24.6" font-weight="700">R空間</text>
+<text x="24" y="76" font-size="20.26" class="sub">全方向に等方な参照枠</text>
+
+<text x="360" y="112" font-size="20.26" class="sub" text-anchor="middle">Ω の外＝接続できない</text>
+
+<text x="232" y="242" font-size="24.6" text-anchor="middle" font-weight="700">LEFFLA</text>
+<text x="232" y="266" font-size="20.26" text-anchor="middle" class="sub">参照され、なお</text>
+<text x="232" y="288" font-size="20.26" text-anchor="middle" class="sub">再編の余地がある</text>
+
+<text x="410" y="242" font-size="24.6" text-anchor="middle" font-weight="700">LOT</text>
+<text x="410" y="266" font-size="20.26" text-anchor="middle" class="sub">参照から</text>
+<text x="410" y="288" font-size="20.26" text-anchor="middle" class="sub">外された</text>
+
+<text x="315" y="420" font-size="24.6" text-anchor="middle" font-weight="700">未分化領域</text>
+<text x="315" y="444" font-size="20.26" text-anchor="middle" class="sub">選別が及ばない</text>
+
+<text x="616" y="540" font-size="24.6" text-anchor="end" font-weight="700">Ω（接続可能圏）</text>
+<text x="616" y="564" font-size="20.26" text-anchor="end" class="sub">原理的には接続しうる範囲</text>
+</g>
+</svg>

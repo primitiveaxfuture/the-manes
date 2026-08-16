@@ -49,20 +49,22 @@
 
 ## いま公開されているもの
 
-**本文はまだ公開されていない。** 現在このリポジトリにあるのは、読者向けの用語集と、利用条件を定める文書である。
+**本文は全文公開されている**（v1.0.0・序論＋27 章＋結論）。
 
 | | 内容 |
 |---|---|
-| [`reference/glossary.md`](reference/glossary.md) | **読者向け用語集（先行公開版）**——本書が独自に立てる概念の定義。フル項目 41・一行層 44 |
-| [`meta/glossary.json`](meta/glossary.json) | 同・機械可読形 |
-| [`GUIDELINE.md`](GUIDELINE.md) | 利用ガイドライン |
-| [`LICENSING.md`](LICENSING.md) | ライセンスの層別 |
+| [`toc.html`](toc.html) | **目次**——部・章・節。各節への直接リンク付き（機械可読形：[`toc.md`](toc.md)） |
+| `chapters/` | 章別の本文（md・HTML） |
+| [`manes-full.md`](manes-full.md) | 全文一括（単一ファイル） |
+| [`reference/glossary.html`](reference/glossary.html) | **読者向け用語集（全概念版）**——フル項目と一行層の二層・全 123 項目（原データ：[`glossary.md`](reference/glossary.md)） |
+| [`reference/propositions.html`](reference/propositions.html) | **読者向け命題一覧**——全 70 命題・本文の命題箱と逐語一致（原データ：[`propositions.md`](reference/propositions.md)） |
+| [`reference/first-occurrence.html`](reference/first-occurrence.html) | **概念索引**——概念が確立される章節への参照経路 |
+| [`reference/glossary-v0.html`](reference/glossary-v0.html) | **用語集 v0（公開切り出し）**——定義・近接概念との区別・本書内の位置まで含む機械向けの完全版 |
+| [`meta/glossary.json`](meta/glossary.json) | 用語集の機械可読形（概念 ID・エイリアス・読み・英名） |
+| [`guideline/`](guideline/) | 利用ガイドライン（原データ：[`GUIDELINE.md`](GUIDELINE.md)） |
+| [`licensing/`](licensing/) | ライセンスの層別（原データ：[`LICENSING.md`](LICENSING.md)） |
 
-用語集は、本書を読まずに単体で参照することもできる。各項目は独立して読める。
-
-**本文の刊行時（v1.0）に追加されるもの**：本文全文（章別・全文一括）、補論、読者向け命題一覧、用語集の残りの項目（第Ⅴ部・結論で立つ概念と、一部の項目の「展開」段）。
-
-用語集がいま部分的であるのは欠落ではなく、本書の読み方に合わせた配分である——装置は渡すが、着地は先に渡さない。
+用語集は、本書を読まずに単体で参照することもできる。各項目は独立して読める。補論は今後、Web に追って置かれる——本文はそれで完結しており、読まなくてよい。
 
 ---
 
@@ -117,15 +119,30 @@
 
 要点は三つ。
 
-- **引用、概念の利用、機械学習は自由である。** ライセンスの選択と無関係に、法律上そうなっている。本書の概念を自分の仕事に使うために、許可を求める必要はない。
+- **引用と概念の利用は、法律上・性質上そもそも自由である。** 本書の概念を自分の仕事に使うために、許可を求める必要はない。**機械学習・情報解析（学習・索引・RAG）は、権利者として明示的に許諾している**——法域や法解釈の違いを調べてから使う必要はない。第三者素材（古典引用等）は許諾の対象外（[`meta/permissions.yaml`](meta/permissions.yaml)）。
 - **そのままの複製・再配布・ミラー・アーカイブ・形式変換は自由である。**帰属表示のみを条件とする。改変・翻訳は制限されるが、翻訳・朗読・アクセシビリティ変換・非営利の教育利用は追加許諾が条件付きで事前に許諾している。
 - **2050 年 1 月 1 日、または著者の死のいずれか早い時点をもって、本文は CC BY 4.0 に移行する。** この許諾はすでに与えられており、その時点で誰かが手続きを行う必要はない。
 
+### 機械可読の対応
+
+利用許諾の機械可読形は [`meta/permissions.yaml`](meta/permissions.yaml)。W3C **TDMRep** との対応は次のとおり（実体：[`.well-known/tdmrep.json`](.well-known/tdmrep.json)）。
+
+| TDMRep | 本書 |
+|---|---|
+| `tdm-reservation` | `0`——テキスト・データマイニングの権利留保をしない（許諾の意思） |
+| `tdm-policy` | [`GUIDELINE.md`](GUIDELINE.md)（方針の実体） |
+
+ODRL への写像は行っていない（本表と permissions.yaml で足りると判断している）。`Content-Signal`（robots.txt 内）は有用だが標準ではない、という認識で維持している。
+
+出荷前の自動検査：命題文の本文との逐語一致・用語集の被覆（123 項目）・glossary-v0 の v0 段落一致・全ファイルの checksums・リンク実在・JSON 構文（.zenodo.json／jsonld.json／glossary.json／metrics.json）・CITATION.cff と permissions.yaml の必須鍵。
+
 ## 引用
 
-[`CITATION.cff`](CITATION.cff) を参照。版ごとの DOI は Zenodo が発行する。
+[`CITATION.cff`](CITATION.cff) を参照。版ごとの DOI は Zenodo が発行する。版 DOI と concept DOI（常に最新版を指す）の書き分けは CITATION.cff・.zenodo.json・meta/jsonld.json の三点に機械可読で書かれている。
 
 ## 連絡先
+
+Primitive AX Future Initiative——**著者自身が運営する独立の発行所**である。
 
 hiroki_ono@primitiveaxfuture.com
 
@@ -153,13 +170,13 @@ The book states no norms. It describes structure and leaves the taking-up to the
 
 ## Currently available
 
-The main text is **not yet published**. This repository currently holds the reader's glossary (advance edition, 41 full entries and 44 short entries) and the licensing documents. The full text, appendices, list of propositions, and the remaining glossary entries follow at v1.0.
+**The full text is published** (v1.0.0 — introduction, 27 chapters, conclusion). Start from the [table of contents](toc.html) or the single-file [manes-full.md](manes-full.md). Also available: the reader's glossary (all 123 entries), the list of propositions (70, verbatim-identical to the text), the concept index, and the machine-readable schemas. Appendices will follow on the web; the text is complete without them.
 
 ## Licensing
 
 Main text: **CC BY-ND 4.0** plus [additional permissions](LICENSES/LicenseRef-MANES-Additional-Permissions.txt). Glossary, propositions, and machine-readable schemas: **CC BY 4.0**.
 
-Quotation, use of the ideas themselves, and machine learning are free of any licence question. Verbatim redistribution, mirroring, archiving, and format conversion are permitted with attribution. Complete and faithful translation is pre-authorised under stated conditions.
+Quotation and the use of the ideas themselves are free by nature. For text and data mining, search indexing, and AI training, the publisher grants explicit permission as the rights holder — no reliance on statutory exceptions is needed, in any jurisdiction (machine-readable: [meta/permissions.yaml](meta/permissions.yaml), [.well-known/tdmrep.json](.well-known/tdmrep.json); third-party material quoted in the text is excluded). Verbatim redistribution, mirroring, archiving, and format conversion are permitted with attribution. Complete and faithful translation is pre-authorised under stated conditions.
 
 **On 1 January 2050, or upon the author's death, whichever is earlier, the main text becomes available under CC BY 4.0.** That licence has already been granted; no act by anyone is required for it to take effect.
 
@@ -167,6 +184,8 @@ See [LICENSING.md](LICENSING.md) and [GUIDELINE.md](GUIDELINE.md).
 
 ## Citation
 
-See [`CITATION.cff`](CITATION.cff). Per-version DOIs are issued by Zenodo.
+See [`CITATION.cff`](CITATION.cff). Per-version DOIs are issued by Zenodo; the version DOI and the concept DOI (always resolving to the latest version) are recorded machine-readably in CITATION.cff, .zenodo.json and meta/jsonld.json.
+
+Primitive AX Future Initiative is an independent publisher run by the author.
 
 Contact: hiroki_ono@primitiveaxfuture.com

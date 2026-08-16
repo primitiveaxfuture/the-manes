@@ -1,0 +1,214 @@
+/* THE MANES — Web 本文（A 水準＝引ける場所。2026-08-12 著者裁定）
+ * ---------------------------------------------------------------------------
+ * 一枚だけ。システム明朝スタック（webfont 配信なし）・白地一色・配色最小・
+ * JS ゼロ（戦略 §4-1）。読ませる増築（B＝画面版面の設計・フォント配信・端末
+ * 点検）は v1.0.0 の外——盤面 §2 に懸架（著者 GO 待ち）。
+ *
+ * 装置の意味クラス（aside.prop／.trend・blockquote.cite・p.display・p.verse・
+ * p.epigraph・p.gap 等）は識別段（_tools/typeset/identify.js）の出力。判定は
+ * 紙（manes-print.css）と同一で、値だけ画面用——命題箱は細罫・観察される傾向
+ * は破線（2026-08-10 著者裁定のラベル判定のまま）。
+ */
+
+/* ------------------------------------------------------------------ 基礎 -- */
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  max-width: 40rem;                     /* 本文の最大行長（設計案 §5-2） */
+  margin: 0 auto;
+  padding: 1.5rem 1.2rem 4rem;
+  background: #fff;                     /* 白地一色 */
+  color: #1a1a1a;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", YuMincho,
+               "Noto Serif CJK JP", "Noto Serif JP", serif;
+  font-size: 1rem;
+  line-height: 2.0;                     /* 行間広め */
+  text-align: justify;
+  overflow-wrap: break-word;
+}
+
+a { color: inherit; }                   /* 配色最小——リンクも地の色・下線のみ */
+
+strong { font-weight: 700; }
+code {
+  font-family: "Consolas", "Menlo", monospace;
+  font-size: 0.92em;
+}
+
+/* ---------------------------------------------------------------- 見出し -- */
+
+h1.chapter-title {
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1.6;
+  margin: 3rem 0 2.5rem;
+}
+
+h1.part-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.8;
+  margin: 3.5rem 0 2rem;
+  text-align: center;
+}
+
+/* 部の序の題——章題より一段軽い格（紙と同じ関係） */
+h1.partintro-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.6;
+  margin: 3rem 0 2rem;
+}
+
+h2.sec {
+  font-size: 1.12rem;
+  font-weight: 700;
+  line-height: 1.7;
+  margin: 2.5rem 0 1rem;
+}
+
+h3.sub {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 1.8rem 0 0.5rem;
+}
+
+/* ---------------------------------------------------------------- 本文 -- */
+
+p { margin: 0; text-indent: 1em; }
+
+section.part p { text-indent: 1em; }
+
+/* 詩行——字下げを外して行頭を揃える。行送りは地の文のまま（紙と同じ） */
+p.verse { text-indent: 0; margin: 0; }
+p.verse + p.verse { margin-top: 0.8em; }
+
+/* 題辞——章題の直後に掲げる一文。小さく右寄りに、静かに置く */
+p.epigraph {
+  margin: 1.5rem 0 3rem 32%;
+  font-size: 0.92rem;
+  line-height: 1.9;
+  text-indent: 0;
+}
+
+/* 本文中に残った「間」——余白と控えめな標 */
+p.gap {
+  margin: 1.6rem 0;
+  text-indent: 0;
+  text-align: center;
+}
+p.gap::before { content: "＊"; letter-spacing: 0.5em; }
+
+/* 示し書き（不等式など）——中央に置く */
+p.display {
+  text-indent: 0;
+  text-align: center;
+  font-weight: 700;
+  margin: 1.6rem 0;
+}
+
+ul, ol { margin: 1.2rem 0; padding-left: 1.8em; }
+li { margin: 0.2rem 0; }
+
+/* ------------------------------------------------------ 命題箱・引用 -- */
+
+/* 命題箱：細罫のみ。網は敷かない（紙と同じ区別の作法） */
+aside.prop {
+  margin: 1.6rem 0;
+  padding: 0.8rem 1rem;
+  border: 1px solid #444;
+  font-size: 0.95rem;
+  line-height: 1.9;
+}
+aside.prop .prop-label {
+  text-indent: 0;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+aside.prop .prop-body { text-indent: 1em; }
+
+/* 観察される傾向は破線（2026-08-10 著者裁定・ラベル判定は識別段） */
+aside.prop.trend { border-style: dashed; }
+
+/* 引用（古典・訳文）：字下げと級下げで地の文と区別 */
+blockquote.cite {
+  margin: 1.6rem 0 1.6rem 2em;
+  padding: 0;
+  font-size: 0.95rem;
+  line-height: 1.9;
+}
+blockquote.cite p { text-indent: 1em; }
+
+/* ---------------------------------------------------------------- 表組 -- */
+
+/* 横罫だけで段を分ける（縦罫・網なし）。画面では横スクロールを許容する */
+table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 1.6rem 0;
+  font-size: 0.88rem;
+  line-height: 1.7;
+}
+th, td {
+  padding: 0.35em 0.6em;
+  text-align: left;
+  vertical-align: top;
+  text-indent: 0;
+  border-bottom: 1px solid #ccc;
+  min-width: 4em;
+}
+thead th {
+  font-weight: 700;
+  border-bottom: 1px solid #444;
+  white-space: nowrap;
+}
+tbody tr:last-child td { border-bottom: 1px solid #444; }
+td.ta-center, th.ta-center { text-align: center; }
+td.ta-right,  th.ta-right  { text-align: right; }
+
+/* ---------------------------------------------------------------- 図版 -- */
+
+figure { margin: 2rem 0; text-align: center; }
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+figcaption {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  margin-top: 0.6rem;
+  text-align: center;
+  text-indent: 0;
+}
+
+/* ---------------------------------------------------------- ナビ・目次 -- */
+
+nav.nav { margin: 1.2rem 0; font-size: 0.92rem; }
+nav.nav p {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  text-indent: 0;
+}
+
+ul.toc, ul.toc ul { list-style: none; padding-left: 0; margin: 0.4rem 0; }
+ul.toc ul { padding-left: 1.5em; }
+ul.toc li { margin: 0.2rem 0; }
+ul.toc a { text-decoration: none; }
+ul.toc a:hover { text-decoration: underline; }
+li.toc-1 { margin-top: 1.2rem; font-weight: 700; }
+li.toc-2 { font-weight: 400; }
+li.toc-3 { font-size: 0.92rem; }
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+  font-size: 0.85rem;
+  color: #555;
+}
+footer p { text-indent: 0; }

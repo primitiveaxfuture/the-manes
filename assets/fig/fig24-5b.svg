@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" width="112mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>乖離の二断面——覚えている地面と、いまの地面</title>
+<desc>図24-5a の地図に引かれた二本の断面線を、実際の背として並べる。どちらの断面にも二本の地面がある。濃い実線が、地図が覚えている地面——系が記録として内に持っているものである。太く淡い線が、いまの地面——現に在るが、動いたぶんを掴む回路が内側にないため、手が届いていない。左＝A–A′、現在地の断面。覚えている地面といまの地面が、まだ重なっている。踏んで確かめた点も残っている——とはいえ、背は痩せている。右＝B–B′、古い地図にしたがい、都度の足元点検を省いて進んだ先の断面。二本の地面はここで離れる。歩み手は地図の稜線の上に立っているが、そこはいまの稜線の外である——地から浮く。現実に衝かれないまま、基盤が尽きるまで自走しうる。地図の上では、この二つの断面はどちらも同じ幅のある尾根として描かれる。濃さは一貫して、手が届いているかを表す。</desc>
+<style>
+.mfig .blank {fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:1.02}
+.mfig .nowFill{fill:#1F1E1B;fill-opacity:0.05;stroke:none}
+.mfig .now   {fill:none;stroke:#1F1E1B;stroke-width:3.63;stroke-opacity:0.30}
+.mfig .remem {fill:none;stroke:var(--c-struct,#1F1E1B);stroke-width:2.04}
+.mfig .tick  {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.13}
+.mfig .ld    {fill:none;stroke:var(--c-note,#6F6D66);stroke-width:0.91;stroke-dasharray:12.86 7.71}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+.mfig .halo{paint-order:stroke;stroke:#ffffff;stroke-width:3.21;stroke-linejoin:round}
+</style>
+
+<rect class="blank" x="8" y="96" width="336" height="172"/>
+<rect class="blank" x="356" y="96" width="336" height="172"/>
+<g class="halo" font-size="19.28" font-weight="700">
+<text x="8" y="52">A–A′ 現在地の断面</text>
+<text x="356" y="52">B–B′ 進んだ先の断面</text>
+</g>
+<g class="halo" font-size="15.88">
+<text x="8" y="76">——覚えている地面と、いまの地面</text>
+<text x="356" y="76">——地から浮く</text>
+</g>
+
+<path class="nowFill" d="M 50 226 C 110 212, 156 176, 176 154 C 196 176, 242 212, 302 226 L 302 258 L 50 258 Z"/>
+<path class="now"   d="M 50 226 C 110 212, 156 176, 176 154 C 196 176, 242 212, 302 226"/>
+<path class="remem" d="M 50 220 C 110 206, 156 170, 176 148 C 196 170, 242 206, 302 220"/>
+<g class="tick">
+<path d="M 136 181 L 138 189"/><path d="M 176 143 L 176 151"/><path d="M 216 181 L 218 189"/>
+</g>
+<circle cx="176" cy="146" r="3.6" fill="#1F1E1B"/>
+
+<path class="nowFill" d="M 380 222 C 428 208, 460 180, 476 162 C 502 186, 572 210, 668 224 L 668 258 L 380 258 Z"/>
+<path class="now"   d="M 380 222 C 428 208, 460 180, 476 162 C 502 186, 572 210, 668 224"/>
+<path class="remem" d="M 380 212 C 450 194, 500 162, 524 142 C 548 162, 598 194, 668 212"/>
+<circle cx="524" cy="138" r="3.6" fill="#1F1E1B"/>
+<path class="ld" d="M 524 144 L 524 194"/>
+<g class="ld"><path d="M 446 144 L 472 162"/></g>
+<g class="halo" font-size="15.88">
+<text x="438" y="140" text-anchor="end">いまの稜線</text>
+<text x="546" y="120">地図の稜線の上、</text>
+<text x="546" y="142">いまの稜線の外</text>
+<text x="30" y="250">A</text><text x="316" y="250">A′</text>
+<text x="374" y="250">B</text><text x="674" y="250">B′</text>
+<text x="138" y="250">まだ重なっている</text>
+</g>
+</svg>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 640" width="112mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>歩く者の地図——見えていた円と、歩かれた線</title>
+<desc>第Ⅴ部の視点——地図を見ている主体から見える地図として描いた、文明の痩せ尾根。地図は SFOK 参照系の描画である。実測は現在地の一点（ラムダゼロ点 λ₀）のみで、手で確かめた範囲＝自分の錨泊 FOE はその近傍に限られる（現在地を囲む淡い円）。揺れた太い線は、別の誰かが実際に歩いた線——偶然にも左右されながら痩せ尾根の上を通った、一回性の歩みである。淡い円は、その歩き手たちの錨泊 FOE、すなわち彼らに見えていた広さ。見えていた円と歩かれた線は、同じではない——被覆と接地の差のミクロ版である。濃い線は接地しながらの歩みで、一歩ごとに足元を試す跡を伴う——遅いが外れにくい。淡い線は報告だけを信頼する歩みで、同じ投入でより速く遠くへ行ける（接地コストを払わない歩み・命題 FUNNEL-6）が、円の内・稜線の外に立ちうる。濃さは一貫して、手が届いているかを表す。背は幅のある尾根として描かれ、表面は現に均されている。盲点は、この地図の上では盲点として印されない。地図は縁で終わり、縁の外は外としてすら描かれない（命題 FUNNEL-3）——最上部の円が縁で切れているのは、見えていたものさえ縁が切り落とすことの姿である。枠の内のコメントは描かれているものについての注記、枠の外のコメントは地図そのものについてのメタ記述である。有限の帯域に、地形の全体は載らない——地図は、つねに近似である。A–A′ と B–B′ の断面は図24-4b が示す。</desc>
+<style>
+.mfig .paper {fill:#F2F0EA;stroke:var(--c-struct,#3D3A34);stroke-width:2.21}
+.mfig .inner {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:0.74;stroke-opacity:0.5}
+.mfig .contour{fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:1.11}
+.mfig .ridge {fill:none;stroke:var(--c-terrain,#6B675E);stroke-width:1.47}
+.mfig .seen  {fill:#1F1E1B;fill-opacity:0.03;stroke:#1F1E1B;stroke-width:1.23;stroke-opacity:0.32}
+.mfig .reached{fill:none;stroke:#1F1E1B;stroke-width:2.7;stroke-opacity:0.62;stroke-linecap:round;stroke-linejoin:round}
+.mfig .reached2{fill:none;stroke:#1F1E1B;stroke-width:0.98;stroke-opacity:0.34}
+.mfig .report{fill:none;stroke:#1F1E1B;stroke-width:1.97;stroke-opacity:0.40}
+.mfig .ground{fill:none;stroke:#1F1E1B;stroke-width:2.21;stroke-linejoin:round}
+.mfig .probe {fill:none;stroke:#1F1E1B;stroke-width:1.47}
+.mfig .mine  {fill:#1F1E1B;fill-opacity:0.06;stroke:#1F1E1B;stroke-width:1.23}
+.mfig .cut   {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.23}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+.mfig .note{fill:#4A4842}
+.mfig .halo{paint-order:stroke;stroke:#F2F0EA;stroke-width:3.48;stroke-linejoin:round}
+.mfig .haloW{paint-order:stroke;stroke:#ffffff;stroke-width:3.48;stroke-linejoin:round}
+</style>
+
+<rect class="paper" x="48" y="10" width="510" height="604"/>
+<rect class="inner" x="56" y="18" width="494" height="588"/>
+<defs><clipPath id="mc"><rect x="57" y="19" width="492" height="586"/></clipPath></defs>
+<g clip-path="url(#mc)">
+<g class="contour">
+<path d="M 173 571 C 260 501, 345 429, 413 353 C 473 287, 521 219, 551 147"/>
+<path d="M 185 584 C 272 514, 357 442, 425 366 C 485 300, 533 232, 560 160"/>
+<path d="M 196 596 C 283 526, 368 454, 436 378 C 496 312, 541 247, 568 174"/>
+<path d="M 123 514 C 210 444, 295 372, 363 296 C 423 230, 471 162, 501 90"/>
+<path d="M 111 500 C 198 430, 283 358, 351 282 C 411 216, 459 148, 489 76"/>
+<path d="M 100 488 C 187 418, 272 346, 340 270 C 400 204, 448 136, 478 64"/>
+</g>
+<path class="ridge" d="M 148 542 C 235 472, 320 400, 388 324 C 448 258, 496 190, 526 118"/>
+<g class="seen"><circle cx="214" cy="484" r="38"/><circle cx="262" cy="446" r="34"/><circle cx="306" cy="410" r="40"/><circle cx="352" cy="370" r="36"/><circle cx="396" cy="329" r="42"/><circle cx="438" cy="288" r="38"/><circle cx="478" cy="240" r="44"/><circle cx="524" cy="164" r="58"/></g>
+<path class="reached" d="M 150 540 L 162 529 L 169 524 L 183 510 L 192 505 L 207 491 L 220 479 L 231 474 L 246 459 L 258 449 L 272 441 L 285 426 L 299 416 L 314 404 L 326 392 L 339 385 L 353 369 L 365 360 L 380 345 L 392 332 L 404 324 L 416 307 L 429 296 L 442 282 L 453 267 L 465 256 L 477 240 L 487 224 L 497 208 L 505 192 L 512 176"/>
+<path class="reached2" d="M 150 540 L 162 529 L 169 524 L 183 510 L 192 505 L 207 491 L 220 479 L 231 474 L 246 459 L 258 449 L 272 441 L 285 426 L 299 416 L 314 404 L 326 392 L 339 385 L 353 369 L 365 360 L 380 345 L 392 332 L 404 324 L 416 307 L 429 296 L 442 282 L 453 267 L 465 256 L 477 240 L 487 224 L 497 208 L 505 192 L 512 176" transform="translate(1.8,1.2)"/>
+<path class="report" d="M 165 525 C 255 457, 340 404, 405 344 C 422 328, 440 314, 452 308"/>
+<circle cx="452" cy="308" r="4" fill="#1F1E1B" fill-opacity="0.3"/>
+<path class="ground" d="M 158 532 L 168 523 L 181 511 L 193 501 L 207 488 L 218 479 L 232 465 L 240 461 L 248 455"/>
+<g class="probe">
+<path d="M 168 517 L 173 523"/><path d="M 194 495 L 199 501"/>
+<path d="M 220 473 L 225 479"/><path d="M 246 452 L 251 458"/>
+</g>
+<circle cx="250" cy="453" r="3.4" fill="#1F1E1B"/>
+<circle class="mine" cx="150" cy="540" r="58"/>
+<g class="contour"><path d="M 118 556 C 132 548, 148 546, 162 552"/><path d="M 126 572 C 140 564, 156 562, 170 568"/></g>
+<circle cx="150" cy="540" r="6.5" fill="#FFFFFF" stroke="#1F1E1B" stroke-width="2.21"/>
+<circle cx="150" cy="540" r="2.6" fill="#1F1E1B"/>
+<g class="cut"><path d="M 104 486 L 196 594"/><path d="M 381 244 L 483 340"/></g>
+</g>
+<g class="halo" font-size="17.2">
+<text x="88" y="480">A</text><text x="200" y="610">A′</text>
+<text x="362" y="238">B</text><text x="490" y="356">B′</text>
+<text x="164" y="512">現在地（λ₀）</text>
+<text x="70" y="72">背は、幅のある尾根として描かれる</text>
+<text x="70" y="96">円＝見えていた広さ／線＝歩かれた細さ</text>
+<text x="296" y="518">濃い線＝接地しながらの歩み（遅い）</text>
+<text x="296" y="542">淡い線＝報告だけを信頼する歩み（速い）</text>
+</g>
+<g class="haloW note" font-size="17.2">
+<text x="574" y="48">地図は、縁で終わる</text>
+<text x="574" y="72">——縁の外は、外と</text>
+<text x="574" y="96">してすら描かれない</text>
+<text x="574" y="158">盲点は、盲点として</text>
+<text x="574" y="182">印されない</text>
+</g>
+</svg>

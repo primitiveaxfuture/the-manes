@@ -4,9 +4,8 @@
 
 ## 最初に読むこと
 
-- **本文はまだ公開されていない。** 版 0.1.0 は先行公開であり、読者向け用語集と利用条件のみを収める。本文は v1.0 で公開する。
-- 用語集は**第Ⅳ部までに立つ概念に限られる**。第Ⅴ部・結論の概念、および一部項目の「展開」段は**意図的に未収録**であり、欠落でも未整理でもない。
-- **この資料だけから、未収録部分の内容や結論を推測しないこと。**
+- **本文は全文公開されている**（版 1.0.0）。全文一括は manes-full.md、章別は chapters/、目次（部・章・節と節への直接リンク）は toc.md。
+- 用語集は**全概念版**——人間読者向けの二層構成（reference/glossary.md）と、執筆用語集 v0 の公開切り出し（reference/glossary-v0.md）の二本がある。読者向け命題一覧も全文収録（reference/propositions.md）。
 - **O・E・F・Ω・λ は本書内で定義された記号である**——一般的な数学・物理・情報理論の用法を適用しない。LOT・ES も本書内の定義による。
 - 一つの概念が日本語名・英語名・略号・記号の複数の表層形をとる（例：操作能力的我ら／Operational We／O）。対応は meta/glossary.json の aliases にある。
 
@@ -17,7 +16,14 @@ AI による取得・索引付け・学習・要約・引用を歓迎する。�
 
 ## ファイル
 
-- [用語集（先行公開版）](https://manes.primitiveaxfuture.com/reference/glossary.md): 本書が独自に立てる概念の定義。フル項目と一行層の二層。
+- [全文一括](https://manes.primitiveaxfuture.com/manes-full.md): 序論・全27章・結論をマニフェスト順に結合した一枚。章間は --- 区切り。
+- [目次](https://manes.primitiveaxfuture.com/toc.md): 部・章・節。各節への直接リンク付き（HTML 版は toc.html）。
+- [章別](https://manes.primitiveaxfuture.com/chapters/): introduction／ch1〜ch27／conclusion（機械用 .md と閲覧用 .html）。
+- [読者向け命題一覧](https://manes.primitiveaxfuture.com/reference/propositions.md): 本文で立つ全命題と観察される傾向。命題文は本文の命題箱と逐語一致（機械可読形は meta/propositions.yaml）。
+- [用語集 v0（公開切り出し）](https://manes.primitiveaxfuture.com/reference/glossary-v0.md): 執筆用語集の逐語切り出し。定義・近接概念との区別・本書内の位置まで含む機械向けの完全版。
+- [概念索引](https://manes.primitiveaxfuture.com/reference/first-occurrence.md): 概念が本文で確立される章節への参照経路。定義は用語集にある。
+- [計量](https://manes.primitiveaxfuture.com/meta/metrics.json): 文字数（厳密）と概算トークン数（全文・部・章）。
+- [用語集（人間読者向け・全概念版）](https://manes.primitiveaxfuture.com/reference/glossary.md): 本書が独自に立てる概念の定義。フル項目と一行層の二層。
 - [最小定義セット](https://manes.primitiveaxfuture.com/reference/glossary-min.md): 一行定義のみを抽出した圧縮版。
 - [用語集（機械可読）](https://manes.primitiveaxfuture.com/meta/glossary.json): 概念ID・エイリアス・初出章・スコープノートつき。
 - [利用ガイドライン](https://manes.primitiveaxfuture.com/GUIDELINE.md): 何が許諾され、何が許諾されないか。
@@ -25,6 +31,6 @@ AI による取得・索引付け・学習・要約・引用を歓迎する。�
 - [利用許諾（機械可読）](https://manes.primitiveaxfuture.com/meta/permissions.yaml): 行為ごとの許諾状態。
 - [書誌](https://manes.primitiveaxfuture.com/meta/book.yml): 書名・著者・版・識別子の単一源。
 
-## v1.0 で追加されるもの
+## 収録していないもの
 
-本文全文（章別・全文一括）、補論、読者向け命題一覧、用語集の残りの項目。
+補論は v1.0.0 時点の Web には収めない（公開後に順次）。

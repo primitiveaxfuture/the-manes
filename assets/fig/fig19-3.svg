@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 620" width="112mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>二つの道——浅い文明と深い文明、そのあいだに働く淘汰圧</title>
+<desc>出力の規模を増やす道は二つある。対比の要は二つ——漏斗の深さと、漏斗の底の広さである。左＝浅い文明（底面積を広げる道）。作動圏は広く、しかし浅い。広く浅い漏斗が作動圏をよく充たすので殻は薄く、これが出力 小の幾何的指標になる。立てるコストは小さい（既存の漏斗の横展開）。頓死リスクは低いが、有効勾配が低いため同じ出力に大量の素材を要し、掘り尽くしが速い。編入できる外側が尽きれば、この道は閉じる。右＝深い文明（深く掘り込む道）。作動圏は狭く、しかし倍近く深い。漏斗は急峻に絞られ、底は細い一筋にまでなる——単位素材あたりの抽出が大きいということである。そのぶん殻は加速度的に膨らみ、これが出力 大の幾何的指標になる。立てるコストは大きく（新しい縮約段の組み上げ）、頓死リスクは非線形に増す。出力の伸びは Stock 掘り崩しの嵩上げを含みうる。外部 F を伴わない深掘りは、自己言及相へ向かう。左右の縦の矢印は縮約が及ぶ深さ、右端の楔は頓死リスクで、いずれも幅と長さで量を示してある——濃さは使わない。中央の矢印は淘汰圧。出力の差によって、深い文明が浅い文明を競争排除する。淘汰圧は、出力を見て、出力の地を見ない。</desc>
+<style>
+.mfig .omega {fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:1.11;stroke-dasharray:3.48 6.27}
+.mfig .act   {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.47;stroke-opacity:0.62}
+.mfig .funnel{fill:none;stroke:var(--c-op,#3D3A34);stroke-width:2.21;stroke-linejoin:round}
+.mfig .fFun{fill:#3D3A34;fill-opacity:0.25;stroke:none}
+.mfig .fShl{fill:#3D3A34;fill-opacity:0.13;stroke:none}
+.mfig .ax  {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.47}
+.mfig .sel {fill:none;stroke:#1F1E1B;stroke-width:2.7;stroke-linecap:round}
+.mfig .lb{text-anchor:middle}
+.mfig .ld{fill:none;stroke:var(--c-note,#6F6D66);stroke-width:0.98;stroke-dasharray:13.93 8.36}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+.mfig .halo{paint-order:stroke;stroke:#ffffff;stroke-width:4.18;stroke-linejoin:round}
+</style>
+
+
+<path class="omega" d="M 55 130 A 140 20.15 0 0 1 335 130"/>
+<path class="fShl" d="M 50 181 L 80 181 C 80 270 100 330 125 372 L 128 380 L 50 380 Z"/><path class="fShl" d="M 340 181 L 310 181 C 310 270 290 330 265 372 L 262 380 L 340 380 Z"/>
+<path class="fShl" fill-rule="evenodd" d="M 340 180 A 145 19 0 1 0 50 180 A 145 19 0 1 0 340 180 M 310 180 A 115 15 0 1 1 80 180 A 115 15 0 1 1 310 180"/>
+<path class="fFun" d="M 80 180 C 80 270 100 330 125 372 A 70 9 0 0 0 265 372 C 290 330 310 270 310 180 A 115 15 0 0 1 80 180 Z"/>
+<path class="act" d="M 50 180 L 50 380"/>
+<path class="act" d="M 340 180 L 340 380"/>
+<path class="act" d="M 50 380 A 145 19 0 0 0 340 380"/>
+<ellipse class="act" cx="195" cy="180" rx="145" ry="19"/>
+<path class="funnel" d="M 80 180 C 80 270 100 330 125 372"/><path class="funnel" d="M 310 180 C 310 270 290 330 265 372"/>
+<ellipse class="funnel" cx="195" cy="372" rx="70" ry="9"/>
+<ellipse class="funnel" cx="195" cy="180" rx="115" ry="15"/>
+<path class="ax" d="M 38 190 L 38 370"/><path d="M27.55,353.29 L38,374.18 L48.45,353.29 z" fill="#3D3A34" stroke="none"/>
+<path class="fShl" d="M 352 190 C 352 250 351 310 349 370 L 357 370 C 355 310 354 250 354 190 Z"/><path class="act" d="M 352 190 C 352 250 351 310 349 370 L 357 370 C 355 310 354 250 354 190 Z"/>
+
+<path class="omega" d="M 460 130 A 125 20.15 0 0 1 710 130"/>
+<path class="fShl" d="M 475 181 L 500 181 C 500 290 578 285 578 400 L 578 560 L 475 560 Z"/><path class="fShl" d="M 695 181 L 670 181 C 670 290 592 285 592 400 L 592 560 L 695 560 Z"/>
+<path class="fShl" fill-rule="evenodd" d="M 695 180 A 110 15 0 1 0 475 180 A 110 15 0 1 0 695 180 M 670 180 A 85 12 0 1 1 500 180 A 85 12 0 1 1 670 180"/>
+<path class="fFun" d="M 500 180 C 500 290 578 285 578 400 L 578 560 A 6 2.5 0 0 0 592 560 L 592 400 C 592 285 670 290 670 180 A 85 12 0 0 1 500 180 Z"/>
+<path class="act" d="M 475 180 L 475 560"/>
+<path class="act" d="M 695 180 L 695 560"/>
+<path class="act" d="M 475 560 A 110 15 0 0 0 695 560"/>
+<ellipse class="act" cx="585" cy="180" rx="110" ry="15"/>
+<path class="funnel" d="M 500 180 C 500 290 578 285 578 400 L 578 560"/><path class="funnel" d="M 670 180 C 670 290 592 285 592 400 L 592 560"/>
+<ellipse class="funnel" cx="585" cy="560" rx="6" ry="2.5"/>
+<ellipse class="funnel" cx="585" cy="180" rx="85" ry="12"/>
+<path class="ax" d="M 452 190 L 452 550"/><path d="M441.56,533.29 L452,554.18 L462.44,533.29 z" fill="#3D3A34" stroke="none"/>
+<path class="fShl" d="M 712 190 C 712 300 710 400 704 480 C 700 520 692 545 688 555 L 736 555 C 728 545 722 520 719 480 C 715 400 713 300 713 190 Z"/><path class="act" d="M 712 190 C 712 300 710 400 704 480 C 700 520 692 545 688 555 L 736 555 C 728 545 722 520 719 480 C 715 400 713 300 713 190 Z"/>
+<path class="sel" d="M 448 500 L 250 500"/><path d="M266.71,489.56 L245.82,500 L266.71,510.44 z" fill="#3D3A34" stroke="none"/>
+<g class="ld"><path d="M 640 452 L 664 442"/></g>
+<g class="halo">
+<text x="195" y="86" font-size="20.88" class="lb" font-weight="700">浅い文明</text>
+<text x="585" y="86" font-size="20.88" class="lb" font-weight="700">深い文明</text>
+<text x="195" y="128" font-size="17.2" class="lb">底面積を広げる道</text>
+<text x="585" y="128" font-size="17.2" class="lb">深く掘り込む道</text>
+<text x="195" y="268" font-size="20.88" class="lb" font-weight="700">出力 小</text>
+<text x="585" y="256" font-size="20.88" class="lb" font-weight="700">出力 大</text>
+<text x="38" y="398" font-size="17.2" class="lb">浅い</text>
+<text x="452" y="578" font-size="17.2" class="lb">深い</text>
+<text x="353" y="398" font-size="17.2" class="lb">頓死リスク 低</text>
+<text x="712" y="582" font-size="17.2" class="lb">頓死リスク 高</text>
+<!-- 殻の名指し：薄い殻へは縦に、大きい殻へは横に -->
+<text x="72" y="300" font-size="17.2" text-anchor="middle" transform="rotate(-90 72 300)">殻は薄い</text>
+<text x="668" y="438" font-size="17.2">殻は大きい</text>
+<!-- 淘汰圧＝矢印の真上に、矢先が隠れない隙間を取って置く -->
+<text x="342" y="468" font-size="17.2" class="lb">淘汰圧——出力の差で働く</text>
+</g>
+</svg>

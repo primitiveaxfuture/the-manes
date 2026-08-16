@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 820" width="112mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>母線と折り目——多段の縮約と、非線形に鋭くなる先端</title>
+<desc>漏斗の母線（深部加速の凹曲線）を側面図として取り出した図。深さ方向は展開実現帯域 λ の段に対応する——λ₀（個の F-E 接地）／λ₁（共同体の F 追体験）／λ₂（SFOK＝人への信頼）／λ₃（知識ストック＝蓄積への信頼）／λ₄ 以降（開列）。λ₀ は浅くほとんど絞らず、λ₁ も浅い。λ₂ 以降が深く掘る。各段は前段の出力を素材にさらに縮約するため、縮約の率は段ごとに掛け合わさる。だから幅は乗算的に細り、漏斗の先は非線形に鋭くなっていく。側面壁の勾配が変わる位置＝折り目は、段の境界の痕跡である。その数は原理の定数ではなく、段を継ぎ足した歴史の変数である。母線の淡い区間は、まだ確定していない段——段の列は開かれている。塗りの濃さは、参照が届いているかを表す。段が深まるほど、F から返る応答は連鎖を長く遡って届く——フィードバックの時間スケールは引き延ばされる。基本図（図17-1）の滑らかな凹曲線は、この折り目を均して描いた同じ母線である。</desc>
+<style>
+.mfig .gen   {fill:none;stroke:var(--c-op,#3D3A34);stroke-width:2.21;stroke-linecap:round}
+.mfig .genOpen{fill:none;stroke:var(--c-op,#3D3A34);stroke-width:2.21;stroke-opacity:0.4;stroke-linecap:round}
+.mfig .fFun{fill:#3D3A34;fill-opacity:0.25;stroke:none}
+.mfig .fOpen{fill:#3D3A34;fill-opacity:0.13;stroke:none}
+.mfig .fold {fill:none;stroke:var(--c-note,#6F6D66);stroke-width:0.98;stroke-dasharray:13.93 8.36}
+.mfig .ld   {fill:none;stroke:var(--c-note,#6F6D66);stroke-width:0.98;stroke-dasharray:13.93 8.36}
+.mfig .ax   {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.47}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+.mfig .halo{paint-order:stroke;stroke:#ffffff;stroke-width:4.18;stroke-linejoin:round}
+</style>
+
+<!-- 漏斗の断面（確定した段）＝濃い／開列＝淡い -->
+<path class="fFun" d="M 180 110 C 180 135 185 158 195 175 C 205 200 225 232 245 255 C 278 300 315 380 340 450 C 358 505 375 565 388 615
+ L 452 615 C 465 565 482 505 500 450 C 525 380 562 300 595 255 C 615 232 635 200 645 175 C 655 158 660 135 660 110 Z"/>
+<path class="fOpen" d="M 388 615 C 394 660 402 720 410 768 L 430 768 C 438 720 446 660 452 615 Z"/>
+
+<!-- 折り目＝段の境界（注記層・破線） -->
+<g class="fold"><path d="M 44 175 L 700 175"/><path d="M 44 255 L 700 255"/><path d="M 44 450 L 700 450"/><path d="M 44 615 L 700 615"/></g>
+
+<!-- 母線（構造層・実線太）。開列は淡くする＝まだ届いていない -->
+<g class="gen"><path d="M 180 110 C 180 135 185 158 195 175"/><path d="M 195 175 C 205 200 225 232 245 255"/><path d="M 245 255 C 278 300 315 380 340 450"/><path d="M 340 450 C 358 505 375 565 388 615"/><path d="M 660 110 C 660 135 655 158 645 175"/><path d="M 645 175 C 635 200 615 232 595 255"/><path d="M 595 255 C 562 300 525 380 500 450"/><path d="M 500 450 C 482 505 465 565 452 615"/><path d="M 180 110 L 660 110"/></g>
+<g class="genOpen"><path d="M 388 615 C 394 660 402 720 410 768"/><path d="M 452 615 C 446 660 438 720 430 768"/></g>
+
+<!-- 深さ軸 -->
+<path class="ax" d="M 26 130 L 26 760"/><path d="M15.55,743.29 L26,764.18 L36.45,743.29 z" fill="#3D3A34" stroke="none"/>
+<text x="14" y="430" font-size="17.2" text-anchor="middle" class="halo" transform="rotate(-90 14 430)">深さ＝縮約＝F からの距離</text>
+
+<!-- λ の段 -->
+<g class="halo">
+<text x="44" y="148" font-size="20.88" font-weight="700">λ₀</text>
+<text x="44" y="172" font-size="17.2">個の F-E 接地</text>
+<text x="44" y="216" font-size="20.88" font-weight="700">λ₁</text>
+<text x="44" y="240" font-size="17.2">共同体の F 追体験</text>
+<text x="44" y="352" font-size="20.88" font-weight="700">λ₂</text>
+<text x="44" y="376" font-size="17.2">SFOK——人への信頼</text>
+<text x="44" y="528" font-size="20.88" font-weight="700">λ₃</text>
+<text x="44" y="552" font-size="17.2">知識ストック——蓄積</text>
+<text x="44" y="690" font-size="20.88" font-weight="700">λ₄…</text>
+<text x="44" y="714" font-size="17.2">段の列は開かれている</text>
+</g>
+
+<!-- 指示線と注記 -->
+<g class="ld"><path d="M 596 256 L 636 240"/><path d="M 560 332 L 610 318"/></g>
+<g class="halo">
+<text x="420" y="90" font-size="17.2" text-anchor="middle">口——選別境界の断面</text>
+<text x="640" y="236" font-size="17.2">折り目</text>
+<text x="614" y="314" font-size="17.2">深部加速の母線</text>
+<text x="420" y="796" font-size="17.2" text-anchor="middle">深部の一軸へ</text>
+</g>
+
+</svg>

@@ -1,0 +1,122 @@
+# 概念索引の受け渡し（生成物・手で直さない）
+# 列: concept_id<TAB>見出し<TAB>初出アンカー<TAB>用語集の初出記述
+# 典拠は 80_メタ文書/MANES_本書用語集_v0.md（集合・初出とも。仕様 §6-3）。
+# concept_id の空欄は「台帳に未採番」であって欠落ではない（論点②・未裁定）。
+# 頁は入っていない。組版側が target-counter で解く（仕様 §6-3 の分担）。
+# 並びは五十音（読み鍵・2026-08-13 裁定）。組版はこの行順のまま組む。
+tragic-sense-of-compressing-being	圧縮する存在の悲劇的感情	ch27-s3	第27章 §27-3
+compression-and-selection-structure	圧縮と選別構造	ch2-s4	第2章 §2-4
+two-modes-of-compression	圧縮の二様式（索引型／LOT direct 型）	ch14-s3	第14章 §14-3
+thick-time	厚い時間	ch27-s1	第27章 §27-1
+r-space-t-space	R空間／T空間（と射影・有限参照構造）	ch1	第1章
+es-existential-significance	ES（共存条件）	ch6-s4	第6章 §6-4
+nested-structure	入れ子構造	ch2-s6	第2章 §2-6
+causal-chain	因果の連なり	ch19-s1	第19章 §19-1
+cosmological-neutrality	宇宙論的中立性	introduction-s4	序論 §4
+heterostable-zone	HZ（創発可能帯域）	ch2-s2	第2章 §2-2
+sfok	SFOK（社会的既知感）	ch10-s2	第10章 §10-2
+sfok-reference-system	SFOK参照系	ch18-s2	第18章 §18-2
+foe-model	FOEモデル（スナップショット図・8セル）	ch16-s1	第16章 §16-1
+three-axes-of-f	F 三軸	ch18-s1	第18章 §18-1
+f-texture-and-response	F の質感／手応え	ch18-s2	第18章 §18-2
+drift	乖離	ch16-s5	第16章 §16-5
+expansive-contractive-satisfaction	拡張充足／縮退充足	ch16-s6	第16章 §16-6
+shell	殻	ch17-s3	第17章 §17-3
+closure-of-account	勘定の閉じ	ch3-s3	第3章 §3-3
+learning	学習（委ねの階段）	ch15-s4	第15章 §15-4
+head-count-of-the-we	基底	ch24-s4	第24章 §24-4
+startup-conditions	起動条件	ch23-s1	第23章 §23-1
+dogma	教条	ch22-s4	第22章 §22-4
+nihility	虚無	ch22-s4	第22章 §22-4
+pseudo-f	疑似F	ch20-s3	第20章 §20-3
+chain-of-inheritance	継承の連鎖	conclusion-s5	結論 §5
+mooring	係留	ch16-s4	第16章 §16-4
+moored-foe	係留FOE	ch19-s3	第19章 §19-3
+mooring-friction	係留摩擦	ch16-s4	第16章 §16-4
+operative-domain	作動圏	ch17-s3	第17章 §17-3
+three-axes-of-instability	三軸（空間・時間・実存の不安定）	ch20	第20章
+three-axis-six-configuration	三軸＋六位形の構造的座標系	ch7-s2	第7章 §7-2
+three-conditions	三条件（LEFFLA・HIAM・フィードバック時間）	ch2-s3	第2章 §2-3
+three-step-structure	三段構造（虚無にも教条にも落ちない位置）	introduction-s4	序論 §4
+three-regions	三領域（高精度保存域・低精度保持域・脱落域）	ch1-s3	第1章 §1-3
+residue-and-inheritance	残存と継承（LOT が次世代の LEFFLA となる構造）	ch14	第14章
+work-establishing-maintaining	仕事（立てる仕事と保つ仕事）	ch2-s4	第2章 §2-4
+will-to-domination	支配の意志	ch22-s4	第22章 §22-4
+constraining-time-visible-time	縛る時間／見える時間	ch27-s1	第27章 §27-1
+convergences-1-5	収束1〜5	conclusion-s2	結論 §2
+spec-layer-play-layer	仕様の層／プレイの層	ch5-s5	第5章 §5-5
+truth	真理	ch26-s3	第26章 §26-3
+mythic-manes	神話的MANES	ch8-s5	第8章 §8-5
+two-axes-of-time	時間の二軸（薄厚／濃淡）	ch27-s1	第27章 §27-1
+self-referential-phase	自己言及相	ch9-s3	第9章 §9-3
+center-of-gravity	重心	ch16-s3	第16章 §16-3
+lifespan-and-premature-collapse	寿命と頓死（premature collapse）	ch3-s4	第3章 §3-4
+acceptance	受容	ch26-s6	第26章 §26-6
+circulatory-endurance-phase	循環耐久相（第Ⅴ部・正面規定）	ch23-s2	第23章 §23-2
+stock-flux	Stock/Flux	ch2-s2	第2章 §2-2
+offset	ズレ（操作能力的我らと実存的我らのズレ）	ch15-s5	第15章 §15-5
+world-account-system-account	世界勘定／系勘定	ch3-s2	第3章 §3-2
+tension-of-approach	接近の張り	ch22-s4	第22章 §22-4
+grounding-cost	接地コスト	ch2-s4	第2章 §2-4
+grounding-condition	接地条件	ch19-s2	第19章 §19-2
+connectable-domain-omega	接続可能圏 Ω	ch3-s2	第3章 §3-2
+three-modes-of-connectability	接続可能性の三モード（構造的／反応的／意味的）	ch3-s1	第3章 §3-1
+emergence-of-operability	操作可能性の出現	introduction-s11	序論 §11
+operational-existential-independence	操作実存独立変動（OE 独立変動）	ch15-s5	第15章 §15-5
+operational-existential-we	操作能力的我ら／実存的我ら	introduction-s5	序論 §5
+refusal-of-immediate-consumability	即時消費可能性の構造的拒否（四構成要素の根）	ch14-s3	第14章 §14-3
+bandwidth-limit	帯域制限（主観帯域）	ch7	第7章
+symmetry-orientation	対称性志向	ch8-s4	第8章 §8-4
+multistage-reduction	多段の縮約	ch2-s6	第2章 §2-6
+establishing-maintaining-cost	立てるコスト／保つコスト	ch17-s2	第17章 §17-2
+shell-of-bundling	束ねの殻（縫い目落ち・創発参照）	ch27-s2	第27章 §27-2
+exploratory-operational-knowledge	探索的知識・操作的知識（F側／O側の知識）	ch16	第16章
+three-phase-knowledge-stock	知識ストックの三相モデル	ch9-s3	第9章 §9-3
+weight-of-knowledge	知識の重さ（外部知識ストック）	ch9	第9章
+core-proposition-1	中核命題-1（圧縮の二面の不可分性）	ch3-s3	第3章 §3-3
+lambda-realization-band	展開実現帯域 λ	ch18-s1	第18章 §18-1
+pull-toward-unification	統合誘因	ch26-s2	第26章 §26-2
+involved-time	当事者の時間	ch15-s7	第15章 §15-7
+contested-transition-period	闘争的移行期	ch24-s3	第24章 §24-3
+stopping-point	止めどころ	ch2-s7	第2章 §2-7
+objectification-of-the-inner	内面の操作可能対象化	ch22-s2	第22章 §22-2
+methodology-of-duality	二重性の方法論	conclusion-s3	結論 §3
+substrate-independent	担い手非依存（substrate-independent）	ch6-s1	第6章 §6-1
+hiam	HIAM（情報的アポトーシスと喪）	ch12	第12章
+shielded-satisfaction	方舟（遮蔽充足）	ch24-s4	第24章 §24-4
+bind	バインド（と、バインドの不在・三重の盲点）	ch4	第4章
+embrace	引受（追随・抑制・不追随）	ch15-s5	第15章 §15-5
+inequality-of-embrace	引受の不等式（操作能力的我ら ≤ 実存的我ら）	introduction-s6	序論 §6
+four-types-asymmetric-causality	非対称性因果の四類型（即時回収・遅延回収・非線形回収・回収断絶）	ch15-s7	第15章 §15-7
+capture-into-asymmetry	非対称性への捕獲	ch18-s2	第18章 §18-2
+hineni	Hineni	ch24-s5	第24章 §24-5
+coverage	被覆	ch17-s1	第17章 §17-1
+coverage-condition	被覆条件	ch19-s2	第19章 §19-2
+open-circulation-closed-inertia	開いた循環／閉じた慣性	ch8-s4	第8章 §8-4
+breadth-and-resolution	広がりと解像度	ch1-s3	第1章 §1-3
+volume-effective-gradient-width	広さ／有効勾配／有効幅	ch3-s2	第3章 §3-2
+foe-at-anchor	錨泊FOE	ch19-s3	第19章 §19-3
+three-modes-of-inequality-breach	不等式破綻の三様態	introduction-s7	序論 §7
+intercivilizational-competitive-exclusion	文明間競争排除	ch19-s4	第19章 §19-4
+civilizational-ridge-and-arete	文明の尾根／文明の痩せ尾根（civilizational ridge / civilizational arête）	ch24-s2	第24章 §24-2
+phase-transition-of-civilization	文明の構築と崩壊の位相転換	ch7-s2	第7章 §7-2
+friction	摩擦	ch2-s2	第2章 §2-2
+manes	MANES（意味の錨）	ch6	第6章
+wear-mechanism	摩耗機構	ch26-s1	第26章 §26-1
+man-i-es	MAN-I-ES	ch26-s4	第26章 §26-4
+man-i-es-coordinate-system	MAN-I-ESの座標系（結論・到達点）	conclusion-s2	結論 §2
+indeterminacy	未確定性	ch27-s1	第27章 §27-1
+three-civilizational-phases	三つの文明相（拡張加速相・循環耐久相・管理安定相）	ch16-s6	第16章 §16-6
+undifferentiated-region	未分化領域	ch3-s2	第3章 §3-2
+hope-apparatus-and-borrowing	未来への希望装置／前借りの構造	ch11	第11章
+innocent-intelligence	無垢の知性	ch25-s8	第25章 §25-8
+proposition-funnel-1	命題FUNNEL-1（保つコストの非自動性）	ch17-s2	第17章 §17-2
+mourning	Mourning（喪）	ch13	第13章
+u-unresolved	U（未決）	ch2-s3	第2章 §2-3
+fidelity-to-the-wavering	揺らぎの堅持／不可知への応答（F 接地責任の二段相）	ch25-s6	第25章 §25-6
+four-dimensional-parent-coordinate-system	四次元親座標系（とスナップショット図）	ch16-s1	第16章 §16-1
+four-stances	四つの立場（同伴への四応答：デウス・コンテントゥス・キュリオセス・マネス）	ch23-s5	第23章 §23-5
+theory-self-diagnosis	理論の自己診断	conclusion-s3	結論 §3
+leffla	LEFFLA（評価されないまま保持される潜在的有効領域）	ch3-s2	第3章 §3-2
+funnel-model	漏斗モデル	ch17-s3	第17章 §17-3
+lot	LOT（構造化された盲点）	ch3-s2	第3章 §3-2

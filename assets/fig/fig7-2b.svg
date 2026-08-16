@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" width="112mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>選別型の位相転換</title>
+<desc>三軸とも最大の巨大文明から、まず実存感の奥行が縮み、次いで集合の大きさが縮んで、操作能力だけを保った選別された共同体になる。各段は、横が操作能力、縦が集合の大きさ、奥行が実存感の三軸に射影された文明の位形である（座標系は図7-1）。破線の枠は比較の基準となる大きさで、実体の直方体がそれに対してどう痩せているかを読む。面の濃淡は立体の向きを示す描画上の陰影であって、濃さの規約（手が届いているか）ではない。</desc>
+<style>
+.mfig .edge{fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.98;stroke-linejoin:round}
+.mfig .s1{fill:#3D3A34;fill-opacity:0.289;stroke:none}
+.mfig .s2{fill:#3D3A34;fill-opacity:0.184;stroke:none}
+.mfig .s3{fill:#3D3A34;fill-opacity:0.079;stroke:none}
+.mfig .ref{fill:none;stroke:var(--c-note,#6F6D66);stroke-width:0.88;stroke-dasharray:12.5 7.5}
+.mfig .ax{fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.32}
+.mfig .tr{fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.54}
+.mfig .lb{fill:var(--c-ink,#1F1E1B);text-anchor:middle}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+</style>
+<polygon class="s3" points="55,200 145,200 145,110 55,110"/><polygon class="s2" points="55,110 85,85 175,85 145,110"/><polygon class="s1" points="145,200 175,175 175,85 145,110"/><polygon class="edge" points="55,200 145,200 145,110 55,110"/><polygon class="edge" points="55,110 85,85 175,85 145,110"/><polygon class="edge" points="145,200 175,175 175,85 145,110"/>
+<text class="lb" x="100" y="248" font-size="18.74" font-weight="700">Segregate-1</text>
+<text class="lb" x="100" y="270" font-size="15.43">構築された巨大文明</text>
+<path class="tr" d="M175,155 L268,155"/><path d="M253,164.38 L271.75,155 L253,145.63 z" fill="#3D3A34" stroke="none"/>
+<g class="ref"><polygon points="280,200 370,200 370,110 280,110"/><polygon points="280,110 310,85 400,85 370,110"/><polygon points="370,200 400,175 400,85 370,110"/><path d="M310,175 L310,85"/><path d="M310,175 L400,175"/></g>
+<polygon class="s3" points="280,200 370,200 370,110 280,110"/><polygon class="s2" points="280,110 290,101.7 380,101.7 370,110"/><polygon class="s1" points="370,200 380,191.7 380,101.7 370,110"/><polygon class="edge" points="280,200 370,200 370,110 280,110"/><polygon class="edge" points="280,110 290,101.7 380,101.7 370,110"/><polygon class="edge" points="370,200 380,191.7 380,101.7 370,110"/>
+<text class="lb" x="325" y="248" font-size="18.74" font-weight="700">Segregate-2</text>
+<text class="lb" x="325" y="270" font-size="15.43">「実存的我ら」の縮退</text>
+<path class="tr" d="M400,155 L493,155"/><path d="M478,164.38 L496.75,155 L478,145.63 z" fill="#3D3A34" stroke="none"/>
+<g class="ref"><polygon points="505,200 595,200 595,110 505,110"/><polygon points="505,110 535,85 625,85 595,110"/><polygon points="595,200 625,175 625,85 595,110"/><path d="M535,175 L535,85"/><path d="M535,175 L625,175"/></g>
+<polygon class="s3" points="505,200 595,200 595,170 505,170"/><polygon class="s2" points="505,170 515,161.7 605,161.7 595,170"/><polygon class="s1" points="595,200 605,191.7 605,161.7 595,170"/><polygon class="edge" points="505,200 595,200 595,170 505,170"/><polygon class="edge" points="505,170 515,161.7 605,161.7 595,170"/><polygon class="edge" points="595,200 605,191.7 605,161.7 595,170"/>
+<text class="lb" x="550" y="248" font-size="18.74" font-weight="700">Segregate-3</text>
+<text class="lb" x="550" y="270" font-size="15.43">選別されたホモデウス的</text>
+<text class="lb" x="550" y="291" font-size="15.43">「我ら」の共同体</text>
+</svg>

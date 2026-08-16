@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" width="112mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>構築型の位相転換</title>
+<desc>全軸が小さい前駆的共同体から、実存感の奥行がまず伸び、次いで集合と操作能力が広がって、三軸とも最大の巨大文明へ至る。各段は、横が操作能力、縦が集合の大きさ、奥行が実存感の三軸に射影された文明の位形である（座標系は図7-1）。破線の枠は比較の基準となる大きさで、実体の直方体がそれに対してどう痩せているかを読む。面の濃淡は立体の向きを示す描画上の陰影であって、濃さの規約（手が届いているか）ではない。</desc>
+<style>
+.mfig .edge{fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.98;stroke-linejoin:round}
+.mfig .s1{fill:#3D3A34;fill-opacity:0.289;stroke:none}
+.mfig .s2{fill:#3D3A34;fill-opacity:0.184;stroke:none}
+.mfig .s3{fill:#3D3A34;fill-opacity:0.079;stroke:none}
+.mfig .ref{fill:none;stroke:var(--c-note,#6F6D66);stroke-width:0.88;stroke-dasharray:12.5 7.5}
+.mfig .ax{fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.32}
+.mfig .tr{fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.54}
+.mfig .lb{fill:var(--c-ink,#1F1E1B);text-anchor:middle}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+</style>
+<g class="ref"><polygon points="30,200 120,200 120,110 30,110"/><polygon points="30,110 60,85 150,85 120,110"/><polygon points="120,200 150,175 150,85 120,110"/><path d="M60,175 L60,85"/><path d="M60,175 L150,175"/></g>
+<polygon class="s3" points="30,200 60,200 60,170 30,170"/><polygon class="s2" points="30,170 40,161.7 70,161.7 60,170"/><polygon class="s1" points="60,200 70,191.7 70,161.7 60,170"/><polygon class="edge" points="30,200 60,200 60,170 30,170"/><polygon class="edge" points="30,170 40,161.7 70,161.7 60,170"/><polygon class="edge" points="60,200 70,191.7 70,161.7 60,170"/>
+<text class="lb" x="75" y="248" font-size="18.74" font-weight="700">Construct-1</text>
+<text class="lb" x="75" y="270" font-size="15.43">前駆的共同体</text>
+<path class="tr" d="M150,155 L188,155"/><path d="M173,164.38 L191.75,155 L173,145.63 z" fill="#3D3A34" stroke="none"/>
+<g class="ref"><polygon points="200,200 290,200 290,110 200,110"/><polygon points="200,110 230,85 320,85 290,110"/><polygon points="290,200 320,175 320,85 290,110"/><path d="M230,175 L230,85"/><path d="M230,175 L320,175"/></g>
+<polygon class="s3" points="200,200 230,200 230,170 200,170"/><polygon class="s2" points="200,170 230,145 260,145 230,170"/><polygon class="s1" points="230,200 260,175 260,145 230,170"/><polygon class="edge" points="200,200 230,200 230,170 200,170"/><polygon class="edge" points="200,170 230,145 260,145 230,170"/><polygon class="edge" points="230,200 260,175 260,145 230,170"/>
+<text class="lb" x="245" y="248" font-size="18.74" font-weight="700">Construct-2</text>
+<text class="lb" x="245" y="270" font-size="15.43">「実存的我ら」の拡張</text>
+<path class="tr" d="M320,155 L358,155"/><path d="M343,164.38 L361.75,155 L343,145.63 z" fill="#3D3A34" stroke="none"/>
+<g class="ref"><polygon points="370,200 460,200 460,110 370,110"/><polygon points="370,110 400,85 490,85 460,110"/><polygon points="460,200 490,175 490,85 460,110"/><path d="M400,175 L400,85"/><path d="M400,175 L490,175"/></g>
+<polygon class="s3" points="370,200 430,200 430,140 370,140"/><polygon class="s2" points="370,140 400,115 460,115 430,140"/><polygon class="s1" points="430,200 460,175 460,115 430,140"/><polygon class="edge" points="370,200 430,200 430,140 370,140"/><polygon class="edge" points="370,140 400,115 460,115 430,140"/><polygon class="edge" points="430,200 460,175 460,115 430,140"/>
+<text class="lb" x="415" y="248" font-size="18.74" font-weight="700">Construct-3</text>
+<text class="lb" x="415" y="270" font-size="15.43">中間形態</text>
+<path class="tr" d="M490,155 L528,155"/><path d="M513,164.38 L531.75,155 L513,145.63 z" fill="#3D3A34" stroke="none"/>
+<polygon class="s3" points="540,200 630,200 630,110 540,110"/><polygon class="s2" points="540,110 570,85 660,85 630,110"/><polygon class="s1" points="630,200 660,175 660,85 630,110"/><polygon class="edge" points="540,200 630,200 630,110 540,110"/><polygon class="edge" points="540,110 570,85 660,85 630,110"/><polygon class="edge" points="630,200 660,175 660,85 630,110"/>
+<text class="lb" x="585" y="248" font-size="18.74" font-weight="700">Construct-4</text>
+<text class="lb" x="585" y="270" font-size="15.43">構築された巨大文明</text>
+</svg>

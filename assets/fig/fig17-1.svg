@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 800" width="112mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>漏斗モデル 基本図——接続可能圏 Ω・作動圏・漏斗・殻</title>
+<desc>漏斗モデルの四領域基本図。最外の点線の円柱が接続可能圏 Ω——系が作ったものではない地形である。その内側に、操作 O の作動が現に因果を走らせる範囲＝作動圏（細い実線の円柱）が立つ。作動圏の上面から O が漏斗を彫り込む。漏斗は上面近くではゆるやかに、中深部で急峻に内へ折れ、深部は細い一筋の彫り込みとなって続く——深部加速の母線である。漏斗の上面の楕円が選別境界、側面の壁が縮約境界。作動圏から漏斗を差し引いた残りが殻＝LOT で、選別境界の楕円の外（取り上げなかった幅＝選別圧縮の LOT）と、楕円の内で漏斗の外（取り上げたが畳んだ差異＝縮約圧縮の LOT）に分かれる。ともに因果は走っており、欠けているのは参照経路だけである。塗りの濃さは、参照が届いているかを表す——漏斗の内が最も濃く、殻はそれより淡く、Ω から作動圏を差し引いた残り（O がまだ及んでいない潜在的接続範囲）は白い。漏斗が深く彫られるほど有効勾配は急峻になり、同じ強度で殻が膨らむ。殻の容積は、文明の出力の規模の幾何的指標として読める。</desc>
+<style>
+.mfig .omega {fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:1.11;stroke-dasharray:3.48 6.27}
+.mfig .omegaS{fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:1.11}
+.mfig .act   {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.47;stroke-opacity:0.62}
+.mfig .funnel{fill:none;stroke:var(--c-op,#3D3A34);stroke-width:2.21;stroke-linejoin:round}
+.mfig .fFun{fill:#3D3A34;fill-opacity:0.25;stroke:none}
+.mfig .fShl{fill:#3D3A34;fill-opacity:0.13;stroke:none}
+.mfig .seg  {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.11;stroke-opacity:0.5;stroke-dasharray:6.96 6.96}
+.mfig .ax   {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.47}
+.mfig .ld   {fill:none;stroke:var(--c-note,#6F6D66);stroke-width:0.98;stroke-dasharray:13.93 8.36}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+.mfig .halo{paint-order:stroke;stroke:#ffffff;stroke-width:4.18;stroke-linejoin:round}
+</style>
+
+<!-- 接続可能圏 Ω（地形層・点線細） -->
+<ellipse class="omega" cx="360" cy="80" rx="310" ry="40"/>
+<path class="omega" d="M 50 80 L 50 720"/>
+<path class="omega" d="M 670 80 L 670 720"/>
+<path class="omega" d="M 50 720 A 310 40 0 0 1 670 720"/>
+<path class="omegaS" d="M 50 720 A 310 40 0 0 0 670 720"/>
+
+<!-- 殻（LOT）＝作動圏 − 漏斗。参照不能なので淡い（K10%） -->
+<path class="fShl" d="M 120 131 L 185 131 C 185 300 352 280 352 430 L 352 580 L 120 580 Z"/>
+<path class="fShl" d="M 600 131 L 535 131 C 535 300 368 280 368 430 L 368 580 L 600 580 Z"/>
+<path class="fShl" fill-rule="evenodd" d="M 600 130 A 240 32 0 1 0 120 130 A 240 32 0 1 0 600 130 M 535 130 A 175 26 0 1 1 185 130 A 175 26 0 1 1 535 130"/>
+
+<!-- 漏斗（O の参照が及ぶ範囲）＝濃い（K19%） -->
+<path class="fFun" d="M 185 130 C 185 300 352 280 352 430 L 352 580 A 8 3 0 0 0 368 580 L 368 430 C 368 280 535 300 535 130 A 175 26 0 0 1 185 130 Z"/>
+
+<!-- 作動圏（実線・細） -->
+<path class="act" d="M 120 130 L 120 580"/>
+<path class="act" d="M 600 130 L 600 580"/>
+<path class="act" d="M 120 580 A 240 32 0 0 0 600 580"/>
+<ellipse class="act" cx="360" cy="130" rx="240" ry="32"/>
+
+<!-- 殻の二分節（選別境界の鉛直断面） -->
+<path class="seg" d="M 185 131 L 185 580"/><path class="seg" d="M 535 131 L 535 580"/>
+
+<!-- 漏斗の母線・口・排出点（構造層・実線太） -->
+<path class="funnel" d="M 185 130 C 185 300, 352 280, 352 430 L 352 580"/><path class="funnel" d="M 535 130 C 535 300, 368 280, 368 430 L 368 580"/>
+<ellipse class="funnel" cx="360" cy="130" rx="175" ry="26"/>
+<ellipse class="funnel" cx="360" cy="580" rx="8" ry="3"/>
+
+<!-- 深さ軸 -->
+<path class="ax" d="M 42 140 L 42 570"/><path d="M31.55,553.29 L42,574.18 L52.45,553.29 z" fill="#3D3A34" stroke="none"/>
+<text x="26" y="350" font-size="17.2" text-anchor="middle" class="halo" transform="rotate(-90 26 350)">深さ＝縮約</text>
+
+<!-- 指示線（注記層・破線） -->
+<g class="ld">
+<path d="M 250 116 L 212 92"/>
+<path d="M 220 258 L 152 240"/>
+<path d="M 396 420 L 440 452"/>
+<path d="M 572 150 L 606 124"/>
+<path d="M 480 330 L 556 312"/>
+<path d="M 601 505 L 622 514"/>
+<path d="M 670 620 L 700 634"/>
+</g>
+
+<!-- ラベル -->
+<g class="halo">
+<text x="360" y="292" font-size="20.88" text-anchor="middle" font-weight="700">漏斗（O）</text>
+<text x="238" y="470" font-size="20.88" text-anchor="middle" font-weight="700">殻（LOT）</text>
+<text x="208" y="88" font-size="17.2" text-anchor="end">選別境界</text>
+<text x="148" y="236" font-size="17.2" text-anchor="end">縮約境界</text>
+<text x="444" y="458" font-size="17.2">深部加速の母線</text>
+<text x="610" y="120" font-size="17.2">選別圧縮の LOT</text>
+<text x="560" y="308" font-size="17.2">縮約圧縮の LOT</text>
+<text x="626" y="518" font-size="17.2">作動圏</text>
+<text x="740" y="640" font-size="17.2" text-anchor="end">接続可能圏 Ω</text>
+</g>
+
+</svg>

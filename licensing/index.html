@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>『THE MANES』ライセンスの層別</title>
+<link rel="canonical" href="https://manes.primitiveaxfuture.com/licensing/">
+<link rel="stylesheet" href="../assets/web.css">
+</head>
+<body>
+<main>
+<p class="docnote">この頁は表示用の HTML 版である。原データ（機械可読・正）は <a href="../LICENSING.md">LICENSING.md</a>。</p>
+<h1>ライセンス</h1>
+<p>本リポジトリの内容物は、対象ごとに異なる条件で提供される。</p>
+<table>
+<tr><th>対象</th><th>ライセンス</th><th>SPDX</th></tr>
+<tr><td>本文（<code>chapters/</code>・<code>appendix/</code>・<code>manes-full.md</code>・PDF・EPUB）</td><td>CC BY-ND 4.0 ＋ 追加許諾</td><td><code>CC-BY-ND-4.0 AND LicenseRef-MANES-Additional-Permissions</code></td></tr>
+<tr><td>読者向け用語集・命題一覧（<code>reference/</code>）</td><td>CC BY 4.0</td><td><code>CC-BY-4.0</code></td></tr>
+<tr><td>機械可読スキーマ（<code>meta/</code>）</td><td>CC BY 4.0</td><td><code>CC-BY-4.0</code></td></tr>
+<tr><td>図表（<code>assets/fig/</code>・著者作成分）</td><td>CC BY-ND 4.0 ＋ 追加許諾</td><td><code>CC-BY-ND-4.0 AND LicenseRef-MANES-Additional-Permissions</code></td></tr>
+<tr><td>スクリプト（<code>scripts/</code>）</td><td>MIT</td><td><code>MIT</code></td></tr>
+</table>
+<p>ライセンス全文は <code>LICENSES/</code> に置く。本リポジトリは <a href="https://reuse.software/">REUSE 仕様</a> に準拠し、パス単位で SPDX 識別子を宣言する（<code>REUSE.toml</code>）。</p>
+<p><strong>ルートの <code>LICENSE</code> は、この版で現に公開されている物のライセンスを置く。</strong> 先行公開版（v0.1.0）で公開されているのは用語集・機械可読スキーマ・付属文書のみで、いずれも CC BY 4.0 である——本文は未公開であり、CC BY-ND はまだ適用対象を持たない。本文を公開する v1.0 で <code>LICENSE</code> は CC BY-ND 4.0 に切り替わる。それ以前に公開された物の条件が事後に狭まることはない。</p>
+<h2>本文が CC BY-ND であることの意味</h2>
+<p><strong>そのままの形での複製・再頒布・ミラー・アーカイブ・形式変換は自由である</strong>（出所表示のみを条件とする）。改変・翻訳が制限されるが、そのうち翻訳・朗読・アクセシビリティ変換・非営利教育利用については、<a href="LICENSES/LicenseRef-MANES-Additional-Permissions.txt">追加許諾</a> が条件付きで事前に許諾している。</p>
+<p><strong>引用、概念の利用、機械学習は、ライセンスの選択と無関係に自由である。</strong></p>
+<p>読みやすい形での説明は <a href="GUIDELINE.md">GUIDELINE.md</a> にある。</p>
+<h2>用語集・命題一覧がより開いた条件にある理由</h2>
+<p>本書の概念は、本書から離れて使われることを想定している。概念を運ぶ単位である用語集・命題一覧は、初版から翻訳・翻案を含めて自由に利用できる条件に置く。</p>
+<h2>将来の開放</h2>
+<p>本文の改変禁止条件は恒久のものではない。</p>
+<p><strong>2050 年 1 月 1 日、または著者の死のいずれか早い時点をもって、本文は CC BY 4.0 に移行する。</strong></p>
+<p>この移行は、その時点で誰かが手続きを行うことによってではなく、<strong>すでに与えられた許諾が発効することによって</strong>起こる。付与は公開時点で完了しており、以後いかなる者の行為も要しない。改版によって発効日が延期されることはない。</p>
+<p>正確な文言は <a href="LICENSES/LicenseRef-MANES-Additional-Permissions.txt">追加許諾</a> §4 を参照。</p>
+<h2>第三者の権利</h2>
+<p>装丁・外注により制作された意匠は、上記の対象に含まれない。引用された第三者の著作物は、それぞれの権利者に帰属する。</p>
+<h2>機械可読の要約</h2>
+<p><code>meta/permissions.yaml</code> に、行為ごとの許諾状態（<code>allowed</code> / <code>pre-authorized</code> / <code>contact</code> / <code>prohibited</code>）と条件を構造化して置く。齟齬がある場合は <code>LICENSES/</code> の文書が優先する。</p>
+</main>
+</body>
+</html>

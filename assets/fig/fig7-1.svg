@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 590" width="112mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>三軸の座標系と六つの位形</title>
+<desc>上は座標系そのもの——横が操作能力、縦が集合の大きさ、奥行が実存感である。文明のある瞬間の位形は、この三軸に射影された一つの直方体として現れる。下は典型的な六つの位形。破線の枠は比較の基準となる大きさで、実体の直方体がそれに対してどう痩せ、どう張っているかを読む。位形1＝三軸均衡・小／位形2＝実存感だけが大／位形3＝三軸均衡・大／位形4＝実存感だけが小／位形5＝操作能力だけが大／位形6＝集合だけが維持。六つを分けるのは形だけであり、色は用いない。面の濃淡は立体の向きを示す描画上の陰影であって、濃さの規約（手が届いているか）ではない。</desc>
+<style>
+.mfig .edge{fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.98;stroke-linejoin:round}
+.mfig .s1{fill:#3D3A34;fill-opacity:0.289;stroke:none}
+.mfig .s2{fill:#3D3A34;fill-opacity:0.184;stroke:none}
+.mfig .s3{fill:#3D3A34;fill-opacity:0.079;stroke:none}
+.mfig .ref{fill:none;stroke:var(--c-note,#6F6D66);stroke-width:0.88;stroke-dasharray:12.5 7.5}
+.mfig .ax{fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.32}
+.mfig .tr{fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.54}
+.mfig .lb{fill:var(--c-ink,#1F1E1B);text-anchor:middle}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+</style>
+<polygon class="s3" points="300,185 375,185 375,110 300,110"/><polygon class="s2" points="300,110 325,89.1 400,89.1 375,110"/><polygon class="s1" points="375,185 400,164.1 400,89.1 375,110"/><polygon class="edge" points="300,185 375,185 375,110 300,110"/><polygon class="edge" points="300,110 325,89.1 400,89.1 375,110"/><polygon class="edge" points="375,185 400,164.1 400,89.1 375,110"/>
+<path class="ax" d="M300,205 L376,205"/><path d="M361,214.38 L379.75,205 L361,195.63 z" fill="#3D3A34" stroke="none"/><text x="386" y="210" font-size="15.43">横：操作能力</text>
+<path class="ax" d="M285,185 L285,109"/><path d="M294.38,124 L285,105.25 L275.63,124 z" fill="#3D3A34" stroke="none"/><text x="277" y="102" font-size="15.43" text-anchor="end">縦：集合の大きさ</text>
+<path class="ax" d="M380,190 L408,167"/><path d="M402.36,183.77 L410.9,164.62 L390.46,169.28 z" fill="#3D3A34" stroke="none"/><text x="416" y="162" font-size="15.43">奥行：実存感</text>
+<g class="ref"><polygon points="55,350 115,350 115,290 55,290"/><polygon points="55,290 75,273.3 135,273.3 115,290"/><polygon points="115,350 135,333.3 135,273.3 115,290"/><path d="M75,333.3 L75,273.3"/><path d="M75,333.3 L135,333.3"/></g>
+<polygon class="s3" points="55,350 75,350 75,330 55,330"/><polygon class="s2" points="55,330 61.7,324.4 81.7,324.4 75,330"/><polygon class="s1" points="75,350 81.7,344.4 81.7,324.4 75,330"/><polygon class="edge" points="55,350 75,350 75,330 55,330"/><polygon class="edge" points="55,330 61.7,324.4 81.7,324.4 75,330"/><polygon class="edge" points="75,350 81.7,344.4 81.7,324.4 75,330"/>
+<text class="lb" x="85" y="384" font-size="18.74" font-weight="700">位形1</text>
+<text class="lb" x="85" y="406" font-size="15.43">三軸均衡・小</text>
+<g class="ref"><polygon points="280,350 340,350 340,290 280,290"/><polygon points="280,290 300,273.3 360,273.3 340,290"/><polygon points="340,350 360,333.3 360,273.3 340,290"/><path d="M300,333.3 L300,273.3"/><path d="M300,333.3 L360,333.3"/></g>
+<polygon class="s3" points="280,350 300,350 300,330 280,330"/><polygon class="s2" points="280,330 300,313.3 320,313.3 300,330"/><polygon class="s1" points="300,350 320,333.3 320,313.3 300,330"/><polygon class="edge" points="280,350 300,350 300,330 280,330"/><polygon class="edge" points="280,330 300,313.3 320,313.3 300,330"/><polygon class="edge" points="300,350 320,333.3 320,313.3 300,330"/>
+<text class="lb" x="310" y="384" font-size="18.74" font-weight="700">位形2</text>
+<text class="lb" x="310" y="406" font-size="15.43">実存感だけが大</text>
+<polygon class="s3" points="505,350 565,350 565,290 505,290"/><polygon class="s2" points="505,290 525,273.3 585,273.3 565,290"/><polygon class="s1" points="565,350 585,333.3 585,273.3 565,290"/><polygon class="edge" points="505,350 565,350 565,290 505,290"/><polygon class="edge" points="505,290 525,273.3 585,273.3 565,290"/><polygon class="edge" points="565,350 585,333.3 585,273.3 565,290"/>
+<text class="lb" x="535" y="384" font-size="18.74" font-weight="700">位形3</text>
+<text class="lb" x="535" y="406" font-size="15.43">三軸均衡・大</text>
+<g class="ref"><polygon points="55,515 115,515 115,455 55,455"/><polygon points="55,455 75,438.3 135,438.3 115,455"/><polygon points="115,515 135,498.3 135,438.3 115,455"/><path d="M75,498.3 L75,438.3"/><path d="M75,498.3 L135,498.3"/></g>
+<polygon class="s3" points="55,515 115,515 115,455 55,455"/><polygon class="s2" points="55,455 61.7,449.4 121.7,449.4 115,455"/><polygon class="s1" points="115,515 121.7,509.4 121.7,449.4 115,455"/><polygon class="edge" points="55,515 115,515 115,455 55,455"/><polygon class="edge" points="55,455 61.7,449.4 121.7,449.4 115,455"/><polygon class="edge" points="115,515 121.7,509.4 121.7,449.4 115,455"/>
+<text class="lb" x="85" y="549" font-size="18.74" font-weight="700">位形4</text>
+<text class="lb" x="85" y="571" font-size="15.43">実存感だけが小</text>
+<g class="ref"><polygon points="280,515 340,515 340,455 280,455"/><polygon points="280,455 300,438.3 360,438.3 340,455"/><polygon points="340,515 360,498.3 360,438.3 340,455"/><path d="M300,498.3 L300,438.3"/><path d="M300,498.3 L360,498.3"/></g>
+<polygon class="s3" points="280,515 340,515 340,495 280,495"/><polygon class="s2" points="280,495 286.7,489.4 346.7,489.4 340,495"/><polygon class="s1" points="340,515 346.7,509.4 346.7,489.4 340,495"/><polygon class="edge" points="280,515 340,515 340,495 280,495"/><polygon class="edge" points="280,495 286.7,489.4 346.7,489.4 340,495"/><polygon class="edge" points="340,515 346.7,509.4 346.7,489.4 340,495"/>
+<text class="lb" x="310" y="549" font-size="18.74" font-weight="700">位形5</text>
+<text class="lb" x="310" y="571" font-size="15.43">操作能力だけが大</text>
+<g class="ref"><polygon points="505,515 565,515 565,455 505,455"/><polygon points="505,455 525,438.3 585,438.3 565,455"/><polygon points="565,515 585,498.3 585,438.3 565,455"/><path d="M525,498.3 L525,438.3"/><path d="M525,498.3 L585,498.3"/></g>
+<polygon class="s3" points="505,515 525,515 525,455 505,455"/><polygon class="s2" points="505,455 511.7,449.4 531.7,449.4 525,455"/><polygon class="s1" points="525,515 531.7,509.4 531.7,449.4 525,455"/><polygon class="edge" points="505,515 525,515 525,455 505,455"/><polygon class="edge" points="505,455 511.7,449.4 531.7,449.4 525,455"/><polygon class="edge" points="525,515 531.7,509.4 531.7,449.4 525,455"/>
+<text class="lb" x="535" y="549" font-size="18.74" font-weight="700">位形6</text>
+<text class="lb" x="535" y="571" font-size="15.43">集合だけが維持</text>
+</svg>

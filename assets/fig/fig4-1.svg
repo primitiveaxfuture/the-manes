@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 620" width="112mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>バインドを欠いた記述体系と、バインドを足した記述体系</title>
+<desc>細い実線の円が R空間（現実）、太い実線の多角形が記述体系の覆う範囲である。塗りの濃さは、覆われているかを表す。左——バインドを欠いた記述体系は、現実に外接する。円の外へはみ出した部分が、現実よりも広く覆っている領域である。右——バインドを一つ足すごとに隅が落ち、多角形は円へ寄る。太い線が、足したバインドの切り口である。ただし寄りかたはつねに外側からであり、多角形が円そのものになることはない。</desc>
+<style>
+.mfig .terrain{fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:1.76}
+.mfig .struct {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:3.52;stroke-linejoin:round}
+.mfig .bind   {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:5.08;stroke-linecap:round}
+.mfig .f1{fill:#3D3A34;fill-opacity:0.13;stroke:none}
+.mfig .ld{fill:none;stroke:var(--c-note,#6F6D66);stroke-width:1.56;stroke-dasharray:22.14 13.29}
+.mfig .ax0{fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:1.37;stroke-opacity:0.55}
+.mfig .mv{fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:2.15}
+.mfig .mvOut{fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:2.15}
+.mfig .grid{fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.95}
+.mfig .lb{fill:var(--c-ink,#1F1E1B);text-anchor:middle}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+</style>
+<text class="lb" x="300" y="46" font-size="33.2" font-weight="700">バインドを欠いた体系</text>
+<polygon class="f1" points="300,70 559.8,520 40.2,520"/><polygon class="struct" points="300,70 559.8,520 40.2,520"/>
+<circle class="terrain" cx="300" cy="370" r="150"/>
+<text class="lb" x="300" y="376" font-size="27.34">R空間（現実）</text>
+<g class="ld"><path d="M180,540 L150,470"/></g>
+<text class="lb" x="180" y="566" font-size="27.34">R空間の外側</text>
+<path class="bind" d="M600,350 L690,350"/><path d="M663.43,366.61 L696.64,350 L663.43,333.39 z" fill="#3D3A34" stroke="none"/>
+<text class="lb" x="645" y="328" font-size="27.34">バインド</text>
+<text class="lb" x="645" y="382" font-size="27.34">を足す</text>
+<text class="lb" x="940" y="46" font-size="33.2" font-weight="700">バインドを足した体系</text>
+<polygon class="f1" points="853.4,220 1026.6,220 1113.2,370 1026.6,520 853.4,520 766.8,370"/><polygon class="struct" points="853.4,220 1026.6,220 1113.2,370 1026.6,520 853.4,520 766.8,370"/>
+<g class="bind"><path d="M804.9,220 L1075.1,220"/><path d="M1137.5,328 L1002.4,562"/><path d="M877.6,562 L742.5,328"/></g>
+<circle class="terrain" cx="940" cy="370" r="150"/>
+<text class="lb" x="940" y="376" font-size="27.34">R空間（現実）</text>
+<g class="ld"><path d="M1160,506 L1112,466"/></g>
+<text class="lb" x="1150" y="532" font-size="27.34">足したバインド</text>
+</svg>

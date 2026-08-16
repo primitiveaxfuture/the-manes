@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 430" width="112mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>一粒の内部——同心の六層</title>
+<desc>房の粒を一つ取り出して割った像。どの粒の内にも同じ層がある。芯には、自分の手が現に触れている手応え——その人の λ₀——がある。芯を包む果肉は、追体験と、信頼と、読める記述と、使っている参照系——λ₁ から λ₄ までの、質感が一段ずつ薄まっていく厚みである。いちばん外の皮は、誰が置いたのかも知らないまま生の形を決めている、名前のない枠——λ₅ である。濃さは、手が届いているかを表す。芯が最も濃く、外へ向かって一段ずつ淡くなる。深さは、文明の構造であると同時に、一人ひとりの内側の層でもある。どの粒も同じ層を持ち、どの深さで接地するかだけが違う。</desc>
+<style>
+.mfig .ring{stroke:var(--c-struct,#3D3A34);stroke-width:0.99;stroke-opacity:0.55}
+.mfig .skin{fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.98}
+.mfig .ld  {fill:none;stroke:var(--c-note,#6F6D66);stroke-width:0.88;stroke-dasharray:12.5 7.5}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+.mfig .halo{paint-order:stroke;stroke:#ffffff;stroke-width:3.13;stroke-linejoin:round}
+</style>
+
+<circle class="ring" cx="330" cy="210" r="150" fill="#1F1E1B" fill-opacity="0.1"/>
+<circle class="ring" cx="330" cy="210" r="126" fill="#1F1E1B" fill-opacity="0.19"/>
+<circle class="ring" cx="330" cy="210" r="102" fill="#1F1E1B" fill-opacity="0.3"/>
+<circle class="ring" cx="330" cy="210" r="78" fill="#1F1E1B" fill-opacity="0.42"/>
+<circle class="ring" cx="330" cy="210" r="55" fill="#1F1E1B" fill-opacity="0.56"/>
+<circle class="ring" cx="330" cy="210" r="34" fill="#1F1E1B" fill-opacity="0.72"/>
+<circle class="skin" cx="330" cy="210" r="150" fill="none"/>
+<text x="330" y="216" font-size="18.74" text-anchor="middle" font-weight="700" fill="#FFFFFF">λ₀</text>
+<g class="ld">
+<path d="M 494 96 L 435 107.99999999999999"/>
+<path d="M 494 268 L 422 244"/>
+<path d="M 166 344 L 308 236"/>
+</g>
+<g class="halo">
+<text x="500" y="90" font-size="18.74" font-weight="700">皮 λ₅</text>
+<text x="500" y="114" font-size="15.43">名前のない枠</text>
+<text x="500" y="264" font-size="18.74" font-weight="700">果肉 λ₁〜λ₄</text>
+<text x="500" y="288" font-size="15.43">一段ずつ薄まる</text>
+<text x="160" y="338" font-size="18.74" text-anchor="end" font-weight="700">芯 λ₀</text>
+<text x="160" y="362" font-size="15.43" text-anchor="end">現に触れている手応え</text>
+
+</g>
+</svg>

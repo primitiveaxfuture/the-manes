@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 640" width="98.6mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>三領域——高精度保存域・低精度保持域・脱落域</title>
+<desc>同じ円と三角形のうえに、射影が生む三つの領域を濃さで置く。頂点（射影軸）の近傍が高精度保存域——最も濃い。三角形の残りが低精度保持域。三角形の外・円の内が脱落域——白い。濃さは一貫して、参照がどれだけ届いているかを表す。頂点に近いほど高精度、離れるほど低精度、多面体の外は脱落である。三領域は三頂点それぞれの周りに対称に生じるが、図は各一箇所のみを標示している。</desc>
+<style>
+.mfig .terrain{fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:1.16}
+.mfig .struct {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:2.32;stroke-linejoin:round}
+.mfig .f1{fill:#3D3A34;fill-opacity:0.13;stroke:none}
+.mfig .f3{fill:#3D3A34;fill-opacity:0.25;stroke:none}
+.mfig .ld{fill:none;stroke:var(--c-note,#6F6D66);stroke-width:1.03;stroke-dasharray:14.6 8.76}
+.mfig .lb{fill:var(--c-ink,#1F1E1B);text-anchor:middle;font-weight:700}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+</style>
+<circle class="terrain" cx="360" cy="320" r="268"/>
+<polygon class="f1" points="360,52 127.9,454 592.1,454"/>
+<g class="f3"><polygon points="360,52 308,142.1 412,142.1"/><polygon points="127.9,454 231.9,454 179.9,363.9"/><polygon points="592.1,454 540.1,363.9 488.1,454"/></g>
+<polygon class="struct" points="360,52 127.9,454 592.1,454"/>
+<g class="ld"><path d="M360,44 L360,74"/><path d="M152,586 L262,432"/><path d="M614,244 L548,258"/></g>
+<g class="lb" font-size="21.9">
+<text x="360" y="32">高精度保存域</text>
+<text x="120" y="606">低精度保持域</text>
+<text x="646" y="232">脱落域</text>
+</g>
+</svg>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" width="112mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>二つの断面——確かめてある背と、描けない背</title>
+<desc>図24-4a の地図に引かれた二本の断面線を、実際の背として並べる。左＝A–A′、現在地の断面。紙の色を敷いてあるのは、歩く者が自らの足で確かめてあるからである——踏んで確かめた点が刻みで示され、岩の背も縁も知られている。右＝B–B′、遠くの断面。地の色を敷かないのは、この地図が描けないものだからである。均された表面の下は切れ落ちた背で、稜線は細く尖っている。稜線の上に立つ者と、円の内・稜線の外に立つ者がいる——後者は淡く描いてある。手が届いていないからである。境は、上からは測れない。地図の上では、この二つの断面はどちらも同じ幅のある尾根として描かれる。濃さは一貫して、手が届いているかを表す。</desc>
+<style>
+.mfig .paper {fill:#F2F0EA;stroke:var(--c-struct,#3D3A34);stroke-width:1.59}
+.mfig .blank {fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:1.02}
+.mfig .soil  {fill:#1F1E1B;fill-opacity:0.08;stroke:none}
+.mfig .rock  {fill:#1F1E1B;fill-opacity:0.22;stroke:var(--c-terrain,#6B675E);stroke-width:1.13}
+.mfig .surf  {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.81}
+.mfig .snow  {fill:none;stroke:var(--c-terrain,#6B675E);stroke-width:1.13}
+.mfig .tick  {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.13}
+.mfig .cut   {fill:none;stroke:var(--c-struct,#1F1E1B);stroke-width:2.49}
+.mfig .ld    {fill:none;stroke:var(--c-note,#6F6D66);stroke-width:0.91;stroke-dasharray:12.86 7.71}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+.mfig .halo{paint-order:stroke;stroke:#ffffff;stroke-width:3.21;stroke-linejoin:round}
+</style>
+
+<rect class="paper" x="8" y="88" width="336" height="176"/>
+<rect class="blank" x="356" y="88" width="336" height="176"/>
+<g class="halo" font-size="19.28" font-weight="700">
+<text x="8" y="70">A–A′ 現在地の断面</text>
+<text x="356" y="70">B–B′ 遠くの断面</text>
+</g>
+<g class="halo" font-size="15.88">
+<text x="8" y="48">——自らの足で、確かめてある</text>
+<text x="356" y="48">——この地図が、描けないもの</text>
+</g>
+
+<path class="soil" d="M 40 218 C 90 204, 136 176, 176 156 C 216 176, 262 204, 312 218 L 312 226 C 262 212, 216 184, 176 166 C 136 184, 90 212, 40 226 Z"/>
+<path class="surf" d="M 40 226 C 90 212, 136 184, 176 166 C 216 184, 262 212, 312 226"/>
+<path class="snow" d="M 40 218 C 90 204, 136 176, 176 156 C 216 176, 262 204, 312 218"/>
+<g class="tick">
+<path d="M 62 209 L 64 217"/><path d="M 92 200 L 94 208"/><path d="M 122 185 L 124 193"/><path d="M 150 171 L 152 179"/><path d="M 176 152 L 178 160"/><path d="M 204 171 L 206 179"/><path d="M 232 186 L 234 194"/><path d="M 262 200 L 264 208"/><path d="M 290 209 L 292 217"/>
+</g>
+<circle cx="176" cy="152" r="3.6" fill="#1F1E1B"/>
+
+<path class="soil" d="M 378 218 C 450 196, 500 172, 524 156 C 548 172, 598 196, 670 218 L 670 228 C 583 221, 540 214, 529 176 L 524 168 L 519 176 C 508 214, 465 221, 378 228 Z"/>
+<path class="rock" d="M 378 228 C 465 221, 508 214, 519 176 L 524 168 L 529 176 C 540 214, 583 221, 670 228 Z"/>
+<path class="snow" d="M 378 218 C 450 196, 500 172, 524 156 C 548 172, 598 196, 670 218"/>
+<path class="cut" d="M 516 178 L 524 164 L 532 178"/>
+<circle cx="524" cy="153" r="3.6" fill="#1F1E1B"/>
+<circle cx="578" cy="178" r="3.6" fill="#1F1E1B" fill-opacity="0.32"/>
+<g class="ld"><path d="M 488 116 L 522 148"/><path d="M 610 128 L 582 174"/></g>
+<g class="halo" font-size="15.88">
+<text x="412" y="112">稜線の上</text>
+<text x="560" y="124">円の内・稜線の外</text>
+<text x="30" y="250">A</text><text x="316" y="250">A′</text>
+<text x="374" y="250">B</text><text x="674" y="250">B′</text>
+<text x="412" y="250">境は、上からは測れない</text>
+</g>
+</svg>

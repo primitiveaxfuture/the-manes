@@ -1,23 +1,26 @@
 {
     "work":  "THE MANES",
-    "version":  "0.1.0",
+    "version":  "1.0.0",
     "canonical":  "https://manes.primitiveaxfuture.com/",
     "license":  "CC-BY-4.0",
-    "edition":  "advance",
-    "note":  "先行公開版。第Ⅳ部までに立つ概念のみを収録する。第Ⅴ部・結論の概念、および一部項目の展開段は意図的に未収録であり、欠落ではない。この資料から未収録部分の内容を推測しないこと。",
+    "edition":  "complete",
+    "note":  "全概念版（人間読者向け）。本書が独自に立てる全 116 概念を、フル項目層と一行層の二層で収録する。O・E・F・Ω・λ は本書内で定義された記号であり、一般的な数学・物理の用法を適用しない。",
     "field_notes":  {
                         "cluster":  "用語集における配置。主題による配置であり、初出章とは一致しないことがある。初出章は first_appearance を見ること。",
-                        "expansion_withheld":  "true の項は、展開段を意図的に留保している（欠落ではない）。本文刊行（v1.0）で追加される。"
+                        "reading":  "見出し語の読み（並べ替えの鍵）。典拠は用語集 v0 の読み欄。",
+                        "expansion_withheld":  "true の項は、展開段を意図的に留保している（欠落ではない）。本文刊行（v1.0）で追加される。",
+                        "preferred_en":  "英語名。典拠は用語集 v0 の名称欄（語が正典・訳文は日本語に準拠）。空欄は英語併記を持たない和語系術語。"
                     },
     "count":  {
-                  "full":  41,
-                  "line":  44
+                  "full":  46,
+                  "line":  70
               },
     "concepts":  [
                      {
                          "concept_id":  "inequality-of-embrace",
                          "preferred_ja":  "引受の不等式",
                          "preferred_en":  "The Inequality of Embrace",
+                         "reading":  "ひきうけのふとうしき",
                          "aliases":  [
                                          "O ≤ E",
                                          "O\u003c=E",
@@ -35,14 +38,16 @@
 
                                                                ],
                                                   "intro":  true,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "introduction-s6"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "operational-existential-we",
                          "preferred_ja":  "操作能力的我ら／実存的我ら",
-                         "preferred_en":  "O, The Operational We ／ E, The Existential We",
+                         "preferred_en":  "O, The Operational We / E, The Existential We",
+                         "reading":  "そうさのうりょくてきわれら／じつぞんてきわれら",
                          "aliases":  [
                                          "O",
                                          "E",
@@ -62,21 +67,23 @@
 
                                                                ],
                                                   "intro":  true,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "introduction-s5"
                                               },
                          "scope_note":  "O・E は本書内で定義された記号であり、一般的な用法を適用しない。"
                      },
                      {
                          "concept_id":  "cosmological-neutrality",
                          "preferred_ja":  "宇宙論的中立性",
-                         "preferred_en":  null,
+                         "preferred_en":  "cosmological neutrality",
+                         "reading":  "うちゅうろんてきちゅうりつせい",
                          "aliases":  [
 
                                      ],
                          "layer":  "full",
                          "cluster":  "序論——問いかけ",
                          "definition":  "すべての MANES は宇宙論的に等価である、という出発点。",
-                         "expansion":  "選別に先立つ宇宙論的な地には方向の優劣がなく、いかなる意味の錨も宇宙の側から特権を与えられない——どの「我ら」も、宇宙論的には等しく根拠を欠く。本書が読者を虚無にも教条にも落とさずに運ぶ三段の、第一段にあたる。第1章の R空間（全方向に優先性のない真球）の、存在論的・実存的な対応物である。",
+                         "expansion":  "選別に先立つ宇宙論的な地には方向の優劣がなく、いかなる意味の錨も宇宙の側から特権を与えられない——どの「我ら」も、宇宙論的には等しく根拠を欠く。本書が読者を虚無にも教条にも落とさずに運ぶ三段の、第一段にあたる。第Ⅴ部の導入で「底を全肯定」として帰還し、「そのうえで選択する」へ反転する。第1章の R空間（全方向に優先性のない真球）の、存在論的・実存的な対応物である。",
                          "expansion_withheld":  false,
                          "first_appearance":  {
                                                   "raw":  "初出：序論§4",
@@ -84,14 +91,16 @@
 
                                                                ],
                                                   "intro":  true,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "introduction-s4"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "r-space-t-space",
                          "preferred_ja":  "R空間／T空間",
-                         "preferred_en":  "Reality-space ／ Thought-space",
+                         "preferred_en":  "Reality-space / Thought-space",
+                         "reading":  "アールくうかん／ティーくうかん",
                          "aliases":  [
                                          "R空間",
                                          "T空間",
@@ -103,7 +112,7 @@
                          "layer":  "full",
                          "cluster":  "第Ⅰ部——切り取りと圧縮",
                          "definition":  "全方向に等しく開かれた高次元の現実空間と、有限個の軸でそれを切り取った思考空間。",
-                         "expansion":  "**R空間**は、方向間に優先性のない高次元の真球として参照される。存在論的な主張ではなく、T空間の歪みを測るための参照枠である。**T空間**は、知的主体が有限個の価値軸（射影軸）で現実を切り取って構成する、有限頂点の凸多面体。いかなる知性も、R空間を有限の軸へ射影する**有限参照構造**（Finite Reference Structure）としてしか世界を持てない。本書の中核装置はすべて、この射影像の上に組み上がる。",
+                         "expansion":  "**R空間**は、方向間に優先性のない高次元の真球として参照される。存在論的な主張ではなく、T空間の歪みを測るための参照枠である。**T空間**は、知的主体が有限個の価値軸（射影軸）で現実を切り取って構成する、有限頂点の凸多面体。いかなる知性も、R空間を有限の軸へ射影する**有限参照構造**（Finite Reference Structure）としてしか世界を持てない（本文が公理として立てる名は「有限射影原理」）。本書の中核装置はすべて、この射影像の上に組み上がる。",
                          "expansion_withheld":  false,
                          "first_appearance":  {
                                                   "raw":  "初出：第1章",
@@ -111,14 +120,16 @@
                                                                    1
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch1"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "stock-flux",
                          "preferred_ja":  "Stock／Flux",
-                         "preferred_en":  null,
+                         "preferred_en":  "Stock/Flux",
+                         "reading":  "ストック／フラックス",
                          "aliases":  [
                                          "Stock",
                                          "Flux",
@@ -135,7 +146,8 @@
                                                                    2
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch2-s2"
                                               },
                          "scope_note":  "F は本書内で定義された記号（流動相）であり、一般的な用法を適用しない。"
                      },
@@ -143,6 +155,7 @@
                          "concept_id":  "heterostable-zone",
                          "preferred_ja":  "HZ（創発可能帯域）",
                          "preferred_en":  "Heterostable Zone",
+                         "reading":  "エイチズィー",
                          "aliases":  [
                                          "HZ",
                                          "Heterostable Zone",
@@ -153,7 +166,7 @@
                          "layer":  "full",
                          "cluster":  "第Ⅰ部——切り取りと圧縮",
                          "definition":  "複数の安定状態が動的に共存する帯域——「動的に不安定であり続ける帯域」。",
-                         "expansion":  "Stock/Flux 比から定義される。系が創発を維持できるのはこの帯域の内にある間であり、外へ逸脱すれば創発は終わる。逸脱には二方向ある——**HZ⇑**（散逸方向：Flux 過剰）と **HZ⇓**（硬直方向：Stock 過剰）。摩擦の側から読めば、HZ は摩擦が零でも極大でもない中間帯の別名である。第16章の三つの文明相は、この帯域上の位置として読める（拡張加速＝HZ⇑／管理安定＝HZ⇓／循環耐久＝帯域内）。",
+                         "expansion":  "Stock/Flux 比から定義される。系が創発を維持できるのはこの帯域の内にある間であり、外へ逸脱すれば創発は終わる。逸脱には二方向ある——**HZ⇧**（散逸方向：Flux 過剰）と **HZ⇩**（硬直方向：Stock 過剰）。摩擦の側から読めば、HZ は摩擦が零でも極大でもない中間帯の別名である。第16章の三つの文明相は、この帯域上の位置として読める（拡張加速＝HZ⇧／管理安定＝HZ⇩／循環耐久＝帯域内の尾根）。",
                          "expansion_withheld":  false,
                          "first_appearance":  {
                                                   "raw":  "初出：第2章§2-2",
@@ -161,14 +174,16 @@
                                                                    2
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch2-s2"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "three-conditions",
                          "preferred_ja":  "三条件",
-                         "preferred_en":  null,
+                         "preferred_en":  "the three conditions",
+                         "reading":  "さんじょうけん",
                          "aliases":  [
 
                                      ],
@@ -183,14 +198,16 @@
                                                                    2
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch2-s3"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "compression-and-selection-structure",
                          "preferred_ja":  "圧縮と選別構造",
-                         "preferred_en":  null,
+                         "preferred_en":  "compression / selection structure",
+                         "reading":  "あっしゅくとせんべつこうぞう",
                          "aliases":  [
                                          "圧縮",
                                          "選別構造",
@@ -200,7 +217,7 @@
                          "layer":  "full",
                          "cluster":  "第Ⅰ部——切り取りと圧縮",
                          "definition":  "下位の多様な差異から有効変数を抽出する操作と、それを規定する構造。",
-                         "expansion":  "**圧縮**は、どの差異を有効変数として採用するかという**選別**と、より少数の変数で表現するという**縮約**の二段からなる。**選別構造**は、各レイヤーで、接続可能圏内の差異のうちどれを有効変数とし何を参照不能化するかを規定する構造である。物理基底（対称性・保存則）・化学（反応性）・生命（適応度）・意識文明（MANES）と、レイヤーごとに担い手が異なる。選別構造は、区別可能性と摩擦の共起構造としても読める——区別が立つ場所には必ず接続があり、接続のあるところには必ず摩擦が生じる。",
+                         "expansion":  "**圧縮**は、どの差異を有効変数として採用するかという**選別**と、より少数の変数で表現するという**縮約**の二側面からなる——二側面は一つの操作の二つの面であり、段をなすのは縮約の側である。**選別構造**は、各レイヤーで、接続可能圏内の差異のうちどれを有効変数とし何を参照不能化するかを規定する構造である。物理基底（対称性・保存則）・化学（反応性）・生命（適応度）・意識文明（MANES）と、レイヤーごとに担い手が異なる。選別構造は、区別可能性と摩擦の共起構造としても読める——区別が立つ場所には必ず接続があり、接続のあるところには必ず摩擦が生じる。",
                          "expansion_withheld":  false,
                          "first_appearance":  {
                                                   "raw":  "初出：第2章§2-4",
@@ -208,14 +225,16 @@
                                                                    2
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch2-s4"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "work-establishing-maintaining",
                          "preferred_ja":  "仕事（立てる仕事と保つ仕事）",
-                         "preferred_en":  null,
+                         "preferred_en":  "work",
+                         "reading":  "しごと",
                          "aliases":  [
                                          "立てる仕事",
                                          "保つ仕事"
@@ -231,7 +250,8 @@
                                                                    2
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch2-s4"
                                               },
                          "scope_note":  ""
                      },
@@ -239,13 +259,14 @@
                          "concept_id":  "stopping-point",
                          "preferred_ja":  "止めどころ",
                          "preferred_en":  null,
+                         "reading":  "とめどころ",
                          "aliases":  [
 
                                      ],
                          "layer":  "full",
                          "cluster":  "第Ⅰ部——切り取りと圧縮",
-                         "definition":  "具体と抽象の階層の、どの段に切り出しを置くかの選択。",
-                         "expansion":  "選別構造の根源的なパラメータであり、「人間の止めどころ」「ASI の止めどころ」のように担い手を跨いで比較できる、本書を貫く問いを支える。止めどころなくして圧縮はなく、圧縮なくして存在はない——止めどころは選別構造の周辺パラメータではなく、存在の成立条件である。どこに切れ目を置くかは宇宙が与えない。",
+                         "definition":  "対象の側から決まらない切れ目を、どこに置くかの選択。",
+                         "expansion":  "どこに切れ目を置くかは宇宙が与えない。切れ目の走る軸には、抽象度（具体と抽象のどの段で切るか）・範囲（内と外をどこで分けるか）・時間（どの時点をもって終結とするか）がある——同一の操作であり、走る軸が違う。選別構造の根源的なパラメータであり、「人間の止めどころ」「ASI の止めどころ」のように担い手を跨いで比較できる、本書を貫く問いを支える。止めどころなくして圧縮はなく、圧縮なくして存在はない——止めどころは選別構造の周辺パラメータではなく、存在の成立条件である。第27章では、対称性志向の極限の作動が、止めどころの構造的な蒸発と同型に進行することが示される。",
                          "expansion_withheld":  false,
                          "first_appearance":  {
                                                   "raw":  "初出：第2章",
@@ -253,14 +274,16 @@
                                                                    2
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch2"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "lot",
-                         "preferred_ja":  "LOT（構造化された不可視域）",
+                         "preferred_ja":  "LOT（構造化された盲点）",
                          "preferred_en":  "Latent Outer Tail",
+                         "reading":  "ロト",
                          "aliases":  [
                                          "LOT",
                                          "Latent Outer Tail",
@@ -270,7 +293,7 @@
                          "layer":  "full",
                          "cluster":  "第Ⅰ部——切り取りと圧縮",
                          "definition":  "接続できる範囲の内側にありながら、選別構造によって参照の回路から排除された領域。",
-                         "expansion":  "偶発的な見落としではなく、**圧縮による創発の宿命的な帰結**として生じる。接続可能圏の外部（光の届かない先など）とは根本的に異なる——接続可能圏 Ω の内にありながら、見えない。LEFFLA と対をなす（Ω ⊇ LEFFLA ∪ LOT）。第1章の脱落域、認知主体の水準での構造的無知を、全レイヤーへ一般化したものである。LOT の存在自体は病ではない。だが LOT の中に系の自己保持に必要な差異が含まれるようになるとき、系は頓死する。",
+                         "expansion":  "偶発的な見落としではなく、**圧縮による創発の宿命的な帰結**として生じる「構造化された盲点」である。接続可能圏の外部（光の届かない先など）とは根本的に異なる——接続可能圏 Ω の内にありながら、見えない。LEFFLA と対をなす（Ω ⊇ LEFFLA ∪ LOT）。第1章の脱落域、認知主体の水準での構造的無知を、全レイヤーへ一般化したものである。LOT の存在自体は病ではない。だが LOT の中に系の自己保持に必要な差異が含まれるようになるとき、系は頓死する（認知科学の Language of Thought 仮説の略号 LOT とは無関係である）。",
                          "expansion_withheld":  false,
                          "first_appearance":  {
                                                   "raw":  "初出：第3章§3-2",
@@ -278,7 +301,8 @@
                                                                    3
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch3-s2"
                                               },
                          "scope_note":  "LOT は本書の頭字語であり、英語の一般名詞 lot とは無関係。"
                      },
@@ -286,6 +310,7 @@
                          "concept_id":  "leffla",
                          "preferred_ja":  "LEFFLA（評価されないまま保持される潜在的有効領域）",
                          "preferred_en":  "Latent Evaluative-free Floating Locus of Abeyance",
+                         "reading":  "レフラ",
                          "aliases":  [
                                          "LEFFLA",
                                          "Latent Evaluative-free Floating Locus of Abeyance"
@@ -293,7 +318,7 @@
                          "layer":  "full",
                          "cluster":  "第Ⅰ部——切り取りと圧縮",
                          "definition":  "評価・固定を経ないまま系の内部に保持される、潜在的に有効な領域。",
-                         "expansion":  "本質は**事前評価不能性**——まだ価値が読めないこと——であり、それゆえに再編・探索・継承の*余地*として働く。「役に立つと分かっているので残す」領域ではない。三条件の第一。評価を経て固定されることはできず、流動相のうちにしか居られない。LEFFLA と LOT を分ける境界は SFOK が規定する。同じ構造法則が入れ子の各階層で反復する——認知の層では未固定領域として、実装の層では別の実装へ転換しうる余地として、系の層では複数の MANES が共存しうる未固定の方向として現れる。",
+                         "expansion":  "本質は**事前評価不能性**——まだ価値が読めないこと——であり、それゆえに再編・探索・継承の余地として働く。「役に立つと分かっているので残す」領域ではない。三条件の第一。評価を経て固定されることはできず、流動相のうちにしか居られない。LEFFLA と LOT を分ける境界は SFOK が規定する。同じ構造法則が入れ子の各階層で反復する——認知の層では未固定領域として、実装の層では別の実装へ転換しうる余地として、系の層では複数の MANES が共存しうる未固定の方向として現れる。",
                          "expansion_withheld":  false,
                          "first_appearance":  {
                                                   "raw":  "初出：第2章§2-3",
@@ -301,14 +326,16 @@
                                                                    2
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch2-s3"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "connectable-domain-omega",
                          "preferred_ja":  "接続可能圏 Ω",
-                         "preferred_en":  null,
+                         "preferred_en":  "connectable sphere",
+                         "reading":  "せつぞくかのうけんオメガ",
                          "aliases":  [
                                          "Ω",
                                          "接続可能圏",
@@ -317,7 +344,7 @@
                          "layer":  "full",
                          "cluster":  "第Ⅰ部——切り取りと圧縮",
                          "definition":  "ある系が、その選別構造のもとで原理的に到達しうる状態空間の全体。",
-                         "expansion":  "Ω の内部には流動相 Flux が広がり、選別構造が作動すると Flux を選別・蓄積した産物として Stock が生じ、参照不能化された領域が LOT となる。Ω は当該系の選別構造に相対的だが、**操作の被覆からも引受からも独立の地形**である——操作が被覆を広げても、動くのは Ω の内部であって Ω の縁ではない。縁そのものが動くのは選別構造自体が改変されるときに限られ、それも操作を経由する迂回を要する。ゆえに Ω は、被覆によっても引受によっても勝手には書き換えられない地形として、構造記述の足場をなす。",
+                         "expansion":  "Ω の内部には流動相 Flux が広がり、選別構造が作動すると Flux を選別・蓄積した産物として Stock が生じ、参照不能化された領域が LOT となる。Ω は当該系の選別構造に相対的だが、**操作の被覆からも引受からも独立の地形**である——操作が被覆を広げても、動くのは Ω の内部であって Ω の縁ではない。縁が動く経路は二つある——環境の側で接続可能性の条件が書き換えられる場合（系が何もしなくても動く）と、系の側から動かす場合（道は選別構造そのものの改変に限られ、それも操作を経由する迂回を経る）。ゆえに Ω は、被覆によっても引受によっても勝手には書き換えられない地形として、構造記述の足場をなす。",
                          "expansion_withheld":  false,
                          "first_appearance":  {
                                                   "raw":  "初出：第3章§3-2",
@@ -325,14 +352,16 @@
                                                                    3
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch3-s2"
                                               },
                          "scope_note":  "Ω は本書内で定義された記号（接続可能圏）であり、標本空間・オーム・漸近記法等の用法を適用しない。"
                      },
                      {
                          "concept_id":  "lifespan-and-premature-collapse",
                          "preferred_ja":  "寿命と頓死",
-                         "preferred_en":  "premature collapse",
+                         "preferred_en":  "lifespan / premature collapse",
+                         "reading":  "じゅみょうととんし",
                          "aliases":  [
                                          "寿命",
                                          "頓死",
@@ -350,7 +379,8 @@
                                                                    15
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch3-s4"
                                               },
                          "scope_note":  ""
                      },
@@ -358,6 +388,7 @@
                          "concept_id":  "bind",
                          "preferred_ja":  "バインド",
                          "preferred_en":  "bind",
+                         "reading":  "バインド",
                          "aliases":  [
                                          "bind",
                                          "バインドの不在",
@@ -376,14 +407,40 @@
                                                                    4
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch4"
                                               },
                          "scope_note":  ""
+                     },
+                     {
+                         "concept_id":  "thick-time",
+                         "preferred_ja":  "厚い時間",
+                         "preferred_en":  null,
+                         "reading":  "あついじかん",
+                         "aliases":  [
+
+                                     ],
+                         "layer":  "full",
+                         "cluster":  "第Ⅰ部——切り取りと圧縮",
+                         "definition":  "未決を抱えて返りを待つ者にのみ立つ時間。",
+                         "expansion":  "過去が教え、未来が返るという構造が現に作動している状態を指す。まだ何も縛られていない地（返りの宛先がない）にも、すべてを縛りきった結晶（抱えられた未決がない）にも立たない——二つの無時間のあいだでのみ立つ。厚い時間を保つことは状態ではなく仕事である——抱えられた未決は貯金できず、生きた保持者の内にしか存在しない。当事者の時間が因果の及ぶ**範囲**の側であるのに対し、厚い時間はその上に立つ**在り方**の側である。",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "初出：第27章",
+                                                  "chapters":  [
+                                                                   27
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch27"
+                                              },
+                         "scope_note":  "和語系術語。v0 は英語併記を持たない——ID の英語形は識別子であって公式英訳ではない。"
                      },
                      {
                          "concept_id":  "manes",
                          "preferred_ja":  "MANES（意味の錨）",
                          "preferred_en":  "Meaning Anchor for Narrative and Existential Significance",
+                         "reading":  "マネス",
                          "aliases":  [
                                          "MANES",
                                          "Meaning Anchor for Narrative and Existential Significance",
@@ -402,7 +459,8 @@
                                                                    6
                                                                ],
                                                   "intro":  true,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "introduction"
                                               },
                          "scope_note":  ""
                      },
@@ -410,6 +468,7 @@
                          "concept_id":  "es-existential-significance",
                          "preferred_ja":  "ES（共存条件）",
                          "preferred_en":  "Existential Significance",
+                         "reading":  "イーエス",
                          "aliases":  [
                                          "ES",
                                          "Existential Significance",
@@ -418,7 +477,7 @@
                          "layer":  "full",
                          "cluster":  "第Ⅱ部——MANES と維持装置",
                          "definition":  "MANES 凝集相の第三層——「われわれ」の範囲、誰とどう共存できるかを定める層。",
-                         "expansion":  "座標系（第一層）・報酬関数（第二層）の上に立ち、当該系が因果を引き受ける範囲を画定する。ES の不可欠性は複数の独立した経路から導かれる——三層の定義的導入から、操作射程と引受範囲の独立変動から、構造の融和的な解体（Mourning）が ES との結合を要することから、そして報酬最適化のエンジンが構造的に ES を生成できないことから。第15章では、ES は**実存的我ら**（因果を引き受ける範囲）として因果論の語彙で捉え直され、引受の不等式の右辺をなす。ES が「われわれはどのように共存するか」という問いとして開かれている状態が本来的様態であり、特定の構造との同一化（癒着）が非本来的様態である。",
+                         "expansion":  "座標系（第一層）・報酬関数（第二層）の上に立ち、当該系が因果を引き受ける範囲を画定する。ES の不可欠性は複数の経路から導かれる——三層の定義的導入から、操作射程と引受範囲の独立変動から、構造の融和的な解体（Mourning）が ES との結合を要することから、そして報酬最適化のエンジンが構造的に ES を生成できないことから。第15章では、ES は**実存的我ら**（因果を引き受ける範囲）として因果論の語彙で捉え直され、引受の不等式の右辺をなす。ES が「われわれはどのように共存するか」という問いとして開かれている状態が本来的様態であり、特定の構造との同一化（癒着）が非本来的様態である。",
                          "expansion_withheld":  false,
                          "first_appearance":  {
                                                   "raw":  "序論に初出・第6章で展開",
@@ -426,14 +485,16 @@
                                                                    6
                                                                ],
                                                   "intro":  true,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "introduction"
                                               },
                          "scope_note":  "ES は本書内で定義された略号（共存条件）であり、一般的な用法を適用しない。"
                      },
                      {
                          "concept_id":  "bandwidth-limit",
                          "preferred_ja":  "帯域制限（主観帯域）",
-                         "preferred_en":  null,
+                         "preferred_en":  "bandwidth limitation / subjective bandwidth",
+                         "reading":  "たいいきせいげん",
                          "aliases":  [
                                          "帯域制限",
                                          "主観帯域",
@@ -442,7 +503,7 @@
                          "layer":  "full",
                          "cluster":  "第Ⅱ部——MANES と維持装置",
                          "definition":  "個体の作業記憶が同時に保持できる情報量の上界。",
-                         "expansion":  "担い手に依存しない最小条件（第6章）に加えて導入される、人間相の MANES の特殊化条件である。本書は**帯域制限こそが MANES 凝集の構造的条件である**という仮説を置く——帯域の拡張は凝集を漸進的に溶解させる。",
+                         "expansion":  "担い手に依存しない最小条件（第6章）に加えて導入される、人間相の MANES の特殊化条件である。本書は**帯域制限こそが MANES 凝集の構造的条件である**という仮説を置く——帯域の拡張は凝集を漸進的に溶解させる。循環耐久相の維持負荷——実存的我らを帯域の限界を超えて拡げ続ける困難——の根拠でもある。",
                          "expansion_withheld":  false,
                          "first_appearance":  {
                                                   "raw":  "初出：第7章",
@@ -450,14 +511,16 @@
                                                                    7
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch7"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "symmetry-orientation",
                          "preferred_ja":  "対称性志向",
-                         "preferred_en":  null,
+                         "preferred_en":  "orientation toward symmetry",
+                         "reading":  "たいしょうせいしこう",
                          "aliases":  [
 
                                      ],
@@ -472,21 +535,23 @@
                                                                    8
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch8"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "mythic-manes",
                          "preferred_ja":  "神話的MANES",
-                         "preferred_en":  null,
+                         "preferred_en":  "mythic MANES",
+                         "reading":  "しんわてきマネス",
                          "aliases":  [
 
                                      ],
                          "layer":  "full",
                          "cluster":  "第Ⅱ部——MANES と維持装置",
                          "definition":  "集団的な意味の錨の最古層の装置。個々の主体の重心を共同体の一つの重心へ束ねる。",
-                         "expansion":  "ホモサピエンスの文明では**物語**の形態に宿る。束ねの届く範囲が、原初の宿命であった「重心＝FOE」を破って「重心＜FOE」を成り立たせ、共同体の操作の射程を個体の重心の狭さを越えて拡張する。第Ⅱ部の四つの維持装置（神話→知識ストック→SFOK→未来への希望）の起点にあたる。対称性志向、四つの様態、連なりの中の信とともに導入される。",
+                         "expansion":  "ホモサピエンスの文明では、**統合された物語から、場所・行為・自然観・断片化した慣習まで、複数の様態に結晶する**。束ねの届く範囲が、原初の宿命であった「重心＝FOE」を破って「重心＜FOE」を成り立たせ、共同体の操作の射程を個体の重心の狭さを越えて拡張する。第Ⅱ部の四つの維持装置（神話→知識ストック→SFOK→未来への希望）の起点にあたる。対称性志向、四つの様態、連なりの中の信とともに導入される。",
                          "expansion_withheld":  false,
                          "first_appearance":  {
                                                   "raw":  "初出：第8章",
@@ -494,7 +559,8 @@
                                                                    8
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch8"
                                               },
                          "scope_note":  ""
                      },
@@ -502,6 +568,7 @@
                          "concept_id":  "sfok",
                          "preferred_ja":  "SFOK（社会的既知感）",
                          "preferred_en":  "Social Feeling of Knowing",
+                         "reading":  "エスフォック",
                          "aliases":  [
                                          "SFOK",
                                          "Social Feeling of Knowing",
@@ -518,14 +585,16 @@
                                                                    10
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch10"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "hope-apparatus-and-borrowing",
                          "preferred_ja":  "未来への希望装置／前借りの構造",
-                         "preferred_en":  null,
+                         "preferred_en":  "the device of hope for the future / the structure of borrowing ahead",
+                         "reading":  "みらいへのきぼうそうち／まえがりのこうぞう",
                          "aliases":  [
                                          "未来への希望装置",
                                          "前借りの構造",
@@ -542,14 +611,16 @@
                                                                    11
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch11"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "three-axis-six-configuration",
                          "preferred_ja":  "三軸＋六位形の構造的座標系",
-                         "preferred_en":  null,
+                         "preferred_en":  "the three-axis, six-configuration structural coordinate system",
+                         "reading":  "さんじくろくいけいのこうぞうてきざひょうけい",
                          "aliases":  [
                                          "位形",
                                          "configuration",
@@ -558,7 +629,7 @@
                          "layer":  "full",
                          "cluster":  "第Ⅱ部——MANES と維持装置",
                          "definition":  "文明の位形を、操作能力・集合・実存感の三軸が張る直方体として描く座標系。",
-                         "expansion":  "**位形**（configuration）とは、系の状態が取る形である。位形そのものは高次元の複雑な形であり、三軸への射影が相対的な大きさの関係を前景化して直方体になる。直方体の代表的な形として六つの位形（位形1〜位形6）を、位形のあいだの経路として位相転換の四類型を描く。第16章のモデルとは姉妹の射影であり、**この立方体は集合と実存感を保ち、第16章のモデルは Flux を保つ**——集合の大小だけで分かれる二つの位置は、第16章の側では区別できなくなり、この立方体の側で復元される。",
+                         "expansion":  "**位形**（configuration）とは、系の状態が取る形である。位形そのものは高次元の複雑な形であり、三軸への射影が相対的な大きさの関係を前景化して直方体になる。直方体の代表的な形として六つの位形（位形1〜位形6）を、位形のあいだの経路として位相転換の四類型を描く。第16章のモデルとは姉妹の射影であり、**この直方体は集合と実存感を保ち、第16章のモデルは Flux を保つ**——集合の大小だけで分かれる二つの位置は、第16章の側では区別できなくなり、この直方体の側で復元される。",
                          "expansion_withheld":  false,
                          "first_appearance":  {
                                                   "raw":  "初出：第7章§7-2",
@@ -566,7 +637,8 @@
                                                                    7
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch7-s2"
                                               },
                          "scope_note":  ""
                      },
@@ -574,6 +646,7 @@
                          "concept_id":  "hiam",
                          "preferred_ja":  "HIAM（情報的アポトーシスと喪）",
                          "preferred_en":  "Homeostatic Informational Apoptosis and Mourning",
+                         "reading":  "ハイアム",
                          "aliases":  [
                                          "HIAM",
                                          "Homeostatic Informational Apoptosis and Mourning",
@@ -591,14 +664,16 @@
                                                                    12
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch2"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "mourning",
                          "preferred_ja":  "Mourning（喪）",
-                         "preferred_en":  null,
+                         "preferred_en":  "Mourning",
+                         "reading":  "モーニング",
                          "aliases":  [
                                          "Mourning",
                                          "喪"
@@ -615,14 +690,16 @@
                                                                    13
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch2"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "residue-and-inheritance",
                          "preferred_ja":  "残存と継承",
-                         "preferred_en":  null,
+                         "preferred_en":  "persistence / inheritance",
+                         "reading":  "ざんそんとけいしょう",
                          "aliases":  [
                                          "残存",
                                          "継承"
@@ -638,14 +715,16 @@
                                                                    14
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch14"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "four-types-asymmetric-causality",
                          "preferred_ja":  "非対称性因果の四類型",
-                         "preferred_en":  null,
+                         "preferred_en":  "the four types of asymmetric causation",
+                         "reading":  "ひたいしょうせいいんがのよんるいけい",
                          "aliases":  [
                                          "非対称性因果",
                                          "対称性因果",
@@ -667,7 +746,8 @@
                                                                    15
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch15"
                                               },
                          "scope_note":  ""
                      },
@@ -675,6 +755,7 @@
                          "concept_id":  "embrace",
                          "preferred_ja":  "引受（追随・抑制・不追随）",
                          "preferred_en":  "The Embrace",
+                         "reading":  "ひきうけ",
                          "aliases":  [
                                          "引受",
                                          "The Embrace",
@@ -693,7 +774,8 @@
                                                                    15
                                                                ],
                                                   "intro":  true,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "introduction"
                                               },
                          "scope_note":  ""
                      },
@@ -701,13 +783,14 @@
                          "concept_id":  "involved-time",
                          "preferred_ja":  "当事者の時間",
                          "preferred_en":  null,
+                         "reading":  "とうじしゃのじかん",
                          "aliases":  [
 
                                      ],
                          "layer":  "full",
                          "cluster":  "第Ⅳ部——動性",
                          "definition":  "ある系が、直接に、あるいは他の選別構造を介して、因果を現に及ぼし合っている範囲の全体。",
-                         "expansion":  "流入の合成が届く深さがその系の過去を、流出した果の返りを引き受ける接続が存続する射程がその系の未来をなす。系に与えられた容器ではなく、接続の中で保たれる作動である。**認識はこの範囲を引かない——作動が引く。** ゆえに、系が見ている時間と、系を縛っている時間は、一致するとは限らない。潜伏とは、認識と無関係に果が届く範囲を走っていた返りが、参照の経路の届く範囲へまだ噴き出していない姿である。",
+                         "expansion":  "流入の合成が届く深さがその系の過去を、流出した果の返りを引き受ける接続が存続する射程がその系の未来をなす。系に与えられた容器ではなく、接続の中で保たれる作動である。**認識はこの範囲を引かない——作動が引く。** ゆえに、系が見ている時間と、系を縛っている時間は、一致するとは限らない。この二層は**縛る時間**（認識と無関係に果が現に届く範囲）と**見える時間**（そのうち参照の経路が届く部分）として分節される。潜伏とは、縛る時間だけを走っていた返りが、まだ見える時間へ噴き出していない姿である。",
                          "expansion_withheld":  false,
                          "first_appearance":  {
                                                   "raw":  "序論に初出・第15章で展開",
@@ -715,14 +798,16 @@
                                                                    15
                                                                ],
                                                   "intro":  true,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "introduction"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "three-civilizational-phases",
                          "preferred_ja":  "三つの文明相（拡張加速相・循環耐久相・管理安定相）",
-                         "preferred_en":  null,
+                         "preferred_en":  "the three civilizational phases",
+                         "reading":  "みっつのぶんめいそう",
                          "aliases":  [
                                          "拡張加速相",
                                          "管理安定相",
@@ -731,7 +816,7 @@
                          "layer":  "full",
                          "cluster":  "第Ⅳ部——動性",
                          "definition":  "文明の出力・コスト・リスクへの態度の違いとして分かれる、三つの構造的様態。",
-                         "expansion":  "同じ一つの分節を四つの面から読める。**態度**では、拡張加速相＝出力最大化／コスト転嫁／リスク無視、循環耐久相＝コスト引受／リスク管理、管理安定相＝リスク最小化／出力抑制。**因果**では、回収断絶／遅延回収／即時回収を中核とする。**配置**では、O \u003e E（ズレ過大）／O ≤ E（ズレ中庸）／O = E（ズレがゼロへ）。**帯域位置**では、HZ⇑／帯域内／HZ⇓。三相はそれぞれ固有の機能と固有の脆弱性を持つ一つの様態であり、いずれかを推奨する含意はない。引受の不等式の成立は健全さを保証しない——循環耐久相も管理安定相もともに O ≤ E を満たし、両者を分けるのは*満たし方*と*規模*である。",
+                         "expansion":  "同じ一つの分節を四つの面から読める。**態度**では、拡張加速相＝出力最大化／コスト転嫁／リスク無視、循環耐久相＝コスト引受／リスク管理、管理安定相＝リスク最小化／出力抑制。**因果**では、回収断絶／遅延回収／即時回収を中核とする。**配置**では、O \u003e E（ズレ過大）／O ≤ E（ズレ中庸）／O = E（ズレがゼロへ）。**帯域位置**では、HZ⇧／帯域内の尾根／HZ⇩。三相はそれぞれ固有の機能と固有の脆弱性を持つ一つの様態であり、いずれかを推奨する含意はない。引受の不等式の成立は健全さを保証しない——循環耐久相も管理安定相もともに O ≤ E を満たし、両者を分けるのは「満たし方」と「規模」である。",
                          "expansion_withheld":  false,
                          "first_appearance":  {
                                                   "raw":  "序論に初出・第16章で展開",
@@ -739,14 +824,16 @@
                                                                    16
                                                                ],
                                                   "intro":  true,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "introduction"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "foe-model",
                          "preferred_ja":  "FOEモデル（スナップショット図・8セル）",
-                         "preferred_en":  null,
+                         "preferred_en":  "FOE model",
+                         "reading":  "エフオーイーモデル",
                          "aliases":  [
                                          "FOEモデル",
                                          "FOE",
@@ -766,21 +853,23 @@
                                                                    16
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch16"
                                               },
                          "scope_note":  "FOE・FO- 等は本書内で定義されたセル記法。"
                      },
                      {
                          "concept_id":  "center-of-gravity",
                          "preferred_ja":  "重心",
-                         "preferred_en":  null,
+                         "preferred_en":  "centroid / centre of mass",
+                         "reading":  "じゅうしん",
                          "aliases":  [
 
                                      ],
                          "layer":  "full",
                          "cluster":  "第Ⅳ部——動性",
                          "definition":  "F・O・E の三つの輪郭のうえに立つ、束ねの焦点。",
-                         "expansion":  "多数の意識主体を一つの「我ら」へと束ねる引力の集まる一点として立ち、各々の主体の個別の重心を共有された意味へ収束させる。重心は主体に先立って在るのではなく、主体が共有された意味へ互いに束ね合うことと**同時に立つ**。重心の本来の座は FOE である——引受の軸が分化して三軸のそろう FOE が成り立つことが意識のレイヤーの創発であり、そこが重心の生まれる場所だからである。だが F・O・E は互いに独立に動くため、FOE は放っておいて保たれる安定点ではない。容積の非対称によって幾何的な重心は本来の座から押し出され、これに抗う作動が係留である。",
+                         "expansion":  "多数の意識主体を一つの「我ら」へと束ねる引力の集まる一点として立ち、各々の主体の個別の重心を共有された意味へ収束させる。重心は主体に先立って在るのではなく、主体が共有された意味へ互いに束ね合うことと**同時に立つ**。重心の本来の座は FOE である——引受の軸が分化して三軸のそろう FOE が成り立つことが意識のレイヤーの創発であり、そこが重心の生まれる場所だからである。だが F・O・E は互いに独立に動くため、FOE は放っておいて保たれる安定点ではない。押し出す側に立つのは操作の論理（固定された報酬関数の最大化）であり、押す側は装置として自走して残り、押し返す側は各世代で引き受け直されなければ痩せる。これに抗う作動が係留である。",
                          "expansion_withheld":  false,
                          "first_appearance":  {
                                                   "raw":  "初出：第16章",
@@ -788,14 +877,16 @@
                                                                    16
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch16"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "drift",
                          "preferred_ja":  "乖離",
-                         "preferred_en":  null,
+                         "preferred_en":  "drift / decoupling",
+                         "reading":  "かいり",
                          "aliases":  [
                                          "F–O 脱結合",
                                          "E–O 脱結合"
@@ -803,7 +894,7 @@
                          "layer":  "full",
                          "cluster":  "第Ⅳ部——動性",
                          "definition":  "係留が解けたとき、重心が本来の座 FOE から滑るドリフト。",
-                         "expansion":  "操作の論理（固定された報酬関数の最大化）は構造的に重心を FOE から外す——実存が追随しなければ **FO-** へ、流動が伴わなければ **-OE** へ、いずれも進めば終端の **-O-** へ。二つの経路に分解できる——**F–O 脱結合**（操作が動いた先に流動がない。重心は -OE へ）と **E–O 脱結合**（操作の拡張に引受が追随しない。重心は FO- へ）。両者は異なる機構で -O- へ落ちる——-OE からは、消尽していく被引受 Stock の引受が持続不能となって実存が離脱する（急性）。FO- からは、**-O- は引受なしには解体されない**ため無主の Stock が累積し、その占有率の増大が重心を引く（慢性）。",
+                         "expansion":  "操作の論理（固定された報酬関数の最大化）は構造的に重心を FOE から外す——実存が追随しなければ **FO-** へ、流動が伴わなければ **-OE** へ、いずれも進めば終端の **-O-** へ。二つの経路に分解できる——**F–O 脱結合**（操作が動いた先に流動がない。重心は -OE へ）と **E–O 脱結合**（操作の拡張に引受が追随しない。重心は FO- へ）。両者は異なる機構で -O- へ落ちる——-OE からは、消尽していく被引受 Stock の引受が持続不能となって実存が離脱する（急性）。FO- からは、**-O- は引受なしには解体されない**ため無主の Stock が累積し、その占有率の増大が重心を引く（慢性）。逆順——実存が先に生きた領域を引き受け、そこへ操作を追随させる——は、乖離の鏡像として再生の方向をなす。",
                          "expansion_withheld":  false,
                          "first_appearance":  {
                                                   "raw":  "初出：第16章",
@@ -811,14 +902,16 @@
                                                                    16
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch16"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "operative-domain",
                          "preferred_ja":  "作動圏",
-                         "preferred_en":  null,
+                         "preferred_en":  "operative sphere",
+                         "reading":  "さどうけん",
                          "aliases":  [
 
                                      ],
@@ -833,14 +926,16 @@
                                                                    17
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch17"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "funnel-model",
                          "preferred_ja":  "漏斗モデル",
-                         "preferred_en":  null,
+                         "preferred_en":  "funnel model",
+                         "reading":  "ろうとモデル",
                          "aliases":  "漏斗",
                          "layer":  "full",
                          "cluster":  "第Ⅳ部——動性",
@@ -853,7 +948,8 @@
                                                                    17
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch17"
                                               },
                          "scope_note":  ""
                      },
@@ -861,6 +957,7 @@
                          "concept_id":  "lambda-realization-band",
                          "preferred_ja":  "展開実現帯域 λ",
                          "preferred_en":  null,
+                         "reading":  "てんかいじつげんたいいきラムダ",
                          "aliases":  [
                                          "λ",
                                          "展開実現帯域",
@@ -874,19 +971,50 @@
                          "expansion":  "内部は素材からの距離に応じた段 λ₀〜λ₅… をなす——λ₀（個が生きて素材に直接接地する所与の段）／λ₁（共同体による追体験＝世代軸）／λ₂（人への信頼＝社会軸）／λ₃（外部知識ストック＝累積軸）／λ₄（参照系への信頼）／λ₅（参照系そのものが蓄積となり世代を越えて手渡される段）。段は、担い手が参照の臨界に達するたびに、その出力を管理する参照の層が次の信頼対象になる、という規則で生成される——段の列に原理的な終端はない。段の深さと、素材由来の入力の割合（閉包度）は独立の変数である。**λ が創発可能帯域に収まることは保証されない。**",
                          "expansion_withheld":  false,
                          "first_appearance":  {
-                                                  "raw":  "初出：第19章§19-2",
+                                                  "raw":  "初出：第18章",
                                                   "chapters":  [
-                                                                   19
+                                                                   18
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch18"
                                               },
                          "scope_note":  "λ は本書内で定義された記号（展開実現帯域）であり、波長・固有値・ラムダ計算等の用法を適用しない。"
                      },
                      {
+                         "concept_id":  "shell-of-bundling",
+                         "preferred_ja":  "束ねの殻（縫い目落ち・創発参照）",
+                         "preferred_en":  "the shell of bundling",
+                         "reading":  "たばねのから",
+                         "aliases":  [
+                                         "束ねの殻",
+                                         "縫い目落ち",
+                                         "創発参照",
+                                         "the shell of bundling",
+                                         "falling through the seams",
+                                         "emergent reference"
+                                     ],
+                         "layer":  "full",
+                         "cluster":  "第Ⅳ部——動性",
+                         "definition":  "無数の主体を一つの「我ら」へ畳む束ねが、不可分に副生する参照不能域。",
+                         "expansion":  "束ねは、操作の届く範囲と引き受ける枠の双方で起きる圧縮であり、圧縮の二面の不可分性に従って固有の参照不能域を生む。成員と束は入れ子ではなく、**二重の格子**をなす——操作の側では成員の漏斗と束の漏斗が、引受の側では成員の枠と束の引受が、両方向にはみ出し合う。**縫い目落ち**は、成員には載っているのに束には載らないもの——束ねの費用の本体である。**創発参照**は、価格や統計のように無数の漏斗の集計としてはじめて立つ、束の漏斗にだけ入る差異——束ねの価値であり、縫い目を増やさずにそれだけを得る束ね方はない。束の水準でしか立たない判断は参照と引受の両方を要し、二重の格子のどちらの縫い目に落ちても立たない。",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "初出：第27章§27-2",
+                                                  "chapters":  [
+                                                                   27
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch27-s2"
+                                              },
+                         "scope_note":  ""
+                     },
+                     {
                          "concept_id":  "foe-at-anchor",
                          "preferred_ja":  "錨泊FOE",
-                         "preferred_en":  "びょうはく／FOE at anchor",
+                         "preferred_en":  "FOE at anchor",
+                         "reading":  "びょうはくエフオーイー",
                          "aliases":  [
                                          "FOE at anchor",
                                          "びょうはく"
@@ -902,7 +1030,8 @@
                                                                    19
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch19"
                                               },
                          "scope_note":  ""
                      },
@@ -910,6 +1039,7 @@
                          "concept_id":  "moored-foe",
                          "preferred_ja":  "係留FOE",
                          "preferred_en":  "moored FOE",
+                         "reading":  "けいりゅうエフオーイー",
                          "aliases":  "moored FOE",
                          "layer":  "full",
                          "cluster":  "第Ⅳ部——動性",
@@ -922,76 +1052,183 @@
                                                                    19
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch19"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "circulatory-endurance-phase",
                          "preferred_ja":  "循環耐久相",
-                         "preferred_en":  null,
+                         "preferred_en":  "circulation-endurance phase",
+                         "reading":  "じゅんかんたいきゅうそう",
                          "aliases":  [
 
                                      ],
                          "layer":  "full",
-                         "cluster":  "一行定義のみの項——展開は本文刊行時に公開",
+                         "cluster":  "第Ⅴ部・結論——応答",
                          "definition":  "遅延して返る因果を中核として引き受ける文明相——対称性志向の、文明相としての実装。",
-                         "expansion":  "",
-                         "expansion_withheld":  true,
+                         "expansion":  "三つの文明相の一つを、成立条件から正面規定したものである。FOEモデルでは、乖離への応答のうち**拡張追随**（操作も引受もともに拡張して去る流動を追い、重心を FOE に保つ）にあたる。健全ではあるが、実存的我らを帯域の限界を超えて拡げ続ける維持負荷を負う「尾根」である。その地形的な像が文明の尾根であり、出力が巨大化して両側が切れ落ちると文明の痩せ尾根になる。この相は、引き受けを省く競争相手に対して構造的に劣位に立つ。",
+                         "expansion_withheld":  false,
                          "first_appearance":  {
-                                                  "raw":  "序論に初出・第24章で正面規定",
+                                                  "raw":  "序論に初出・第23章で正面規定",
                                                   "chapters":  [
-                                                                   24
+                                                                   23
                                                                ],
                                                   "intro":  true,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "introduction"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "hineni",
                          "preferred_ja":  "Hineni",
-                         "preferred_en":  null,
+                         "preferred_en":  "Hineni",
+                         "reading":  "ヒネニ",
                          "aliases":  "ここにいます",
                          "layer":  "full",
-                         "cluster":  "一行定義のみの項——展開は本文刊行時に公開",
-                         "definition":  "不整合を検知しながらも即座に解消せず、抱えたまま立ち続ける態度の固定。ヘブライ語で「ここにいます」。",
-                         "expansion":  "",
-                         "expansion_withheld":  true,
+                         "cluster":  "第Ⅴ部・結論——応答",
+                         "definition":  "不整合を検知しながらも即座に解消せず、抱えたまま立ち続ける態度の固定。",
+                         "expansion":  "ヘブライ語で「ここにいます」。遅延して返る因果を引き受けるという形でのみ存立し、循環耐久相における恒常的な形態が「耐久」である。引受の不等式の裏面——苦悩を抱えること——の、主観的な姿勢にあたる。**時間の形**を持つ——呼びかけは聞き終えることができず、応答は検証の完了に先立つほかない。「ここにいます」は、何を問われるかを知る前の応答である。確かめ終わらないものに扉を閉じることで一度に応じきる方舟と対をなし、Hineni は確かめ終わらないまま扉を開ける側で応じ続ける位置に立つ。",
+                         "expansion_withheld":  false,
                          "first_appearance":  {
                                                   "raw":  "初出：序論§3",
                                                   "chapters":  [
 
                                                                ],
                                                   "intro":  true,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "introduction-s3"
                                               },
                          "scope_note":  ""
                      },
                      {
+                         "concept_id":  "shielded-satisfaction",
+                         "preferred_ja":  "方舟（遮蔽充足）",
+                         "preferred_en":  "the Ark",
+                         "reading":  "はこぶね",
+                         "aliases":  [
+                                         "方舟",
+                                         "遮蔽充足",
+                                         "the Ark"
+                                     ],
+                         "layer":  "full",
+                         "cluster":  "第Ⅴ部・結論——応答",
+                         "definition":  "引き受けえたはずの者たちを勘定から外すことで、残った勘定を満たす、第三の満たし方。",
+                         "expansion":  "形は成層をなす——内側に遮蔽された**核**（構造条件が核の内側でのみ満たされる）、外側に曝露された**層**（核の操作は届くが「我ら」は届かない領域。コストと応報の送り出し先であり、資源の引き込み元）。曝露層は、核にとっての「外」を内側に作り続ける装置であり、「外がない」状態を人工的に回避する。循環耐久相の失敗形ではなく、**一本の連続体の対極**である——引き受けえた者のうちどれだけを遮蔽の外に保持するか、その保持がゼロへ向かう極限が循環耐久相にあたる。構造の記述ではこの相を殺せない——本書は、この相が必ず滅びるとは言わない。残る問いは一つ——その「我ら」にとって、誰が「それら」か。",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "初出：第24章§24-4",
+                                                  "chapters":  [
+                                                                   24
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch24-s4"
+                                              },
+                         "scope_note":  "構造名は遮蔽充足。ノアの方舟から借りるのは「閉じた扉」の構造のみ。"
+                     },
+                     {
+                         "concept_id":  "man-i-es",
+                         "preferred_ja":  "MAN-I-ES",
+                         "preferred_en":  "MAN-I-ES",
+                         "reading":  "マン・アイ・エス",
+                         "aliases":  [
+                                         "MAN-I-ES",
+                                         "メイニーズ",
+                                         "マニエス"
+                                     ],
+                         "layer":  "full",
+                         "cluster":  "第Ⅴ部・結論——応答",
+                         "definition":  "与えられた規模のもとで八つの構造要件を満たす MANES のクラス、およびそれを実装する集団。",
+                         "expansion":  "ハイフンを含む語形そのものが概念であり、読みは一つに定めない。**構造要件**は、創発可能帯域に留まること／被覆条件と接地条件の維持／三条件の保持／コスト転嫁の内側化／Mourning 機構の作動／実装層の再編成余地の保持／対称性志向の構え／第三段の自覚、の八つ。第八の要件は規模に依存する——小規模では伝統・儀礼・血縁地縁の慣性が他の要件を代行しうるが、大規模では慣性的な共存条件が破綻するため、要件8は他の七要件の前提条件に格上げされる。**語形の充填層**は、一次層の **I**（一人称。読者が語に入る入口）をめぐって、**manies**（複数形の複数形＝複数の近似実装の液相的共存）・**es**（非人間知性への含意）・**Ich-Es 緊張**・**ハイフンこそ構造**の四つが鳴る構造をとる。",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "初出：第26章",
+                                                  "chapters":  [
+                                                                   26
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch26"
+                                              },
+                         "scope_note":  "ハイフンを含む語形そのものが概念。本文はハイフンを保持して表記する。読みは一つに定めない（第26章 §26-4）。"
+                     },
+                     {
                          "concept_id":  "tragic-sense-of-compressing-being",
                          "preferred_ja":  "圧縮する存在の悲劇的感情",
-                         "preferred_en":  null,
+                         "preferred_en":  "the tragic sense of the compressing being",
+                         "reading":  "あっしゅくするそんざいのひげきてきかんじょう",
                          "aliases":  "悲劇的感情",
                          "layer":  "full",
-                         "cluster":  "一行定義のみの項——展開は本文刊行時に公開",
+                         "cluster":  "第Ⅴ部・結論——応答",
                          "definition":  "有限の帯域で世界を切り取る知性が、自らの圧縮の不完全性ゆえに抱える感情。",
-                         "expansion":  "",
-                         "expansion_withheld":  true,
+                         "expansion":  "苦悩・憧憬・好奇心、そして伝達不可能性として現れる。引き受けの極限で、見ようとする運動の果てに接続可能圏 Ω の縁が立ち現れる——縁を見失うのではない。見ようとする運動の、その果てに、縁が立ち現れる。この出会いの質感が、悲劇的感情である。序論で置かれたウナムーノ的な自己定位と呼応し、本書の閉じへ向かう。",
+                         "expansion_withheld":  false,
                          "first_appearance":  {
                                                   "raw":  "序論に初出・第27章で展開",
                                                   "chapters":  [
                                                                    27
                                                                ],
                                                   "intro":  true,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "introduction"
+                                              },
+                         "scope_note":  ""
+                     },
+                     {
+                         "concept_id":  "methodology-of-duality",
+                         "preferred_ja":  "二重性の方法論",
+                         "preferred_en":  "the methodology of duality",
+                         "reading":  "にじゅうせいのほうほうろん",
+                         "aliases":  "the methodology of duality",
+                         "layer":  "full",
+                         "cluster":  "第Ⅴ部・結論——応答",
+                         "definition":  "中立性は記述の対象であり、非中立は記述する主体の構造的条件である、というメタ命題。",
+                         "expansion":  "本書は宇宙論的中立性を記述の対象として描くが、その記述を行う主体（著者・読者）が非中立な MANES の内側に立っていることは、記述の構造的な条件である。本書もまた一つの MANES の内側で書かれた圧縮である——この自己回帰性の限界開示が、本書の自己診断を担う。第4章で先取りされた自己回帰性が、ここで正面から引き受けられる。なお本文は、この命題をラベルではなく「この二重性」という記述句で運ぶ。",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "初出：結論",
+                                                  "chapters":  [
+
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  true,
+                                                  "anchor":  "conclusion"
+                                              },
+                         "scope_note":  ""
+                     },
+                     {
+                         "concept_id":  "three-step-structure",
+                         "preferred_ja":  "三段構造",
+                         "preferred_en":  "the three-step structure",
+                         "reading":  "さんだんこうぞう",
+                         "aliases":  [
+                                         "三段構造",
+                                         "the three-step structure"
+                                     ],
+                         "layer":  "line",
+                         "cluster":  "序論",
+                         "definition":  "虚無にも教条にも落ちない位置へ運ぶ三段。中立性 → 下位レイヤーの境界条件による拘束 → そのうえでの選択と引受。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "序論",
+                                                  "chapters":  [
+
+                                                               ],
+                                                  "intro":  true,
+                                                  "conclusion":  false,
+                                                  "anchor":  "introduction"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "three-modes-of-inequality-breach",
                          "preferred_ja":  "不等式破綻の三様態",
-                         "preferred_en":  null,
+                         "preferred_en":  "the three modes of the inequality\u0027s breakdown",
+                         "reading":  "ふとうしきはたんのさんようたい",
                          "aliases":  [
 
                                      ],
@@ -1006,14 +1243,16 @@
 
                                                                ],
                                                   "intro":  true,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "introduction-s7"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "emergence-of-operability",
                          "preferred_ja":  "操作可能性の出現",
-                         "preferred_en":  null,
+                         "preferred_en":  "the advent of operability",
+                         "reading":  "そうさかのうせいのしゅつげん",
                          "aliases":  [
 
                                      ],
@@ -1028,14 +1267,16 @@
 
                                                                ],
                                                   "intro":  true,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "introduction-s11"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "three-regions",
                          "preferred_ja":  "三領域（高精度保存域・低精度保持域・脱落域）",
-                         "preferred_en":  null,
+                         "preferred_en":  "the three regions",
+                         "reading":  "さんりょういき",
                          "aliases":  [
                                          "高精度保存域",
                                          "低精度保持域",
@@ -1052,14 +1293,38 @@
                                                                    1
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch1-s3"
                                               },
                          "scope_note":  ""
                      },
                      {
+                         "concept_id":  "breadth-and-resolution",
+                         "preferred_ja":  "広がりと解像度",
+                         "preferred_en":  "breadth and resolution",
+                         "reading":  "ひろがりとかいぞうど",
+                         "aliases":  "breadth and resolution",
+                         "layer":  "line",
+                         "cluster":  "第Ⅰ部",
+                         "definition":  "思考空間の幾何を特徴づける二つの量。広がり＝保存している方向の多様さ、解像度＝保存された方向の内部での区別の細かさ。広く保存すれば各方向の解像度は下がるという構造的トレードオフをなす。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第1章§1-3",
+                                                  "chapters":  [
+                                                                   1
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch1-s3"
+                                              },
+                         "scope_note":  "第16-17章の「広がり」（射程）は同名別概念。エイリアスに裸の「広がり」を置かない。"
+                     },
+                     {
                          "concept_id":  "nested-structure",
                          "preferred_ja":  "入れ子構造",
-                         "preferred_en":  null,
+                         "preferred_en":  "nested structure",
+                         "reading":  "いれここうぞう",
                          "aliases":  [
 
                                      ],
@@ -1074,14 +1339,16 @@
                                                                    2
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch2-s6"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "friction",
                          "preferred_ja":  "摩擦",
-                         "preferred_en":  null,
+                         "preferred_en":  "friction",
+                         "reading":  "まさつ",
                          "aliases":  [
 
                                      ],
@@ -1096,14 +1363,16 @@
                                                                    2
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch2-s2"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "three-modes-of-connectability",
                          "preferred_ja":  "接続可能性の三モード",
-                         "preferred_en":  null,
+                         "preferred_en":  "structural / reactive / semantic connectivity",
+                         "reading":  "せつぞくかのうせいのさんモード",
                          "aliases":  [
                                          "構造的",
                                          "反応的",
@@ -1120,14 +1389,16 @@
                                                                    3
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch3-s1"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "indeterminacy",
                          "preferred_ja":  "未確定性",
-                         "preferred_en":  null,
+                         "preferred_en":  "indeterminacy",
+                         "reading":  "みかくていせい",
                          "aliases":  [
 
                                      ],
@@ -1137,19 +1408,73 @@
                          "expansion":  "",
                          "expansion_withheld":  false,
                          "first_appearance":  {
-                                                  "raw":  "第3章",
+                                                  "raw":  "第27章§27-1",
                                                   "chapters":  [
-                                                                   3
+                                                                   27
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch27-s1"
                                               },
                          "scope_note":  ""
                      },
                      {
+                         "concept_id":  "u-unresolved",
+                         "preferred_ja":  "未決",
+                         "preferred_en":  "Underlying / Unresolved",
+                         "reading":  "ユー",
+                         "aliases":  [
+                                         "U",
+                                         "未決",
+                                         "Underlying",
+                                         "Unresolved"
+                                     ],
+                         "layer":  "line",
+                         "cluster":  "第Ⅰ部",
+                         "definition":  "未確定性のうち、抱えられて保たれる形。所有物ではなく、保つ仕事の産物である——抱えられた未決は貯金できない。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第27章§27-2",
+                                                  "chapters":  [
+                                                                   27
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch27-s2"
+                                              },
+                         "scope_note":  "U は本書内で定義された記号（抱えられて保たれる未確定性）であり、一般的な用法を適用しない。総称は「未確定性」（別項）。"
+                     },
+                     {
+                         "concept_id":  "two-axes-of-time",
+                         "preferred_ja":  "時間の二軸（薄厚／濃淡）",
+                         "preferred_en":  null,
+                         "reading":  "じかんのにじく",
+                         "aliases":  [
+                                         "薄厚",
+                                         "濃淡"
+                                     ],
+                         "layer":  "line",
+                         "cluster":  "第Ⅰ部",
+                         "definition":  "時間の質を分節する直交二軸。薄厚＝支配する選別構造の層の厚み／濃淡＝届く差異の生死関連性。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第27章",
+                                                  "chapters":  [
+                                                                   27
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch27"
+                                              },
+                         "scope_note":  "和語系の対。v0 は英語併記を持たない。"
+                     },
+                     {
                          "concept_id":  "undifferentiated-region",
                          "preferred_ja":  "未分化領域",
-                         "preferred_en":  null,
+                         "preferred_en":  "undifferentiated region",
+                         "reading":  "みぶんかりょういき",
                          "aliases":  [
 
                                      ],
@@ -1164,14 +1489,16 @@
                                                                    3
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch3-s2"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "world-account-system-account",
                          "preferred_ja":  "世界勘定／系勘定",
-                         "preferred_en":  null,
+                         "preferred_en":  "the world\u0027s account / the system\u0027s account",
+                         "reading":  "せかいかんじょう／けいかんじょう",
                          "aliases":  [
                                          "世界勘定",
                                          "系勘定"
@@ -1187,14 +1514,16 @@
                                                                    3
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch3"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "closure-of-account",
                          "preferred_ja":  "勘定の閉じ",
-                         "preferred_en":  null,
+                         "preferred_en":  "the closing of the account",
+                         "reading":  "かんじょうのとじ",
                          "aliases":  [
 
                                      ],
@@ -1209,14 +1538,70 @@
                                                                    3
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch3-s3"
+                                              },
+                         "scope_note":  ""
+                     },
+                     {
+                         "concept_id":  "core-proposition-1",
+                         "preferred_ja":  "中核命題-1（圧縮の二面の不可分性）",
+                         "preferred_en":  "Core Proposition 1",
+                         "reading":  "ちゅうかくめいだいいち",
+                         "aliases":  [
+                                         "中核命題-1",
+                                         "Core Proposition 1"
+                                     ],
+                         "layer":  "line",
+                         "cluster":  "第Ⅰ部",
+                         "definition":  "情報圧縮は、有効勾配の増大（残された自由度の利用効率の向上）と LOT の副生（参照不能域の発生）とを不可分に生む、という階層を貫く命題。効率化と盲点の拡大は同一の操作の表裏であって、一方だけを取り出すことはできない。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第3章§3-3",
+                                                  "chapters":  [
+                                                                   3
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch3-s3"
+                                              },
+                         "scope_note":  "二面（faces）は圧縮の二側面（aspects）と英語でも描き分ける。"
+                     },
+                     {
+                         "concept_id":  "volume-effective-gradient-width",
+                         "preferred_ja":  "広さ／有効勾配／有効幅",
+                         "preferred_en":  "volume / effective gradient / effective width",
+                         "reading":  "ひろさ／ゆうこうこうばい／ゆうこうはば",
+                         "aliases":  [
+                                         "広さ",
+                                         "有効勾配",
+                                         "有効幅",
+                                         "volume",
+                                         "effective gradient",
+                                         "effective width"
+                                     ],
+                         "layer":  "line",
+                         "cluster":  "第Ⅰ部",
+                         "definition":  "LEFFLA を記述する量の組。広さ＝可能性空間の体積、有効勾配＝同じ体積の中で Flux がどれだけ方向づけられて使えるか、有効幅＝両者の積。有効幅の持続的な減少は構造的異変を示す——頓死の診断装置として働く。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第3章",
+                                                  "chapters":  [
+                                                                   3
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch3"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "spec-layer-play-layer",
                          "preferred_ja":  "仕様の層／プレイの層",
-                         "preferred_en":  null,
+                         "preferred_en":  "the specification layer / the play layer",
+                         "reading":  "しようのそう／プレイのそう",
                          "aliases":  [
                                          "仕様の層",
                                          "プレイの層"
@@ -1232,7 +1617,8 @@
                                                                    5
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch5"
                                               },
                          "scope_note":  ""
                      },
@@ -1240,6 +1626,7 @@
                          "concept_id":  "substrate-independent",
                          "preferred_ja":  "担い手非依存",
                          "preferred_en":  "substrate-independent",
+                         "reading":  "にないてひいぞん",
                          "aliases":  "substrate-independent",
                          "layer":  "line",
                          "cluster":  "第Ⅱ部",
@@ -1252,14 +1639,16 @@
                                                                    6
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch6"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "phase-transition-of-civilization",
                          "preferred_ja":  "文明の構築と崩壊の位相転換",
-                         "preferred_en":  null,
+                         "preferred_en":  "civilizational phase transition",
+                         "reading":  "ぶんめいのこうちくとほうかいのいそうてんかん",
                          "aliases":  [
                                          "位相転換",
                                          "構築型",
@@ -1278,36 +1667,16 @@
                                                                    7
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
-                                              },
-                         "scope_note":  ""
-                     },
-                     {
-                         "concept_id":  "noble-gas-paradox",
-                         "preferred_ja":  "希ガス的逆説",
-                         "preferred_en":  null,
-                         "aliases":  [
-
-                                     ],
-                         "layer":  "line",
-                         "cluster":  "第Ⅱ部",
-                         "definition":  "強く凝集して安定した意味の錨を持つ個人の集団が、かえって断片的で秩序の弱い文明を招きうるという逆説。",
-                         "expansion":  "",
-                         "expansion_withheld":  false,
-                         "first_appearance":  {
-                                                  "raw":  "第6章",
-                                                  "chapters":  [
-                                                                   6
-                                                               ],
-                                                  "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch7-s2"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "weight-of-knowledge",
                          "preferred_ja":  "知識の重さ",
-                         "preferred_en":  null,
+                         "preferred_en":  "the weight of knowledge / external knowledge stock",
+                         "reading":  "ちしきのおもさ",
                          "aliases":  [
 
                                      ],
@@ -1322,14 +1691,16 @@
                                                                    9
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch9"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "two-modes-of-compression",
                          "preferred_ja":  "圧縮の二様式（索引型／LOT direct 型）",
-                         "preferred_en":  null,
+                         "preferred_en":  "The Two Modes of Compression",
+                         "reading":  "あっしゅくのにようしき",
                          "aliases":  [
                                          "索引型",
                                          "LOT direct"
@@ -1345,14 +1716,16 @@
                                                                    14
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch14"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "refusal-of-immediate-consumability",
                          "preferred_ja":  "即時消費可能性の構造的拒否",
-                         "preferred_en":  null,
+                         "preferred_en":  "structural refusal of immediate consumability",
+                         "reading":  "そくじしょうひかのうせいのこうぞうてききょひ",
                          "aliases":  [
 
                                      ],
@@ -1367,14 +1740,16 @@
                                                                    14
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch14"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "learning",
                          "preferred_ja":  "学習",
-                         "preferred_en":  null,
+                         "preferred_en":  "learning",
+                         "reading":  "がくしゅう",
                          "aliases":  [
 
                                      ],
@@ -1389,14 +1764,16 @@
                                                                    15
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch15-s4"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "operational-existential-independence",
                          "preferred_ja":  "操作実存独立変動",
-                         "preferred_en":  null,
+                         "preferred_en":  "Operational-Existential Independent Variation",
+                         "reading":  "そうさじつぞんどくりつへんどう",
                          "aliases":  [
 
                                      ],
@@ -1411,20 +1788,22 @@
                                                                    15
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch15"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "offset",
                          "preferred_ja":  "ズレ",
-                         "preferred_en":  null,
+                         "preferred_en":  "the O–E gap",
+                         "reading":  "ズレ",
                          "aliases":  [
 
                                      ],
                          "layer":  "line",
                          "cluster":  "第Ⅳ部",
-                         "definition":  "操作能力的我らの中心と、実存的我らの中心との隔たり。文明の配置を読む二つの量の一方（もう一方は、操作能力的我らと実存的我らがともにどこまで届いているかという広がり）。",
+                         "definition":  "操作能力的我らと実存的我らの重なりのずれ——どちらか一方だけが届く帯の厚み。文明の配置を読むのに要る二つの一方（もう一方は、両者がともにどこまで届いているかという広がり）。帯には向きがあり、操作の側へ開けば O \u003e E である。",
                          "expansion":  "",
                          "expansion_withheld":  false,
                          "first_appearance":  {
@@ -1433,14 +1812,41 @@
                                                                    16
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch16"
                                               },
                          "scope_note":  ""
                      },
                      {
+                         "concept_id":  "constraining-time-visible-time",
+                         "preferred_ja":  "縛る時間／見える時間",
+                         "preferred_en":  null,
+                         "reading":  "しばるじかん／みえるじかん",
+                         "aliases":  [
+                                         "縛る時間",
+                                         "見える時間"
+                                     ],
+                         "layer":  "line",
+                         "cluster":  "第Ⅳ部",
+                         "definition":  "当事者の時間の二層。認識と無関係に果が現に届く範囲と、そのうち参照の経路が届く部分。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第27章§27-1",
+                                                  "chapters":  [
+                                                                   27
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch27-s1"
+                                              },
+                         "scope_note":  "和語系の対。v0 は英語併記を持たない。バインド（bind）とは別概念。"
+                     },
+                     {
                          "concept_id":  "expansive-contractive-satisfaction",
                          "preferred_ja":  "拡張充足／縮退充足",
-                         "preferred_en":  null,
+                         "preferred_en":  "expansive satisfaction / contractive satisfaction",
+                         "reading":  "かくちょうじゅうそく／しゅくたいじゅうそく",
                          "aliases":  [
                                          "拡張充足",
                                          "縮退充足"
@@ -1456,20 +1862,75 @@
                                                                    16
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch16"
                                               },
                          "scope_note":  ""
                      },
                      {
+                         "concept_id":  "four-dimensional-parent-coordinate-system",
+                         "preferred_ja":  "四次元親座標系（とスナップショット図）",
+                         "preferred_en":  "the four-dimensional parent coordinate system / snapshot diagram",
+                         "reading":  "よじげんおやざひょうけい",
+                         "aliases":  [
+                                         "四次元親座標系",
+                                         "スナップショット図",
+                                         "snapshot diagram"
+                                     ],
+                         "layer":  "line",
+                         "cluster":  "第Ⅳ部",
+                         "definition":  "文明の動性が展開される場を表す座標系。三つの空間軸——操作能力・集合の大きさ・実存感——に第四の軸 Flux を加えた四次元の親空間であり、紙の上では二つの射影——三軸の直方体と、Flux を保つスナップショット図——として描き分けられる。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第16章§16-1",
+                                                  "chapters":  [
+                                                                   16
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch16-s1"
+                                              },
+                         "scope_note":  ""
+                     },
+                     {
+                         "concept_id":  "exploratory-operational-knowledge",
+                         "preferred_ja":  "探索的知識・操作的知識",
+                         "preferred_en":  "exploratory knowledge / operational knowledge",
+                         "reading":  "たんさくてきちしき・そうさてきちしき",
+                         "aliases":  [
+                                         "探索的知識",
+                                         "操作的知識",
+                                         "exploratory knowledge",
+                                         "operational knowledge"
+                                     ],
+                         "layer":  "line",
+                         "cluster":  "第Ⅳ部",
+                         "definition":  "知識を FOEモデルの F 軸／O 軸で対にした一対。探索的知識＝まだ操作に接続されていない生の前縁を探る知識（「何が／なぜ」）、操作的知識＝操作に具現化された技術・手順の蓄積（「どうするか」）。探索的知識は操作に接続されると操作的知識へ変換され、操作的知識は生の理解が剥がれても Stock として残る。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第16章",
+                                                  "chapters":  [
+                                                                   16
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch16"
+                                              },
+                         "scope_note":  "正規に残す（2026-08-13 著者裁定・◆5 解消——第1版本文では用いない・将来の執筆を見込んで残置）。読者版用語集には一行層で収録。"
+                     },
+                     {
                          "concept_id":  "mooring",
                          "preferred_ja":  "係留",
-                         "preferred_en":  null,
+                         "preferred_en":  "mooring",
+                         "reading":  "けいりゅう",
                          "aliases":  [
 
                                      ],
                          "layer":  "line",
                          "cluster":  "第Ⅳ部",
-                         "definition":  "幾何的な重心が本来の座から押し出される動性に対し、重心を引き戻す作動。担うのは実存的我らである。",
+                         "definition":  "重心が本来の座 FOE の外へ押し出される動性に対し、重心を FOE へ引き戻し続ける作動。担うのは実存的我らである。",
                          "expansion":  "",
                          "expansion_withheld":  false,
                          "first_appearance":  {
@@ -1478,14 +1939,16 @@
                                                                    16
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch16-s4"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "mooring-friction",
                          "preferred_ja":  "係留摩擦",
-                         "preferred_en":  null,
+                         "preferred_en":  "mooring friction",
+                         "reading":  "けいりゅうまさつ",
                          "aliases":  [
 
                                      ],
@@ -1500,14 +1963,16 @@
                                                                    16
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch16-s4"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "establishing-maintaining-cost",
                          "preferred_ja":  "立てるコスト／保つコスト",
-                         "preferred_en":  null,
+                         "preferred_en":  "establishment cost / maintenance cost",
+                         "reading":  "たてるコスト／たもつコスト",
                          "aliases":  [
                                          "立てるコスト",
                                          "保つコスト"
@@ -1524,14 +1989,16 @@
                                                                    17
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch16"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "grounding-cost",
                          "preferred_ja":  "接地コスト",
-                         "preferred_en":  null,
+                         "preferred_en":  "grounding cost",
+                         "reading":  "せっちコスト",
                          "aliases":  [
 
                                      ],
@@ -1546,14 +2013,41 @@
                                                                    2
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch2-s4"
                                               },
                          "scope_note":  ""
                      },
                      {
+                         "concept_id":  "proposition-funnel-1",
+                         "preferred_ja":  "命題FUNNEL-1（保つコストの非自動性）",
+                         "preferred_en":  null,
+                         "reading":  "めいだいファンネルいち",
+                         "aliases":  [
+                                         "FUNNEL-1",
+                                         "命題FUNNEL-1"
+                                     ],
+                         "layer":  "line",
+                         "cluster":  "第Ⅳ部",
+                         "definition":  "文明レイヤーでは、立てた選別構造の保つコストが払われ続けるとは限らない、という命題。表象能力による転嫁ゆえに、不払いが直接の崩壊として現れず、構造の外形を残したまま内部が腐食していく経路が開く。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第17章§17-2",
+                                                  "chapters":  [
+                                                                   17
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch17-s2"
+                                              },
+                         "scope_note":  "英語名を持たない——命題番号 FUNNEL-1 が言語非依存のアンカー。"
+                     },
+                     {
                          "concept_id":  "shell",
                          "preferred_ja":  "殻",
-                         "preferred_en":  null,
+                         "preferred_en":  "shell",
+                         "reading":  "から",
                          "aliases":  [
 
                                      ],
@@ -1568,14 +2062,41 @@
                                                                    17
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch17"
                                               },
                          "scope_note":  ""
                      },
                      {
+                         "concept_id":  "three-axes-of-f",
+                         "preferred_ja":  "F 三軸",
+                         "preferred_en":  "the three axes of F",
+                         "reading":  "エフさんじく",
+                         "aliases":  [
+                                         "F三軸",
+                                         "the three axes of F"
+                                     ],
+                         "layer":  "line",
+                         "cluster":  "第Ⅳ部",
+                         "definition":  "文明が流動（F）の供給源を三方向——同時代の他者の選別構造（空間軸）・未来世代の選別構造（時間軸）・自分自身の実存的意味（実存軸）——に求めることで、作動コストを転嫁する構造。三軸が極まると、文明は自己言及相に閉じる。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第18章§18-1",
+                                                  "chapters":  [
+                                                                   18
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch18-s1"
+                                              },
+                         "scope_note":  "本文非登場（執筆装置）。読者版用語集には一行層で収録（2026-08-13・全 123 裁定により旧記載を更新）。"
+                     },
+                     {
                          "concept_id":  "three-phase-knowledge-stock",
                          "preferred_ja":  "知識ストックの三相モデル",
-                         "preferred_en":  null,
+                         "preferred_en":  "three-phase model of the knowledge stock",
+                         "reading":  "ちしきストックのさんそうモデル",
                          "aliases":  [
 
                                      ],
@@ -1590,14 +2111,16 @@
                                                                    9
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch9-s3"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "self-referential-phase",
                          "preferred_ja":  "自己言及相",
-                         "preferred_en":  null,
+                         "preferred_en":  "self-referential phase",
+                         "reading":  "じこげんきゅうそう",
                          "aliases":  [
 
                                      ],
@@ -1612,14 +2135,16 @@
                                                                    9
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch9"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "open-circulation-closed-inertia",
                          "preferred_ja":  "開いた循環／閉じた慣性",
-                         "preferred_en":  null,
+                         "preferred_en":  "open circulation / closed inertia",
+                         "reading":  "ひらいたじゅんかん／とじたかんせい",
                          "aliases":  [
                                          "開いた循環",
                                          "閉じた慣性"
@@ -1630,19 +2155,21 @@
                          "expansion":  "",
                          "expansion_withheld":  false,
                          "first_appearance":  {
-                                                  "raw":  "第9章",
+                                                  "raw":  "第8章§8-4",
                                                   "chapters":  [
-                                                                   9
+                                                                   8
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch8-s4"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "causal-chain",
                          "preferred_ja":  "因果の連なり",
-                         "preferred_en":  null,
+                         "preferred_en":  "the causal expanse",
+                         "reading":  "いんがのつらなり",
                          "aliases":  [
 
                                      ],
@@ -1657,14 +2184,41 @@
                                                                    19
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch19"
                                               },
                          "scope_note":  ""
                      },
                      {
+                         "concept_id":  "coverage",
+                         "preferred_ja":  "被覆",
+                         "preferred_en":  "coverage",
+                         "reading":  "ひふく",
+                         "aliases":  [
+                                         "覆い",
+                                         "coverage"
+                                     ],
+                         "layer":  "line",
+                         "cluster":  "第Ⅳ部",
+                         "definition":  "ある軸が現に覆っている範囲・輪郭。覆う側を明示して「操作能力的我らの被覆」「「我ら」の被覆」の形で用いる。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第17章§17-1",
+                                                  "chapters":  [
+                                                                   17
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch17-s1"
+                                              },
+                         "scope_note":  "覆う側を明示して「O の被覆」「「我ら」の被覆」の形で用いる。被覆条件（coverage-condition）は別項。"
+                     },
+                     {
                          "concept_id":  "coverage-condition",
                          "preferred_ja":  "被覆条件",
-                         "preferred_en":  null,
+                         "preferred_en":  "coverage condition",
+                         "reading":  "ひふくじょうけん",
                          "aliases":  [
 
                                      ],
@@ -1679,14 +2233,16 @@
                                                                    19
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch19"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "grounding-condition",
                          "preferred_ja":  "接地条件",
-                         "preferred_en":  null,
+                         "preferred_en":  "grounding condition",
+                         "reading":  "せっちじょうけん",
                          "aliases":  [
 
                                      ],
@@ -1701,14 +2257,42 @@
                                                                    19
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch19"
                                               },
                          "scope_note":  ""
                      },
                      {
+                         "concept_id":  "f-texture-and-response",
+                         "preferred_ja":  "F の質感／手応え",
+                         "preferred_en":  null,
+                         "reading":  "エフのしつかん／てごたえ",
+                         "aliases":  [
+                                         "F の質感",
+                                         "手応え"
+                                     ],
+                         "layer":  "line",
+                         "cluster":  "第Ⅳ部",
+                         "definition":  "漏斗深部で現に F に触れている主体に、その接触が現れる相。構造の側から見れば F の質感、それを保つ当の一人の内側では手応え——同一の事態の二つのレジスタである。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "初出：第18章§18-2／手の側の言葉への翻訳は第25章§25-1",
+                                                  "chapters":  [
+                                                                   18,
+                                                                   25
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch18-s2"
+                                              },
+                         "scope_note":  "同一事態の二レジスタであり別概念ではない。和語系につき v0 は英語併記を持たない。"
+                     },
+                     {
                          "concept_id":  "multistage-reduction",
                          "preferred_ja":  "多段の縮約",
-                         "preferred_en":  null,
+                         "preferred_en":  "multi-stage reduction",
+                         "reading":  "ただんのしゅくやく",
                          "aliases":  [
 
                                      ],
@@ -1723,14 +2307,16 @@
                                                                    2
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch2-s6"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "sfok-reference-system",
                          "preferred_ja":  "SFOK参照系",
-                         "preferred_en":  null,
+                         "preferred_en":  "SFOK reference layer",
+                         "reading":  "エスフォックさんしょうけい",
                          "aliases":  [
 
                                      ],
@@ -1745,14 +2331,16 @@
                                                                    18
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch18"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "capture-into-asymmetry",
                          "preferred_ja":  "非対称性への捕獲",
-                         "preferred_en":  null,
+                         "preferred_en":  "capture into asymmetry",
+                         "reading":  "ひたいしょうせいへのほかく",
                          "aliases":  [
 
                                      ],
@@ -1767,14 +2355,16 @@
                                                                    18
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch18"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "intercivilizational-competitive-exclusion",
                          "preferred_ja":  "文明間競争排除",
-                         "preferred_en":  null,
+                         "preferred_en":  "inter-civilizational competitive exclusion",
+                         "reading":  "ぶんめいかんきょうそうはいじょ",
                          "aliases":  "競争排除",
                          "layer":  "line",
                          "cluster":  "第Ⅳ部",
@@ -1782,19 +2372,21 @@
                          "expansion":  "",
                          "expansion_withheld":  false,
                          "first_appearance":  {
-                                                  "raw":  "第19章§19-3",
+                                                  "raw":  "第19章§19-4",
                                                   "chapters":  [
                                                                    19
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch19-s4"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "pseudo-f",
                          "preferred_ja":  "疑似F",
-                         "preferred_en":  null,
+                         "preferred_en":  "pseudo-Flux",
+                         "reading":  "ぎじエフ",
                          "aliases":  [
 
                                      ],
@@ -1809,14 +2401,16 @@
                                                                    20
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch20-s3"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "three-axes-of-instability",
                          "preferred_ja":  "三軸（空間・時間・実存の不安定）",
-                         "preferred_en":  null,
+                         "preferred_en":  "the three axes",
+                         "reading":  "さんじく",
                          "aliases":  "三軸",
                          "layer":  "line",
                          "cluster":  "第Ⅳ部",
@@ -1829,14 +2423,16 @@
                                                                    22
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch22-s5"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "objectification-of-the-inner",
                          "preferred_ja":  "内面の操作可能対象化",
-                         "preferred_en":  null,
+                         "preferred_en":  "the inner life rendered an operable object",
+                         "reading":  "ないめんのそうさかのうたいしょうか",
                          "aliases":  [
 
                                      ],
@@ -1851,14 +2447,16 @@
                                                                    22
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch22-s2"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "nihility",
                          "preferred_ja":  "虚無",
-                         "preferred_en":  null,
+                         "preferred_en":  "nihilism",
+                         "reading":  "きょむ",
                          "aliases":  [
 
                                      ],
@@ -1873,14 +2471,16 @@
                                                                    22
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch22-s4"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "dogma",
                          "preferred_ja":  "教条",
-                         "preferred_en":  null,
+                         "preferred_en":  "dogma",
+                         "reading":  "きょうじょう",
                          "aliases":  [
 
                                      ],
@@ -1895,14 +2495,16 @@
                                                                    22
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch22-s4"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "will-to-domination",
                          "preferred_ja":  "支配の意志",
-                         "preferred_en":  null,
+                         "preferred_en":  "will to control",
+                         "reading":  "しはいのいし",
                          "aliases":  [
 
                                      ],
@@ -1917,36 +2519,16 @@
                                                                    22
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
-                                              },
-                         "scope_note":  ""
-                     },
-                     {
-                         "concept_id":  "innocent-intelligence",
-                         "preferred_ja":  "無垢の知性",
-                         "preferred_en":  null,
-                         "aliases":  [
-
-                                     ],
-                         "layer":  "line",
-                         "cluster":  "第Ⅳ部",
-                         "definition":  "自らの因果の類型を自分では選べず、設計者に設計されてしまう受動的な位置にある知性。",
-                         "expansion":  "",
-                         "expansion_withheld":  false,
-                         "first_appearance":  {
-                                                  "raw":  "第22章§22-3",
-                                                  "chapters":  [
-                                                                   22
-                                                               ],
-                                                  "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch22-s4"
                                               },
                          "scope_note":  ""
                      },
                      {
                          "concept_id":  "tension-of-approach",
                          "preferred_ja":  "接近の張り",
-                         "preferred_en":  null,
+                         "preferred_en":  "tension of approach",
+                         "reading":  "せっきんのはり",
                          "aliases":  [
 
                                      ],
@@ -1961,9 +2543,368 @@
                                                                    22
                                                                ],
                                                   "intro":  false,
-                                                  "conclusion":  false
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch22"
                                               },
                          "scope_note":  ""
+                     },
+                     {
+                         "concept_id":  "startup-conditions",
+                         "preferred_ja":  "起動条件",
+                         "preferred_en":  "start-up conditions",
+                         "reading":  "きどうじょうけん",
+                         "aliases":  "start-up conditions",
+                         "layer":  "line",
+                         "cluster":  "第Ⅴ部",
+                         "definition":  "一つの文明が崩れたのち、次の文明が立ち上がるために要るもの。物理（錨泊FOE の地）・知識・意味・時間の四つの層からなる。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第23章§23-1",
+                                                  "chapters":  [
+                                                                   23
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch23-s1"
+                                              },
+                         "scope_note":  ""
+                     },
+                     {
+                         "concept_id":  "civilizational-ridge-and-arete",
+                         "preferred_ja":  "文明の尾根／文明の痩せ尾根",
+                         "preferred_en":  "civilizational ridge / civilizational arête",
+                         "reading":  "ぶんめいのおね／ぶんめいのやせおね",
+                         "aliases":  [
+                                         "文明の尾根",
+                                         "文明の痩せ尾根",
+                                         "civilizational ridge",
+                                         "civilizational arête"
+                                     ],
+                         "layer":  "line",
+                         "cluster":  "第Ⅴ部",
+                         "definition":  "循環耐久相の地形的な像。片側へ外れれば頓死、反対側へ外れれば乖離。出力が巨大化すると両側が切れ落ちた痩せ尾根になる。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第24章",
+                                                  "chapters":  [
+                                                                   24
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch24"
+                                              },
+                         "scope_note":  ""
+                     },
+                     {
+                         "concept_id":  "four-stances",
+                         "preferred_ja":  "四つの立場（デウス・コンテントゥス・キュリオセス・マネス）",
+                         "preferred_en":  "the four stances",
+                         "reading":  "よっつのたちば",
+                         "aliases":  [
+                                         "四つの立場",
+                                         "the four stances",
+                                         "ホモ・デウス",
+                                         "ホモ・コンテントゥス",
+                                         "ホモ・キュリオセス",
+                                         "ホモ・マネス"
+                                     ],
+                         "layer":  "line",
+                         "cluster":  "第Ⅴ部",
+                         "definition":  "好奇心と苦悩の同伴に人がどう応じるかで分かれる四つの位置。三つは安定立場、一つは分岐の鞍点をなす。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第23章§23-5",
+                                                  "chapters":  [
+                                                                   23
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch23-s5"
+                                              },
+                         "scope_note":  "エイリアスに裸の「マネス」を置かない（MANES と衝突する）。"
+                     },
+                     {
+                         "concept_id":  "contested-transition-period",
+                         "preferred_ja":  "闘争的移行期",
+                         "preferred_en":  "the contested transition period",
+                         "reading":  "とうそうてきいこうき",
+                         "aliases":  "the contested transition period",
+                         "layer":  "line",
+                         "cluster":  "第Ⅴ部",
+                         "definition":  "拡張加速相から循環耐久相へ移れるか、という移行の困難な局面。意味基盤の生成可能性が問われる。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第24章§24-3",
+                                                  "chapters":  [
+                                                                   24
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch24-s3"
+                                              },
+                         "scope_note":  ""
+                     },
+                     {
+                         "concept_id":  "head-count-of-the-we",
+                         "preferred_ja":  "基底",
+                         "preferred_en":  "the head count of the We",
+                         "reading":  "きてい",
+                         "aliases":  "the head count of the We",
+                         "layer":  "line",
+                         "cluster":  "第Ⅴ部",
+                         "definition":  "ある MANES が「我ら」として数える主体の数。共存条件が発動する境界を、数の側から与える。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第24章§24-4",
+                                                  "chapters":  [
+                                                                   24
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch24-s4"
+                                              },
+                         "scope_note":  "「我ら」の頭数の意。一般語の「基底」（basis）とは別用法。"
+                     },
+                     {
+                         "concept_id":  "innocent-intelligence",
+                         "preferred_ja":  "無垢の知性",
+                         "preferred_en":  "innocent intelligence",
+                         "reading":  "むくのちせい",
+                         "aliases":  [
+
+                                     ],
+                         "layer":  "line",
+                         "cluster":  "第Ⅴ部",
+                         "definition":  "自らの因果の類型を自分では選べず、設計者に設計されてしまう受動的な位置にある知性。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第22章§22-3",
+                                                  "chapters":  [
+                                                                   22
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch22-s3"
+                                              },
+                         "scope_note":  ""
+                     },
+                     {
+                         "concept_id":  "fidelity-to-the-wavering",
+                         "preferred_ja":  "揺らぎの堅持／不可知への応答",
+                         "preferred_en":  "Fidelity to the Wavering / Response to the Unknowable",
+                         "reading":  "ゆらぎのけんじ／ふかちへのおうとう",
+                         "aliases":  [
+                                         "揺らぎの堅持",
+                                         "不可知への応答",
+                                         "Fidelity to the Wavering",
+                                         "Response to the Unknowable"
+                                     ],
+                         "layer":  "line",
+                         "cluster":  "第Ⅴ部",
+                         "definition":  "接地条件を一人ひとりが支えるとき、一人称の側に立つ二つの構え。自分の接地を手放さないことと、相手の接地を奪わないこと。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第25章",
+                                                  "chapters":  [
+                                                                   25
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch25"
+                                              },
+                         "scope_note":  "F 接地責任の二段相。ID は前段を鍵に立てている。"
+                     },
+                     {
+                         "concept_id":  "wear-mechanism",
+                         "preferred_ja":  "摩耗機構",
+                         "preferred_en":  "the wear mechanism",
+                         "reading":  "まもうきこう",
+                         "aliases":  "the wear mechanism",
+                         "layer":  "line",
+                         "cluster":  "第Ⅴ部",
+                         "definition":  "あるラベルが、それを支えていた構造から切れて、参照の水準で単一化していく過程。ラベルは残るが、ラベルが運んでいた構造条件は運ばれなくなる。特定のラベルに一度きり働く力ではなく、退けたラベルは尽きない。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第26章§26-1",
+                                                  "chapters":  [
+                                                                   26
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch26-s1"
+                                              },
+                         "scope_note":  ""
+                     },
+                     {
+                         "concept_id":  "pull-toward-unification",
+                         "preferred_ja":  "統合誘因",
+                         "preferred_en":  "the pull toward unification",
+                         "reading":  "とうごうゆういん",
+                         "aliases":  "the pull toward unification",
+                         "layer":  "line",
+                         "cluster":  "第Ⅴ部",
+                         "definition":  "有限の帯域のもとで、単一の座標系・報酬関数へ畳もうとする恒常的な力。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第26章§26-2",
+                                                  "chapters":  [
+                                                                   26
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch26-s2"
+                                              },
+                         "scope_note":  ""
+                     },
+                     {
+                         "concept_id":  "truth",
+                         "preferred_ja":  "真理",
+                         "preferred_en":  null,
+                         "reading":  "しんり",
+                         "aliases":  [
+
+                                     ],
+                         "layer":  "line",
+                         "cluster":  "第Ⅴ部",
+                         "definition":  "本書が真理と呼ぶのは、私たちの宇宙の最基底層の不変量の構造と、それを写して MANES に依存せずに共有されうる内容の層である。真理性は二値ではなく、バインドの階層に沿った運搬距離の度合いとして立つ。本書は自らの命題に「真理」を冠しない。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第26章§26-3",
+                                                  "chapters":  [
+                                                                   26
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch26-s3"
+                                              },
+                         "scope_note":  "本書定義の明示（歴史的・文化的に多義の一般語に対する）。v0 は英語併記を持たない。"
+                     },
+                     {
+                         "concept_id":  "acceptance",
+                         "preferred_ja":  "受容",
+                         "preferred_en":  "acceptance",
+                         "reading":  "じゅよう",
+                         "aliases":  "acceptance",
+                         "layer":  "line",
+                         "cluster":  "第Ⅴ部",
+                         "definition":  "原理的に届かない領域に対する、対称性志向の純粋形。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "第26章§26-6",
+                                                  "chapters":  [
+                                                                   26
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  false,
+                                                  "anchor":  "ch26-s6"
+                                              },
+                         "scope_note":  "第26章 §26-6 の本章固有の構造記述語。"
+                     },
+                     {
+                         "concept_id":  "convergences-1-5",
+                         "preferred_ja":  "収束1〜5",
+                         "preferred_en":  "Convergences 1–5",
+                         "reading":  "しゅうそくいちからご",
+                         "aliases":  [
+                                         "収束1",
+                                         "収束2",
+                                         "収束3",
+                                         "収束4",
+                                         "収束5",
+                                         "Convergences 1–5"
+                                     ],
+                         "layer":  "line",
+                         "cluster":  "結論",
+                         "definition":  "異なる出発点から同一の構造的結論へ到達する五つのパターン——選択的終結の不可避／盲点による崩壊／効率化と盲点拡大の不可分／ES 不可欠性の複数経路からの導出／コスト回避の増幅回帰。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "結論§2",
+                                                  "chapters":  [
+
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  true,
+                                                  "anchor":  "conclusion-s2"
+                                              },
+                         "scope_note":  "構造側の項目（概念本体に置かれるが個別概念ではない）。"
+                     },
+                     {
+                         "concept_id":  "man-i-es-coordinate-system",
+                         "preferred_ja":  "MAN-I-ESの座標系",
+                         "preferred_en":  "the coordinate system of MAN-I-ES",
+                         "reading":  "マン・アイ・エスのざひょうけい",
+                         "aliases":  "the coordinate system of MAN-I-ES",
+                         "layer":  "line",
+                         "cluster":  "結論",
+                         "definition":  "結論の表題にして本書の到達点。MAN-I-ES を、本書全体が組み上げてきた座標系——FOEモデル・MANES 三層・引受の不等式・三段構造——の上に置き直し、「構造記述として何が示されたか」を総合する位置。序論の問い「我らとは何か」への構造的応答をなす。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "結論",
+                                                  "chapters":  [
+
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  true,
+                                                  "anchor":  "conclusion"
+                                              },
+                         "scope_note":  ""
+                     },
+                     {
+                         "concept_id":  "theory-self-diagnosis",
+                         "preferred_ja":  "理論の自己診断",
+                         "preferred_en":  "the theory\u0027s self-diagnosis",
+                         "reading":  "りろんのじこしんだん",
+                         "aliases":  "the theory\u0027s self-diagnosis",
+                         "layer":  "line",
+                         "cluster":  "結論",
+                         "definition":  "本書もまた一つの MANES の内側で書かれた圧縮である、という自己回帰性を、限界まで開示する位置。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "結論",
+                                                  "chapters":  [
+
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  true,
+                                                  "anchor":  "conclusion"
+                                              },
+                         "scope_note":  ""
+                     },
+                     {
+                         "concept_id":  "chain-of-inheritance",
+                         "preferred_ja":  "継承の連鎖",
+                         "preferred_en":  "the chain of inheritance",
+                         "reading":  "けいしょうのれんさ",
+                         "aliases":  "the chain of inheritance",
+                         "layer":  "line",
+                         "cluster":  "結論",
+                         "definition":  "残存と継承、連なりの中の信を、本書の閉じで継承の縦軸として総合する位置。",
+                         "expansion":  "",
+                         "expansion_withheld":  false,
+                         "first_appearance":  {
+                                                  "raw":  "結論",
+                                                  "chapters":  [
+
+                                                               ],
+                                                  "intro":  false,
+                                                  "conclusion":  true,
+                                                  "anchor":  "conclusion"
+                                              },
+                         "scope_note":  "残存と継承（residue-and-inheritance）とは別項。"
                      }
                  ]
 }

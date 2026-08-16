@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 900" width="112mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>文明の尾根と、四つの位置——山は目盛りを与えない</title>
+<desc>第24章 §24-2 の布置図。一本の尾根が、幅のある背から痩せ尾根へ連続的に険しくなり、稜線は頂上を持たないまま淡くなって図の外へ続く——登りきれば終わる頂上はない。地形そのものが動きつづける。深い側の斜面（左上）は接地条件の破れで、E は形のまま空洞になり地から浮く——乖離へ。浅い側の斜面（右下）は被覆条件の破れで、盲点が広がり、いつか現実が衝く——頓死へ。四つの位置が本図の主題である。駆ける者（拡張加速相）は長い矢で、確かめずに、誰よりも速く遠くへ進む。確かめる者（循環耐久相）は短い矢と足元の踏査の跡を持ち、踏む前に足元を試す——外れにくく、遅い。幕を張る者（自己言及相での自走）は進んできて途中で停まり、淡い圏を張っている——山を読むのをやめ、古い地図だけを読む。圏が淡いのは、そこから外へ手が届いていないからである。登らない者（管理安定相）は麓の静止点で、矢を持たない——背の広いところしか歩かない。四者を分けるのは形であって色ではない。大きさも同じである——山は、目盛りを与えない。無彩の × は遺骸。駆け損ねた者は多く両斜面へ広く散り、確かめ損ねた者・幕を張り損ねた者・登らずに息絶えた者も、相対的に少ないがいる。生き残った線だけが地図に残ることの、山の側からの表現である。努力は確率的に避けやすくするだけで、約束はしない。下段は尾根の背の三断面——幅のある背（出力 小）から、削られていく背を経て、痩せ尾根（出力 大）へ。険しさは出力とともに連続的に増す。どこに立つかを、地形は命じない。</desc>
+<style>
+.mfig .ridge {fill:none;stroke:var(--c-terrain,#6B675E);stroke-width:1.72}
+.mfig .ridgeOpen{fill:none;stroke:var(--c-terrain,#6B675E);stroke-width:1.72;stroke-opacity:0.35}
+.mfig .contour{fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:1.11}
+.mfig .bone  {fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:1.72;stroke-linecap:round}
+.mfig .mark  {fill:#1F1E1B;stroke:#FFFFFF;stroke-width:1.47}
+.mfig .move  {fill:none;stroke:#1F1E1B;stroke-width:2.7;stroke-linecap:round}
+.mfig .probe {fill:none;stroke:#1F1E1B;stroke-width:1.72;stroke-linecap:round}
+.mfig .veil  {fill:none;stroke:#1F1E1B;stroke-width:1.72;stroke-opacity:0.30}
+.mfig .ld    {fill:none;stroke:var(--c-note,#6F6D66);stroke-width:0.98;stroke-dasharray:13.93 8.36}
+.mfig .sec   {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.72}
+.mfig .secTip{fill:none;stroke:var(--c-struct,#1F1E1B);stroke-width:2.7}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+.mfig .halo{paint-order:stroke;stroke:#ffffff;stroke-width:3.48;stroke-linejoin:round}
+</style>
+
+<!-- 主稜線（頂上を持たないまま図の外へ続く——続きは淡い実線） -->
+<path class="ridge" d="M 150 514 C 240 444, 330 369, 400 284 C 450 212, 495 124, 522 46"/>
+<path class="ridgeOpen" d="M 522 46 L 538 8"/>
+
+<!-- 浅い側の斜面（被覆条件の破れ・頓死へ） -->
+<g class="contour">
+<path d="M 198 558 C 285 486, 372 406, 438 316 C 486 242, 526 154, 549 72"/>
+<path d="M 228 590 C 315 516, 402 434, 466 342 C 512 268, 550 182, 570 104"/>
+<path d="M 258 618 C 345 544, 430 460, 492 366 C 536 294, 572 208, 590 134"/>
+</g>
+<!-- 深い側の斜面（接地条件の破れ・乖離へ） -->
+<g class="contour">
+<path d="M 102 470 C 195 402, 288 332, 362 252 C 414 182, 464 96, 495 20"/>
+<path d="M 72 438 C 168 370, 262 300, 338 222 C 388 154, 434 74, 458 16"/>
+</g>
+<!-- 低い尾根（麓・背が広い） -->
+<path class="ridge" d="M 60 570 C 105 552, 150 548, 195 560"/>
+<g class="contour">
+<path d="M 50 602 C 100 584, 152 580, 202 590"/>
+<path d="M 68 542 C 110 526, 148 524, 184 534"/>
+</g>
+
+<!-- 遺骸（無彩・淡） -->
+<g class="bone">
+<path d="M 409 200 L 419 210 M 419 200 L 409 210"/><path d="M 438 131 L 448 141 M 448 131 L 438 141"/><path d="M 467 67 L 477 77 M 477 67 L 467 77"/><path d="M 383 253 L 393 263 M 393 253 L 383 263"/><path d="M 443 267 L 453 277 M 453 267 L 443 277"/><path d="M 479 217 L 489 227 M 489 217 L 479 227"/><path d="M 507 180 L 517 190 M 517 180 L 507 190"/><path d="M 527 115 L 537 125 M 537 115 L 527 125"/><path d="M 461 317 L 471 327 M 471 317 L 461 327"/><path d="M 499 245 L 509 255 M 509 245 L 499 255"/><path d="M 261 440 L 271 450 M 271 440 L 261 450"/><path d="M 321 335 L 331 345 M 331 335 L 321 345"/><path d="M 229 393 L 239 403 M 239 393 L 229 403"/><path d="M 241 426 L 251 436 M 251 426 L 241 436"/><path d="M 407 251 L 417 261 M 417 251 L 407 261"/><path d="M 79 581 L 89 591 M 89 581 L 79 591"/><path d="M 159 589 L 169 599 M 169 589 L 159 599"/><path d="M 137 511 L 147 521 M 147 511 L 137 521"/>
+</g>
+
+<!-- 四つの位置——色ではなく形が分ける -->
+<!-- 駆ける者：長い矢（確かめずに、速く遠くへ） -->
+<path class="move" d="M 477 157 L 507 90"/><path d="M509.7,109.52 L508.71,86.19 L490.64,100.98 z" fill="#1F1E1B" stroke="none"/>
+<circle class="mark" cx="470" cy="169" r="7"/>
+<!-- 確かめる者：短い矢＋足元の踏査ティック -->
+<path class="move" d="M 307 378 L 324 359"/><path d="M320.64,378.42 L326.79,355.89 L305.07,364.49 z" fill="#1F1E1B" stroke="none"/>
+<g class="probe"><path d="M 270 407 L 276 416"/><path d="M 286 393 L 292 402"/></g>
+<circle class="mark" cx="300" cy="386" r="7"/>
+<!-- 幕を張る者：進んできて停まり、淡い圏を張る（外へは届いていない） -->
+<circle class="veil" cx="370" cy="326" r="22"/>
+<circle class="mark" cx="370" cy="326" r="7"/>
+<!-- 登らない者：麓の静止点（矢を持たない） -->
+<circle class="mark" cx="120" cy="552" r="7"/>
+
+<!-- 指示線（注記層） -->
+<g class="ld">
+<path d="M 456 390 L 310 387"/>
+<path d="M 216 222 L 350 316"/>
+<path d="M 556 160 L 480 168"/>
+<path d="M 226 638 L 128 558"/>
+<path d="M 468 502 L 430 424"/>
+</g>
+
+<!-- コメント（本書の声） -->
+<g class="halo" font-size="17.2">
+<text x="56" y="66">深い側の斜面——接地条件の破れ。</text>
+<text x="56" y="88">E は形のまま空洞になり、地から浮く</text>
+<text x="56" y="110">——乖離へ</text>
+
+<text x="56" y="194" font-weight="700">幕を張る者——自己言及相での自走。</text>
+<text x="56" y="216">進んできて、途中で停まった。</text>
+<text x="56" y="238">山を読むのをやめ、古い地図だけを読む</text>
+
+<text x="462" y="384" font-weight="700">確かめる者——循環耐久相。</text>
+<text x="462" y="406">踏む前に、足元を試す。外れにくく、遅い</text>
+
+<text x="560" y="150" font-weight="700">駆ける者——拡張加速相。</text>
+<text x="560" y="172">確かめずに進む。</text>
+<text x="560" y="194">誰よりも速く、遠くへ</text>
+
+<text x="230" y="632" font-weight="700">登らない者——管理安定相。</text>
+<text x="230" y="654">背の広いところしか、歩かない</text>
+
+<text x="470" y="510">浅い側の斜面——被覆条件の破れ。</text>
+<text x="470" y="532">盲点が広がり、いつか現実が衝く</text>
+<text x="470" y="554">——頓死へ</text>
+
+<text x="500" y="32">登りきれば終わる頂上はない</text>
+<text x="500" y="54">——地形そのものが、動きつづける</text>
+</g>
+
+<!-- 尾根の背の三断面 -->
+<text x="56" y="694" font-size="20.88" font-weight="700">尾根の背——険しさは、出力とともに連続的に増す</text>
+<g class="sec">
+<path d="M 90 810 C 130 800, 158 788, 170 784 C 182 788, 210 800, 250 810"/>
+<path d="M 330 810 C 362 802, 382 778, 390 764 C 398 778, 418 802, 450 810"/>
+<path d="M 560 810 C 592 806, 606 796, 610 758 L 612 750 L 614 758 C 618 796, 632 806, 664 810"/>
+</g>
+<path class="secTip" d="M 606 758 L 612 746 L 618 758"/>
+<g class="halo" font-size="17.2" text-anchor="middle">
+<text x="170" y="838">幅のある背——出力 小</text>
+<text x="390" y="838">削られていく背</text>
+<text x="612" y="838">痩せ尾根——出力 大</text>
+</g>
+</svg>

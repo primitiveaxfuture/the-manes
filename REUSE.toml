@@ -20,7 +20,13 @@ SPDX-License-Identifier = "CC-BY-4.0"
 # 付属文書——作品そのものではなく、その周辺の装置。翻訳可能であることを優先する
 # （利用条件を説明する文書が改変禁止では、他言語での説明に許諾が要ることになる）
 [[annotations]]
-path = ["README.md", "LICENSING.md", "GUIDELINE.md", "index.html", "llms.txt", "robots.txt", "sitemap.xml", "CITATION.cff", ".zenodo.json", "integrity/**", "REUSE.toml", "CNAME", ".nojekyll", ".gitattributes", "LICENSE"]
+path = ["README.md", "LICENSING.md", "GUIDELINE.md", "index.html", "llms.txt", "robots.txt", "sitemap.xml", "CITATION.cff", ".zenodo.json", "integrity/**", "REUSE.toml", "CNAME", ".nojekyll", ".gitattributes", "LICENSE", "guideline/**", "licensing/**", ".well-known/**", "toc.html", "toc.md", "assets/web.css"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Hiroki Ono"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = ["reference/glossary-v0.md"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2026 Hiroki Ono"
 SPDX-License-Identifier = "CC-BY-4.0"

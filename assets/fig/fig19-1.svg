@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 900" width="112mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>二重の境界——回収断絶因果の幾何</title>
+<desc>境界は二つある。第一の境界は漏斗の壁＝報酬関数の境界、第二の境界は作動圏の外壁＝O の因果の縁である。O のフィードバック経路は漏斗の内側で閉じる——測れる因果は内側で完結する。一方、殻に発した果は観測されないまま作動圏の外へ走り出て、接続する系たちの作動圏が合成する因果の連なりを走る。そこから、閾値を超えて非線形に立ち戻るか（潜伏）、連なりの外へ散逸してどの系にも合成されなくなるか（真正の断絶）に分かれる。散逸する経路は淡く描いてある——手が届かなくなるということである。潜伏か真正かの境は破線で引いてあるが、その線自体が当事者には引けない。噴出だけが、事後的に、それが潜伏だったと告げる。操作の側の境界と因果の側の境界が一致しないこと——この一致しなさが、回収断絶因果の素地である。</desc>
+<style>
+.mfig .omega {fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:1.11;stroke-dasharray:3.48 6.27}
+.mfig .omegaS{fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:1.11}
+.mfig .act   {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.47;stroke-opacity:0.62}
+.mfig .funnel{fill:none;stroke:var(--c-op,#3D3A34);stroke-width:2.21;stroke-linejoin:round}
+.mfig .flux  {fill:none;stroke:var(--c-fx,#3D3A34);stroke-width:2.21;stroke-linejoin:round}
+.mfig .fFun{fill:#3D3A34;fill-opacity:0.25;stroke:none}
+.mfig .fShl{fill:#3D3A34;fill-opacity:0.13;stroke:none}
+.mfig .fFlx{fill:#3D3A34;fill-opacity:0.10;stroke:none}
+.mfig .ev  {fill:none;stroke:var(--c-struct,#1F1E1B);stroke-width:2.21;stroke-linecap:round}
+.mfig .evFade{fill:none;stroke:var(--c-struct,#1F1E1B);stroke-width:2.21;stroke-opacity:0.3;stroke-linecap:round}
+.mfig .fb  {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.47}
+.mfig .ld  {fill:none;stroke:var(--c-note,#6F6D66);stroke-width:0.98;stroke-dasharray:13.93 8.36}
+.mfig .ax  {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.47}
+.mfig .lb{text-anchor:middle}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+.mfig .halo{paint-order:stroke;stroke:#ffffff;stroke-width:4.18;stroke-linejoin:round}
+</style>
+
+
+<ellipse class="omega" cx="360" cy="80" rx="310" ry="40"/>
+<path class="omega" d="M 50 80 L 50 640"/>
+<path class="omega" d="M 670 80 L 670 640"/>
+<path class="omega" d="M 50 640 A 310 40 0 0 1 670 640"/>
+<path class="omegaS" d="M 50 640 A 310 40 0 0 0 670 640"/>
+<path class="fShl" d="M 120 131 L 185 131 C 185 300 352 280 352 430 L 352 580 L 120 580 Z"/><path class="fShl" d="M 600 131 L 535 131 C 535 300 368 280 368 430 L 368 580 L 600 580 Z"/>
+<path class="fShl" fill-rule="evenodd" d="M 600 130 A 240 32 0 1 0 120 130 A 240 32 0 1 0 600 130 M 535 130 A 175 26 0 1 1 185 130 A 175 26 0 1 1 535 130"/>
+<path class="fFun" d="M 185 130 C 185 300 352 280 352 430 L 352 580 A 8 3 0 0 0 368 580 L 368 430 C 368 280 535 300 535 130 A 175 26 0 0 1 185 130 Z"/>
+<path class="act" d="M 120 130 L 120 580"/>
+<path class="act" d="M 600 130 L 600 580"/>
+<path class="act" d="M 120 580 A 240 32 0 0 0 600 580"/>
+<ellipse class="act" cx="360" cy="130" rx="240" ry="32"/>
+<path class="funnel" d="M 185 130 C 185 300, 352 280, 352 430 L 352 580"/><path class="funnel" d="M 535 130 C 535 300, 368 280, 368 430 L 368 580"/>
+<ellipse class="funnel" cx="360" cy="130" rx="175" ry="26"/>
+<ellipse class="funnel" cx="360" cy="580" rx="8" ry="3"/>
+<!-- O のフィードバック経路：漏斗の内側で閉じる（一本の閉ループ） -->
+<path class="fb" d="M 300 252 C 244 322 282 412 356 426 C 432 412 470 322 414 254"/><path d="M428.95,259.01 L411.88,251.42 L416.05,269.63 z" fill="#3D3A34" stroke="none"/>
+
+<!-- 殻に発した果：観測されないまま作動圏の外へ -->
+<path class="ev" d="M 150 400 C 110 452 78 524 62 600"/><path d="M55.22,581.49 L61.14,604.09 L75.66,585.8 z" fill="#1F1E1B" stroke="none"/>
+<path class="ev" d="M 570 400 C 612 452 644 524 660 600"/><path d="M646.34,585.8 L660.86,604.09 L666.78,581.49 z" fill="#1F1E1B" stroke="none"/>
+
+<!-- 因果の連なり（模式）＝接続する系たちの作動圏の合成 -->
+<g class="omegaS">
+<ellipse cx="96" cy="748" rx="56" ry="18"/><ellipse cx="224" cy="772" rx="56" ry="18"/><ellipse cx="352" cy="748" rx="56" ry="18"/><ellipse cx="480" cy="772" rx="56" ry="18"/><ellipse cx="608" cy="748" rx="56" ry="18"/><ellipse cx="716" cy="772" rx="56" ry="18"/>
+</g>
+
+<!-- 潜伏＝連なりの内を走り、閾値を超えて非線形に立ち戻る -->
+<path class="ev" d="M 62 608 C 74 724 152 806 236 786 C 306 768 272 692 240 664"/><path d="M259.46,667.14 L236.86,661.25 L245.7,682.87 z" fill="#1F1E1B" stroke="none"/>
+<!-- 真正の断絶＝連なりの外へ散逸（淡くなって消える） -->
+<path class="evFade" d="M 660 608 C 694 692 716 772 736 848"/>
+
+<!-- 引けない線（注記層・破線。それ自体が引けない） -->
+<path class="ld" d="M 406 648 C 426 706 436 766 430 826"/>
+
+<path class="ax" d="M 26 140 L 26 570"/><path d="M15.55,553.29 L26,574.18 L36.45,553.29 z" fill="#1F1E1B" stroke="none"/>
+<text x="14" y="350" font-size="17.2" text-anchor="middle" class="halo" transform="rotate(-90 14 350)">深さ＝縮約</text>
+
+<g class="ld">
+<path d="M 205 246 L 180 236"/><path d="M 601 470 L 622 478"/><path d="M 306 762 L 344 786"/>
+</g>
+<g class="halo">
+<text x="360" y="292" font-size="20.88" text-anchor="middle" font-weight="700">漏斗（O）</text>
+<text x="238" y="480" font-size="20.88" text-anchor="middle" font-weight="700">殻（LOT）</text>
+<text x="176" y="232" font-size="17.2" text-anchor="end">第一の境界</text>
+<text x="626" y="482" font-size="17.2">第二の境界</text>
+<text x="360" y="452" font-size="17.2" text-anchor="middle">O のフィードバック</text>
+<text x="150" y="838" font-size="17.2" text-anchor="middle">潜伏——立ち戻る</text>
+<text x="748" y="884" font-size="17.2" text-anchor="end">真正の断絶——散逸</text>
+<text x="348" y="792" font-size="17.2">因果の連なり</text>
+<text x="330" y="884" font-size="17.2">引けない線</text>
+</g>
+</svg>

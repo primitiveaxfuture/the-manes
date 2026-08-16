@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 720" width="112mm"
+     class="mfig" role="img" font-family="'Noto Serif JP','Noto Sans JP',serif">
+<title>バインドによる盤面——現実の運動と、盤の上に立つ勾配と底</title>
+<desc>細い実線の円が R空間（現実）である。左——バインドの前。現実の運動は絡み合い、勾配はまだどこにも立っていない。右——戦略空間・利得関数・プレイヤーの三要素を確定すると、現実より狭く切り出された盤が立つ。盤は二人二手の格子で、太い矢印は一方的な手替えの向きを示す。四本すべてが右下の一つの升へ向かい、そこが底（均衡）である。盤の外の運動は淡く描いてある——現実としては続いているが、盤の上では勾配ゼロであり、均衡を動かさない。軽んじられているのではなく、均衡に対して存在しない。各升の利得は本文の表に置く。</desc>
+<style>
+.mfig .terrain{fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:1.76}
+.mfig .struct {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:3.52;stroke-linejoin:round}
+.mfig .bind   {fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:5.08;stroke-linecap:round}
+.mfig .f1{fill:#3D3A34;fill-opacity:0.13;stroke:none}
+.mfig .ld{fill:none;stroke:var(--c-note,#6F6D66);stroke-width:1.56;stroke-dasharray:22.14 13.29}
+.mfig .ax0{fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:1.37;stroke-opacity:0.55}
+.mfig .mv{fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:2.15}
+.mfig .mvOut{fill:none;stroke:var(--c-terrain,#A8A69C);stroke-width:2.15}
+.mfig .grid{fill:none;stroke:var(--c-struct,#3D3A34);stroke-width:1.95}
+.mfig .lb{fill:var(--c-ink,#1F1E1B);text-anchor:middle}
+.mfig text{fill:var(--c-ink,#1F1E1B)}
+</style>
+<text class="lb" x="280" y="46" font-size="33.2" font-weight="700">バインドの前</text>
+<text class="lb" x="280" y="72" font-size="27.34">勾配は、まだどこにも立っていない</text>
+<circle class="terrain" cx="280" cy="360" r="220"/>
+<path class="ax0" d="M 82 307.2 L 478 412.8"/><path class="ax0" d="M 142.1 207.5 L 417.9 512.5"/><path class="ax0" d="M 244.8 157.6 L 315.2 562.4"/><path class="ax0" d="M 350.4 166.4 L 209.6 553.6"/><path class="ax0" d="M 457.5 257.3 L 102.5 462.7"/>
+<path class="mv" d="M 133.3,411.3 C 206.7,220.7 324,543.3 426.7,279.3"/><path class="mv" d="M 177.3,220.7 C 353.3,264.7 162.7,470 397.3,470"/><path class="mv" d="M 111.3,338 C 250.7,411.3 280,191.3 448.7,382"/><path class="mv" d="M 221.3,528.7 C 280,396.7 397.3,484.7 353.3,206"/><path class="mv" d="M 148,294 C 324,338 206.7,426 412,220.7"/>
+<path class="bind" d="M560,340 L650,340"/><path d="M623.43,356.61 L656.64,340 L623.43,323.39 z" fill="#3D3A34" stroke="none"/>
+<text class="lb" x="605" y="318" font-size="27.34">三要素で</text>
+<text class="lb" x="605" y="372" font-size="27.34">バインド</text>
+<text class="lb" x="960" y="46" font-size="33.2" font-weight="700">バインドの後</text>
+<text class="lb" x="960" y="72" font-size="27.34">盤の上に勾配と底が立つ</text>
+<circle class="terrain" cx="960" cy="360" r="220"/>
+<path class="mvOut" d="M 813.3,411.3 C 886.7,220.7 1004,543.3 1106.7,279.3"/><path class="mvOut" d="M 857.3,220.7 C 1033.3,264.7 842.7,470 1077.3,470"/><path class="mvOut" d="M 791.3,338 C 930.7,411.3 960,191.3 1128.7,382"/><path class="mvOut" d="M 901.3,528.7 C 960,396.7 1077.3,484.7 1033.3,206"/><path class="mvOut" d="M 828,294 C 1004,338 886.7,426 1092,220.7"/>
+<rect x="810" y="240" width="300" height="250" fill="#ffffff"/>
+<rect class="f1" x="810" y="240" width="300" height="250"/>
+<rect class="struct" x="810" y="240" width="300" height="250"/>
+<g class="grid"><path d="M960,240 L960,490"/><path d="M810,365 L1110,365"/></g>
+<text class="lb" x="960" y="194" font-size="27.34">囚人B</text>
+<text class="lb" x="885" y="226" font-size="27.34">黙る</text>
+<text class="lb" x="1035" y="226" font-size="27.34">裏切る</text>
+<text x="714" y="373" font-size="27.34" text-anchor="middle" transform="rotate(-90 714 373)">囚人A</text>
+<text x="794" y="310.5" font-size="27.34" text-anchor="end">黙る</text>
+<text x="794" y="435.5" font-size="27.34" text-anchor="end">裏切る</text>
+<g class="bind">
+<path d="M934,302.5 L986,302.5"/>
+<path d="M934,427.5 L986,427.5"/>
+<path d="M885,339 L885,391"/>
+<path d="M1035,339 L1035,391"/>
+</g><path d="M959.43,319.11 L992.64,302.5 L959.43,285.89 z" fill="#3D3A34" stroke="none"/><path d="M959.43,444.11 L992.64,427.5 L959.43,410.89 z" fill="#3D3A34" stroke="none"/><path d="M868.39,364.43 L885,397.64 L901.61,364.43 z" fill="#3D3A34" stroke="none"/><path d="M1018.39,364.43 L1035,397.64 L1051.61,364.43 z" fill="#3D3A34" stroke="none"/>
+<ellipse cx="1035" cy="427.5" rx="58" ry="42" fill="none" stroke="#1F1E1B" stroke-width="4.3"/>
+<g class="ld"><path d="M1178,556 L1116,500"/><path d="M746,596 L806,516"/></g>
+<text class="lb" x="1168" y="582" font-size="27.34">底（均衡）</text>
+<text class="lb" x="746" y="622" font-size="27.34">盤の外（勾配ゼロ）</text>
+</svg>

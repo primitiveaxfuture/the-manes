@@ -1,0 +1,341 @@
+{
+  "work": "THE MANES",
+  "version": "1.0.0",
+  "canonical": "https://manes.primitiveaxfuture.com/",
+  "note": "文字数は空白除去の厳密値。tokens_est は 1 トークン ≒ 1.0〜1.3 文字（日本語・現代的トークナイザ）の仮定による推定範囲であり、モデル・トークナイザにより変動する。",
+  "total": {
+    "chars": 541088,
+    "tokens_est": {
+      "min": 416222,
+      "max": 541088
+    }
+  },
+  "units": [
+    {
+      "id": "introduction",
+      "title": "序論——圧縮する知性と「我ら」の座標系",
+      "chars": 15385,
+      "tokens_est": {
+        "min": 11835,
+        "max": 15385
+      }
+    },
+    {
+      "id": "part1",
+      "title": "第Ⅰ部　MANESを支える構造",
+      "chars": 97194,
+      "tokens_est": {
+        "min": 74765,
+        "max": 97194
+      }
+    },
+    {
+      "id": "part2",
+      "title": "第Ⅱ部　MANESの形成と維持",
+      "chars": 90822,
+      "tokens_est": {
+        "min": 69863,
+        "max": 90822
+      }
+    },
+    {
+      "id": "part3",
+      "title": "第Ⅲ部　MANESの終結と継承",
+      "chars": 54772,
+      "tokens_est": {
+        "min": 42132,
+        "max": 54772
+      }
+    },
+    {
+      "id": "part4",
+      "title": "第Ⅳ部　引受の不等式の不安定さ",
+      "chars": 143220,
+      "tokens_est": {
+        "min": 110169,
+        "max": 143220
+      }
+    },
+    {
+      "id": "part5",
+      "title": "第Ⅴ部　百億人の「我ら」へ　千年後の「我ら」へ",
+      "chars": 130740,
+      "tokens_est": {
+        "min": 100569,
+        "max": 130740
+      }
+    },
+    {
+      "id": "conclusion",
+      "title": "結論——告白、そして叫び",
+      "chars": 8955,
+      "tokens_est": {
+        "min": 6888,
+        "max": 8955
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "introduction",
+      "title": "序論——圧縮する知性と「我ら」の座標系",
+      "chars": 15385,
+      "tokens_est": {
+        "min": 11835,
+        "max": 15385
+      }
+    },
+    {
+      "slug": "ch1",
+      "title": "第1章　世界を切り取る幾何学——R空間と射影",
+      "chars": 11334,
+      "tokens_est": {
+        "min": 8718,
+        "max": 11334
+      }
+    },
+    {
+      "slug": "ch2",
+      "title": "第2章　圧縮から創発する世界——情報保持と三条件",
+      "chars": 31478,
+      "tokens_est": {
+        "min": 24214,
+        "max": 31478
+      }
+    },
+    {
+      "slug": "ch3",
+      "title": "第3章　LEFFLAとLOT——圧縮の二面と頓死の構造",
+      "chars": 26958,
+      "tokens_est": {
+        "min": 20737,
+        "max": 26958
+      }
+    },
+    {
+      "slug": "ch4",
+      "title": "第4章　数学の巨大な視界と盲点——バインドなき記述体系の射程と限界",
+      "chars": 17339,
+      "tokens_est": {
+        "min": 13338,
+        "max": 17339
+      }
+    },
+    {
+      "slug": "ch5",
+      "title": "第5章　ゲーム理論の強さと限界——バインドによる盤面",
+      "chars": 10085,
+      "tokens_est": {
+        "min": 7758,
+        "max": 10085
+      }
+    },
+    {
+      "slug": "ch6",
+      "title": "第6章　MANESの三層——座標系・報酬関数・共存条件",
+      "chars": 20880,
+      "tokens_est": {
+        "min": 16062,
+        "max": 20880
+      }
+    },
+    {
+      "slug": "ch7",
+      "title": "第7章　ホモ・デウスとホモ・マネス——操作と実存の独立変動",
+      "chars": 20382,
+      "tokens_est": {
+        "min": 15678,
+        "max": 20382
+      }
+    },
+    {
+      "slug": "ch8",
+      "title": "第8章　神話的MANES——境界の曖昧さの中に立つ",
+      "chars": 14729,
+      "tokens_est": {
+        "min": 11330,
+        "max": 14729
+      }
+    },
+    {
+      "slug": "ch9",
+      "title": "第9章　知識の重さ——累積・誤差・解体不全",
+      "chars": 13375,
+      "tokens_est": {
+        "min": 10288,
+        "max": 13375
+      }
+    },
+    {
+      "slug": "ch10",
+      "title": "第10章　社会的既知感への信認——SFOKと権威の固着",
+      "chars": 12009,
+      "tokens_est": {
+        "min": 9238,
+        "max": 12009
+      }
+    },
+    {
+      "slug": "ch11",
+      "title": "第11章　未来への希望——前借りと未来世代への転嫁",
+      "chars": 9447,
+      "tokens_est": {
+        "min": 7267,
+        "max": 9447
+      }
+    },
+    {
+      "slug": "ch12",
+      "title": "第12章　HIAMという選択的終結——そのうちのHIA",
+      "chars": 16302,
+      "tokens_est": {
+        "min": 12540,
+        "max": 16302
+      }
+    },
+    {
+      "slug": "ch13",
+      "title": "第13章　Mourning（喪）——HIAMのM",
+      "chars": 13555,
+      "tokens_est": {
+        "min": 10427,
+        "max": 13555
+      }
+    },
+    {
+      "slug": "ch14",
+      "title": "第14章　残存と継承の違い——HIAMを経て残るもの、残すもの",
+      "chars": 24915,
+      "tokens_est": {
+        "min": 19165,
+        "max": 24915
+      }
+    },
+    {
+      "slug": "ch15",
+      "title": "第15章　「我ら」の境界と因果の創発——非対称性因果とは",
+      "chars": 28738,
+      "tokens_est": {
+        "min": 22106,
+        "max": 28738
+      }
+    },
+    {
+      "slug": "ch16",
+      "title": "第16章　不等式の動性——FOEモデルと三つの文明相",
+      "chars": 28293,
+      "tokens_est": {
+        "min": 21764,
+        "max": 28293
+      }
+    },
+    {
+      "slug": "ch17",
+      "title": "第17章　文明の出力の幾何——漏斗モデル",
+      "chars": 10008,
+      "tokens_est": {
+        "min": 7698,
+        "max": 10008
+      }
+    },
+    {
+      "slug": "ch18",
+      "title": "第18章　参照されるから、存在する——多段圧縮と参照系",
+      "chars": 12395,
+      "tokens_est": {
+        "min": 9535,
+        "max": 12395
+      }
+    },
+    {
+      "slug": "ch19",
+      "title": "第19章　どの規模まで、保てるか——殻に走る因果と構造条件",
+      "chars": 18421,
+      "tokens_est": {
+        "min": 14170,
+        "max": 18421
+      }
+    },
+    {
+      "slug": "ch20",
+      "title": "第20章　空間的不安定——操作能力の膨張と「我ら」の縮退",
+      "chars": 13068,
+      "tokens_est": {
+        "min": 10052,
+        "max": 13068
+      }
+    },
+    {
+      "slug": "ch21",
+      "title": "第21章　時間的不安定——未来世代への前借りと回収不能",
+      "chars": 14150,
+      "tokens_est": {
+        "min": 10885,
+        "max": 14150
+      }
+    },
+    {
+      "slug": "ch22",
+      "title": "第22章　実存的不安定——崩れる聖域と操作できる心",
+      "chars": 18147,
+      "tokens_est": {
+        "min": 13959,
+        "max": 18147
+      }
+    },
+    {
+      "slug": "ch23",
+      "title": "第23章　「我ら」を引き受けるとは何か——好奇心と苦悩の同伴",
+      "chars": 21710,
+      "tokens_est": {
+        "min": 16700,
+        "max": 21710
+      }
+    },
+    {
+      "slug": "ch24",
+      "title": "第24章　どこまでが「我ら」か——引受の不等式へのバインド",
+      "chars": 31154,
+      "tokens_est": {
+        "min": 23965,
+        "max": 31154
+      }
+    },
+    {
+      "slug": "ch25",
+      "title": "第25章　F に直接触れて——それぞれの孤独を生きて、ともに孤独に生きる",
+      "chars": 24319,
+      "tokens_est": {
+        "min": 18707,
+        "max": 24319
+      }
+    },
+    {
+      "slug": "ch26",
+      "title": "第26章　決して届かない領域、それでも——MAN-I-ESというMANES",
+      "chars": 28543,
+      "tokens_est": {
+        "min": 21956,
+        "max": 28543
+      }
+    },
+    {
+      "slug": "ch27",
+      "title": "第27章　Ω の縁からの呼びかけに応える——対称性志向の主観的極限と Hineni",
+      "chars": 25014,
+      "tokens_est": {
+        "min": 19242,
+        "max": 25014
+      }
+    },
+    {
+      "slug": "conclusion",
+      "title": "結論——告白、そして叫び",
+      "chars": 8955,
+      "tokens_est": {
+        "min": 6888,
+        "max": 8955
+      }
+    }
+  ]
+}

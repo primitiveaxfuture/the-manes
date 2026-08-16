@@ -9,8 +9,17 @@ title:
   ja: "THE MANES"
   en: "THE MANES"
 subtitle:
-  ja: ""            # 未定
-  en: ""
+  # 2026-08-06 著者裁定（副題案 d）。改行を含めないのは、折る位置が出力先ごとの
+  # 都合だから（扉は一行、表紙は「引受の不等式——」の後で折る）。
+  #
+  # ⚠ **いまこの値を読んでいるのは扉（_tools/typeset/frontmatter.js）だけである。**
+  # 表紙エンジン（_tools/cover/）は book.yml を読まず、parts/front.html に置いた
+  # 候補一覧から -Sub d で選んでいる。つまり同じ値が二箇所にあり、単一源ではない
+  # （2026-08-11 に判明。当初ここに「表紙・扉の両方がこの値から刷られる」と書いた
+  # のは誤りだった）。表紙側を book.yml へ寄せるかは未決——引継文書
+  # 「概念メタデータの典拠層」の隣接未決を見よ。**片方を直したらもう片方も直す。**
+  ja: "引受の不等式——「操作能力的我ら」 ≤ 「実存的我ら」"
+  en: ""            # 未定
 
 author:
   name_ja: "小野広記"
@@ -27,12 +36,12 @@ publisher:
   country: "JP"
 
 # 版の規律：内容改訂＝版＝メジャー番号（第N版 ↔ vN.x）。誤植修正等は第三位。
-version: "0.1.0"                 # 先行公開（別添二点＋README）。本文公開で 1.0.0
-edition_ja: ""                   # 1.0.0 で「第1版」
+version: "1.0.0"                 # 第1版（2026-08-15 値の確定・著者）。先行公開は 0.1.0 だった
+edition_ja: "第1版"              # 紙の奥付表記。機械側 1.0.0 との対応は「第N版 ↔ vN.x」の規律
 
 dates:
   first_published: "2026-08-01"  # 先行公開日
-  updated: "2026-08-01"
+  updated: "2026-08-15"          # v1.0.0 の発行日（著者裁定 2026-08-15——アップが後日でもこの日付）
 copyright_year: "2026"
 
 canonical_url: "https://manes.primitiveaxfuture.com/"
@@ -43,8 +52,15 @@ identifiers:
   doi: "10.5281/zenodo.21735356"
   # 版ごとの DOI は Zenodo が Release ごとに自動発行する（v0.1.0 = 10.5281/zenodo.21735357）
   doi_version_v0_1_0: "10.5281/zenodo.21735357"
-  isbn_print: ""                 # A-3（出版者記号）交付後に採番
-  isbn_epub: ""                  # 紙とは別番号
+  # ↓ この版（version: の版）の版 DOI。Zenodo の新版ドラフトで Reserve DOI を採って
+  #   記入してから出荷 build するのが正順（空なら出荷物は concept DOI のみで組まれる。
+  #   B-1・2026-08-16）。
+  doi_version: ""
+  # 出版者記号 9915065（2026-08-03 交付・10 点枠）。書名記号の割当は
+  # 85_外部（社会的）環境/ISBN割当台帳.md が管理する。形態が確定するまで採番しない。
+  isbn_prefix: "978-4-9915065"
+  isbn_print: "978-4-9915065-0-5"  # 紙版・単巻（2026-08-15 値の確定・ISBN割当台帳のとおり）
+  isbn_epub: ""                  # EPUB。紙とは別番号（枠は書名記号 2 を予約）
   # Web 版に ISBN は付与しない（DOI のみ。要件定義 §7.1）
 
 language: "ja"
@@ -57,8 +73,11 @@ license:
   # これを用いる。v0.1.0 の公開物は用語集・機械可読スキーマ・付属文書のみで、
   # いずれも CC BY 4.0 である——本文（CC BY-ND）は未公開であり適用対象がない。
   # 本文を公開する v1.0 で current を CC-BY-ND-4.0 に切り替える。
-  current: "CC-BY-4.0"
-  current_url: "https://creativecommons.org/licenses/by/4.0/"
+  current: "CC-BY-ND-4.0"
+  current_url: "https://creativecommons.org/licenses/by-nd/4.0/"
+  # 切替 2026-08-16（A 文言確定・著者 GO）——v1.0 で本文が公開対象になったため。
+  # permissions.yaml の発行日（スキーマの issued）。文言の裁定日で固定し、走行日で動かさない。
+  policy_issued: "2026-08-16"
   # text は本文のライセンス。text_effective_from の版から現に適用される。
   text: "CC-BY-ND-4.0"
   text_spdx: "CC-BY-ND-4.0 AND LicenseRef-MANES-Additional-Permissions"
@@ -68,6 +87,12 @@ license:
   docs: "CC-BY-4.0"              # README・GUIDELINE・LICENSING 等の付属文書
   scripts: "MIT"
   guideline_url: "https://manes.primitiveaxfuture.com/GUIDELINE.md"
+  # 紙に刷る宛先。**印字された URL は打鍵される**ので、ファイル名ではなく短縮
+  # 経路を渡す（短縮パスの規律＝仕様_公開エクスポータ_v0 §6-3）。同じ文書への
+  # 別経路であって、第二の典拠ではない。奥付はこちらがあればこちらを刷る。
+  # 一文字（/l）にしないのは、印刷物から書き写すとき 1 や I と紛れるため。/license は
+  # 直下の LICENSE ファイルと衝突するため使えない（2026-08-10 実測）。
+  guideline_url_print: "https://manes.primitiveaxfuture.com/guideline"
   future_release:
     effective_date: "2050-01-01" # 絶対日付。改版で延長しない
     also_triggered_by: "author-death"
