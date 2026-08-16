@@ -5,7 +5,7 @@ SPDX-PackageDownloadLocation = "https://manes.primitiveaxfuture.com/"
 
 # 本文——改変禁止＋追加許諾
 [[annotations]]
-path = ["chapters/**", "appendix/**", "manes-full.md", "assets/fig/**"]
+path = ["chapters/**", "appendix/**", "manes-full.md", "manes-full.html", "assets/fig/**"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2026 Hiroki Ono"
 SPDX-License-Identifier = "CC-BY-ND-4.0 AND LicenseRef-MANES-Additional-Permissions"

@@ -55,7 +55,7 @@
 |---|---|
 | [`toc.html`](toc.html) | **目次**——部・章・節。各節への直接リンク付き（機械可読形：[`toc.md`](toc.md)） |
 | `chapters/` | 章別の本文（md・HTML） |
-| [`manes-full.md`](manes-full.md) | 全文一括（単一ファイル） |
+| [`manes-full.html`](manes-full.html) | 全文一括——一頁で通読・全巻検索（機械可読形：[`manes-full.md`](manes-full.md)） |
 | [`reference/glossary.html`](reference/glossary.html) | **読者向け用語集（全概念版）**——フル項目と一行層の二層・全 123 項目（原データ：[`glossary.md`](reference/glossary.md)） |
 | [`reference/propositions.html`](reference/propositions.html) | **読者向け命題一覧**——全 70 命題・本文の命題箱と逐語一致（原データ：[`propositions.md`](reference/propositions.md)） |
 | [`reference/first-occurrence.html`](reference/first-occurrence.html) | **概念索引**——概念が確立される章節への参照経路 |
@@ -170,7 +170,7 @@ The book states no norms. It describes structure and leaves the taking-up to the
 
 ## Currently available
 
-**The full text is published** (v1.0.0 — introduction, 27 chapters, conclusion). Start from the [table of contents](toc.html) or the single-file [manes-full.md](manes-full.md). Also available: the reader's glossary (all 123 entries), the list of propositions (70, verbatim-identical to the text), the concept index, and the machine-readable schemas. Appendices will follow on the web; the text is complete without them.
+**The full text is published** (v1.0.0 — introduction, 27 chapters, conclusion). Start from the [table of contents](toc.html) or read it in one page: [manes-full.html](manes-full.html) (machine-readable source: [manes-full.md](manes-full.md)). Also available: the reader's glossary (all 123 entries), the list of propositions (70, verbatim-identical to the text), the concept index, and the machine-readable schemas. Appendices will follow on the web; the text is complete without them.
 
 ## Licensing
 
