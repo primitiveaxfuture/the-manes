@@ -13,12 +13,14 @@ authors:
 publisher:
   name: "Primitive AX Future Initiative"
 version: "1.0.0"
-doi: "10.5281/zenodo.21735356"
+doi: "10.5281/zenodo.21960353"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.21735356"
     description: "concept DOI — 版を跨いで常に最新版を指す"
-
+  - type: doi
+    value: "10.5281/zenodo.21960353"
+    description: "version DOI — この版（v1.0.0）そのものを指す"
 url: "https://manes.primitiveaxfuture.com/"
 repository: "https://github.com/primitiveaxfuture/the-manes"
 license: "CC-BY-ND-4.0"

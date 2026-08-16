@@ -55,7 +55,7 @@ identifiers:
   # ↓ この版（version: の版）の版 DOI。Zenodo の新版ドラフトで Reserve DOI を採って
   #   記入してから出荷 build するのが正順（空なら出荷物は concept DOI のみで組まれる。
   #   B-1・2026-08-16）。
-  doi_version: ""
+  doi_version: "10.5281/zenodo.21960353"
   # 出版者記号 9915065（2026-08-03 交付・10 点枠）。書名記号の割当は
   # 85_外部（社会的）環境/ISBN割当台帳.md が管理する。形態が確定するまで採番しない。
   isbn_prefix: "978-4-9915065"
